@@ -1,9 +1,11 @@
 # GitHub Administration 
 
-**This certification validates your expertise with GitHub Advanced Security.**
+**This certification validates your expertise in administering GitHub Enterprise.**
+<p>
+Candidates for this exam should have experience administering GitHub Enterprise, understand how GitHub is deployed, distributed, and licensed and how to provide support for GitHub Enterprise users. This exam measures your ability to accomplish the following technical tasks: manage user identities and GitHub authentication; manage access and permissions based on membership; enable secure software development and ensure compliance; and manage GitHub Actions and GitHub Packages.
 
 > [!IMPORTANT]
-> **These are NOT real questions from the exam but quite close enough to what you can get to help you to prepare it and obtain the certification**
+> **These are NOT real questions from the exam, but quite close enough to what you can get to help you prepare it and obtain the certification**
 >
 
 ## Skills measured
@@ -24,7 +26,7 @@ As the IT manager preparing to integrate your organization's GitHub Enterprise C
 - **Microsoft Entra ID**
 > Microsoft Entra ID (formerly Azure Active Directory) supports SCIM API integration with GitHub Enterprise Cloud, allowing organizations to manage GitHub user accounts and team memberships directly through Microsoft's identity service
 - **Okta**
-> Okta is supported for SCIM API integration with GitHub Enterprise Cloud, enabling automated user and team provisioning and deprovisioning, facilitating efficient identity management across the organization
+> Okta is supported for SCIM API integration with GitHub Enterprise Cloud, enabling automated user and team provisioning and de-provisioning, facilitating efficient identity management across the organization
 - **OneLogin**
 > OneLogin is another IdP that supports SCIM API for GitHub Enterprise Cloud, offering similar benefits as Okta in terms of streamlining user account management directly from the identity provider's platform
 </details>
