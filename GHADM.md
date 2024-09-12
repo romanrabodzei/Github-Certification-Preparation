@@ -1,4 +1,4 @@
-# GitHub Administration 
+# GitHub Administration
 
 **This certification validates your expertise in administering GitHub Enterprise.**
 <p>
