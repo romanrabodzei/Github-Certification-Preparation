@@ -1,6 +1,6 @@
-# GitHub Administration
-## This certification validates your expertise with GitHub Advanced Security.
-<br>
+# GitHub Administration 
+
+**This certification validates your expertise with GitHub Advanced Security.**
 
 > [!IMPORTANT]
 > **These are NOT real questions from the exam but quite close enough to what you can get to help you to prepare it and obtain the certification**
@@ -18,7 +18,7 @@
 
 ##
 
-<img src="https://examregistration.github.com/img/image-certificates.svg" width="50" height="50"></a>[Schedule the exam](https://examregistration.github.com/certification/ADMIN)
+<img src="https://examregistration.github.com/img/image-certificates.svg" width="25" height="25"></a>[Schedule the exam](https://examregistration.github.com/certification/ADMIN)
 
 ---
 Q: As the IT manager preparing to integrate your organization's GitHub Enterprise Cloud with a System for Cross-domain Identity Management (SCIM) API, you are evaluating which Identity Providers (IdPs) are supported. Which three IdPs are officially supported by GitHub Enterprise Cloud for SCIM API integration with organizations?
