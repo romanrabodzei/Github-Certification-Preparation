@@ -16,16 +16,11 @@
 - Describe GitHub Advanced Security best practices, results, and how to take corrective measures (18% of the exam)
 - Configure GitHub Advanced Security tools in GitHub Enterprise (12% of the exam)
 
-##
-
-<img src="https://examregistration.github.com/img/image-certificates.svg" width="25" height="25"></a>[Schedule the exam](https://examregistration.github.com/certification/ADMIN)
-
 ---
 Q: As the IT manager preparing to integrate your organization's GitHub Enterprise Cloud with a System for Cross-domain Identity Management (SCIM) API, you are evaluating which Identity Providers (IdPs) are supported. Which three IdPs are officially supported by GitHub Enterprise Cloud for SCIM API integration with organizations?
-<details>
-<summary>Answer</summary>
+<details><summary>Answer</summary>
 
-- **Microsoft Entra ID** <p>
+- **Microsoft Entra ID**
 > Microsoft Entra ID (formerly Azure Active Directory) supports SCIM API integration with GitHub Enterprise Cloud, allowing organizations to manage GitHub user accounts and team memberships directly through Microsoft's identity service
 - **Okta**
 > Okta is supported for SCIM API integration with GitHub Enterprise Cloud, enabling automated user and team provisioning and deprovisioning, facilitating efficient identity management across the organization
@@ -34,9 +29,14 @@ Q: As the IT manager preparing to integrate your organization's GitHub Enterpris
 </details>
 
 ---
-You are tasked with improving the security and management of your company's GitHub Enterprise Cloud, you are exploring options for user management. What is the primary function of Enterprise Managed Users in GitHub?
-- To centrally manage identity and access of enterprise members on GitHub from an identity provider (IdP). (The primary function of Enterprise Managed Users in GitHub is to allow enterprises to centrally manage the identity and access of their members on GitHub directly from an identity provider (IdP). This feature facilitates the administration of user accounts, ensuring that access control and identity management are streamlined and secure, aligned with the company's IT policies)
+Q: You are tasked with improving the security and management of your company's GitHub Enterprise Cloud, you are exploring options for user management. What is the primary function of Enterprise Managed Users in GitHub?
+<details><summary>Answer</summary>
 
+- **To centrally manage identity and access of enterprise members on GitHub from an identity provider (IdP)**
+> The primary function of Enterprise Managed Users in GitHub is to allow enterprises to centrally manage the identity and access of their members on GitHub directly from an identity provider (IdP). This feature facilitates the administration of user accounts, ensuring that access control and identity management are streamlined and secure, aligned with the company's IT policies
+</details>
+
+---
 As a software development team leader, you're considering integrating apps and actions from the GitHub Marketplace into your projects. What are the benefits and risks associated with using these marketplace resources?
 - Benefits include automation of workflows and enhanced functionality; risks include potential security vulnerabilities and dependency on third-party services. (Using apps and actions from the GitHub Marketplace can significantly automate workflows and enhance the functionality of projects, making development processes more efficient. However, these integrations also come with risks such as potential security vulnerabilities within the third-party services and a reliance on these services that might impact project continuity if they become unavailable)
 
