@@ -1,8 +1,33 @@
-As the IT manager preparing to integrate your organization's GitHub Enterprise Cloud with a System for Cross-domain Identity Management (SCIM) API, you are evaluating which Identity Providers (IdPs) are supported. Which three IdPs are officially supported by GitHub Enterprise Cloud for SCIM API integration with organizations?
-- Microsoft Entra ID
-- Okta
-- OneLogin
+# GitHub Advanced Security
 
+> [!IMPORTANT]
+> **These are NOT real questions from the exam but quite close enough to what you can get to help you to prepare it and obtain the certification**
+>
+
+## Skills measured
+
+- Describe the GitHub Advanced Security features and functionality (10% of the exam)
+- Configure and use secret scanning (10% of the exam)
+- Configure and use dependency management  (15% of the exam)
+- Configure and use code scanning (15% of the exam)
+- Use code scanning with CodeQL (20% of the exam)
+- Describe GitHub Advanced Security best practices, results, and how to take corrective measures (18% of the exam)
+- Configure GitHub Advanced Security tools in GitHub Enterprise (12% of the exam)
+
+---
+Q: As the IT manager preparing to integrate your organization's GitHub Enterprise Cloud with a System for Cross-domain Identity Management (SCIM) API, you are evaluating which Identity Providers (IdPs) are supported. Which three IdPs are officially supported by GitHub Enterprise Cloud for SCIM API integration with organizations?
+<details>
+<summary>Answer</summary>
+
+- **Microsoft Entra ID** <p>
+> Microsoft Entra ID (formerly Azure Active Directory) supports SCIM API integration with GitHub Enterprise Cloud, allowing organizations to manage GitHub user accounts and team memberships directly through Microsoft's identity service
+- **Okta**
+> Okta is supported for SCIM API integration with GitHub Enterprise Cloud, enabling automated user and team provisioning and deprovisioning, facilitating efficient identity management across the organization
+- **OneLogin**
+> OneLogin is another IdP that supports SCIM API for GitHub Enterprise Cloud, offering similar benefits as Okta in terms of streamlining user account management directly from the identity provider's platform
+</details>
+
+---
 You are tasked with improving the security and management of your company's GitHub Enterprise Cloud, you are exploring options for user management. What is the primary function of Enterprise Managed Users in GitHub?
 - To centrally manage identity and access of enterprise members on GitHub from an identity provider (IdP). (The primary function of Enterprise Managed Users in GitHub is to allow enterprises to centrally manage the identity and access of their members on GitHub directly from an identity provider (IdP). This feature facilitates the administration of user accounts, ensuring that access control and identity management are streamlined and secure, aligned with the company's IT policies)
 
