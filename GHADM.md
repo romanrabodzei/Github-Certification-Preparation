@@ -8,13 +8,13 @@
 
 ## Skills measured
 
-- Describe the GitHub Advanced Security features and functionality (10% of the exam)
-- Configure and use secret scanning (10% of the exam)
-- Configure and use dependency management  (15% of the exam)
-- Configure and use code scanning (15% of the exam)
-- Use code scanning with CodeQL (20% of the exam)
-- Describe GitHub Advanced Security best practices, results, and how to take corrective measures (18% of the exam)
-- Configure GitHub Advanced Security tools in GitHub Enterprise (12% of the exam)
+- Support GitHub Enterprise for users and key stakeholders (15% of the exam)
+- Manage user identities and GitHub authentication (20% of the exam)
+- Describe how GitHub is deployed, distributed, and licensed (5% of the exam)
+- Manage access and permissions based on membership (20% of the exam)
+- Enable secure software development and ensure compliance (15% of the exam)
+- Manage GitHub Actions (20% of the exam)
+- Manage GitHub Packages (5% of the exam)
 
 ---
 Question:<p>
