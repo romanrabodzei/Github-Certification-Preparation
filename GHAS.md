@@ -6,7 +6,7 @@ Candidates for this exam should have subject matter expertise with security conc
 </p>
 
 > [!IMPORTANT]
-> **These are NOT real questions from the exam, but quite close enough to what you can get. The purpose of the Q&A is to help you prepare it and obtain the certification.**
+> **These are NOT real questions from the exam, but quite close enough to what you can get. The purpose is to help you to be prepared and obtain the certification.**
 
 
 ## Skills measured
