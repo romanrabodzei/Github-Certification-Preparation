@@ -1255,7 +1255,7 @@ In GitHub, which access levels or roles are necessary for users to view and mana
 <details><summary>Show the answer</summary><p>
 
 - **Admin access to the repository for managing and dismissing alerts**
-Admin access to a repository provides users with the ability to manage and dismiss security alerts, offering full control over the security aspects of the repository
+> Admin access to a repository provides users with the ability to manage and dismiss security alerts, offering full control over the security aspects of the repository
 - **Write access to the repository for viewing and potentially dismissing alerts**
 > Write access allows users to contribute to the repository and typically includes the ability to view and potentially dismiss security alerts, depending on how permissions are configured
 </details>
