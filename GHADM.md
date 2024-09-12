@@ -17,22 +17,22 @@
 - Configure GitHub Advanced Security tools in GitHub Enterprise (12% of the exam)
 
 ---
-Question:
+Question:<p>
 As the IT manager preparing to integrate your organization's GitHub Enterprise Cloud with a System for Cross-domain Identity Management (SCIM) API, you are evaluating which Identity Providers (IdPs) are supported. Which three IdPs are officially supported by GitHub Enterprise Cloud for SCIM API integration with organizations?
-<details><summary>Answer</summary>
+<details><summary>Answer</summary><p>
 
 - **Microsoft Entra ID**
 > Microsoft Entra ID (formerly Azure Active Directory) supports SCIM API integration with GitHub Enterprise Cloud, allowing organizations to manage GitHub user accounts and team memberships directly through Microsoft's identity service
 - **Okta**
 > Okta is supported for SCIM API integration with GitHub Enterprise Cloud, enabling automated user and team provisioning and deprovisioning, facilitating efficient identity management across the organization
 - **OneLogin**
-> OneLogin is another IDP that supports SCIM API for GitHub Enterprise Cloud, offering similar benefits as Okta in terms of streamlining user account management directly from the identity provider's platform
+> OneLogin is another IdP that supports SCIM API for GitHub Enterprise Cloud, offering similar benefits as Okta in terms of streamlining user account management directly from the identity provider's platform
 </details>
 
 ---
-Question:
+Question:<p>
 You are tasked with improving the security and management of your company's GitHub Enterprise Cloud, you are exploring options for user management. What is the primary function of Enterprise Managed Users in GitHub?
-<details><summary>Answer</summary>
+<details><summary>Answer</summary><p>
 
 - **To centrally manage identity and access of enterprise members on GitHub from an identity provider (IdP)**
 > The primary function of Enterprise Managed Users in GitHub is to allow enterprises to centrally manage the identity and access of their members on GitHub directly from an identity provider (IdP). This feature facilitates the administration of user accounts, ensuring that access control and identity management are streamlined and secure, aligned with the company's IT policies
