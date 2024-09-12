@@ -1,4 +1,6 @@
-# GitHub Advanced Security
+# GitHub Administration
+## This certification validates your expertise with GitHub Advanced Security.
+<br>
 
 > [!IMPORTANT]
 > **These are NOT real questions from the exam but quite close enough to what you can get to help you to prepare it and obtain the certification**
@@ -13,6 +15,10 @@
 - Use code scanning with CodeQL (20% of the exam)
 - Describe GitHub Advanced Security best practices, results, and how to take corrective measures (18% of the exam)
 - Configure GitHub Advanced Security tools in GitHub Enterprise (12% of the exam)
+
+##
+
+<img src="https://examregistration.github.com/img/image-certificates.svg" width="50" height="50"></a>[Schedule the exam](https://examregistration.github.com/certification/ADMIN)
 
 ---
 Q: As the IT manager preparing to integrate your organization's GitHub Enterprise Cloud with a System for Cross-domain Identity Management (SCIM) API, you are evaluating which Identity Providers (IdPs) are supported. Which three IdPs are officially supported by GitHub Enterprise Cloud for SCIM API integration with organizations?
