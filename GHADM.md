@@ -1,6 +1,6 @@
 <div align="center">
 
-# <img src="https://github.com/romanrabodzei/romanrabodzei/blob/main/github-administration.png" alt="GitHub Administration" width="20" height="20"> GitHub Administration
+# <img src="https://github.com/romanrabodzei/romanrabodzei/blob/main/github-administration.png" alt="GitHub Administration" width="50" height="50"> GitHub Administration
 
 </div>
 
