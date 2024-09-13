@@ -1707,5 +1707,3 @@ As a security manager, you need to ensure that secret scanning is enabled for al
 - **Access the organization's settings and enable secret scanning at the organization level to apply it to all existing and future repositories**
 > Enabling secret scanning at the organization level ensures that all current and future repositories under the organization have secret scanning activated
 </details>
-
----
