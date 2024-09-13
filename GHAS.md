@@ -1550,7 +1550,7 @@ What does the term "shifting left" refer to in the context of software developme
 Which types of dependencies are checked by GitHub's Dependency graph?
 <details><summary>Show the answer</summary><p>
 
-- T**he direct dependencies explicitly defined in a manifest or lock file**
+- **The direct dependencies explicitly defined in a manifest or lock file**
 > GitHub's Dependency graph checks the direct dependencies that are explicitly defined in manifest files like package.json, pom.xml, or others. These are the immediate dependencies your project directly relies on for its functionality
 - **The indirect dependencies, also known as transitive dependencies or subdependencies**
 > Indirect or transitive dependencies are also tracked by the Dependency graph. These are dependencies not directly included by your project but are necessary for the direct dependencies to function properly. Identifying these helps in understanding the full dependency tree and potential security vulnerabilities within it
