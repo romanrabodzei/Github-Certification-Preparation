@@ -1548,7 +1548,7 @@ What best defines Teams within a GitHub organization?
 How can tooling and workflows be effectively recommended to teams within an enterprise?
 <details><summary>Show the answer</summary><p>
 
-- By evaluating the team's specific needs, existing processes, and the potential impact of new tools on their workflow
+- **By evaluating the team's specific needs, existing processes, and the potential impact of new tools on their workflow**
 > Effective recommendation of tooling and workflows requires a thorough understanding of each team's specific needs, the processes they currently have in place, and how the introduction of new tools will affect their workflow. This tailored approach ensures that the recommended solutions genuinely enhance productivity and efficiency
 </details>
 
@@ -1556,7 +1556,7 @@ How can tooling and workflows be effectively recommended to teams within an ente
 Which feature enables the synchronization of user identity data between your Identity Provider (IdP) and GitHub?
 <details><summary>Show the answer</summary><p>
 
-- SCIM
+- **SCIM**
 > The System for Cross-domain Identity Management (SCIM) is specifically designed to automate the exchange of user identity information between an identity provider (IdP) and service providers like GitHub. It supports operations such as creating, updating, and removing user accounts in a standardized format, facilitating seamless identity synchronization
 </details>
 
@@ -1564,11 +1564,11 @@ Which feature enables the synchronization of user identity data between your Ide
 What steps should be taken to enable and enforce SAML SSO for multiple organizations using enterprise accounts?
 <details><summary>Show the answer</summary><p>
 
-- Select a supported identity provider and obtain SAML configuration details for the enterprise
+- **Select a supported identity provider and obtain SAML configuration details for the enterprise**
 > Selecting a supported identity provider and obtaining the necessary SAML configuration details is a critical step in setting up SAML SSO. This information is essential for integrating the enterprise account with the identity provider
-- Ensure all organization members are informed about the SAML SSO implementation and its requirements
+- **Ensure all organization members are informed about the SAML SSO implementation and its requirements**
 > Communicating with organization members about the change to SAML SSO is crucial to ensure they are prepared for the new authentication process and understand any actions they need to take
-- Configure SAML SSO at the enterprise account level to apply settings across all organizations
+- **Configure SAML SSO at the enterprise account level to apply settings across all organizations**
 > Configuring SAML SSO at the enterprise account level allows for a unified authentication approach that is automatically applied to all contained organizations, streamlining the process and ensuring consistency
 </details>
 
@@ -1576,7 +1576,7 @@ What steps should be taken to enable and enforce SAML SSO for multiple organizat
 What is a key implication of enabling SAML SSO for all organizations in an enterprise account compared to an individual organization?
 <details><summary>Show the answer</summary><p>
 
-- It standardizes access control across the enterprise, enhancing security but requiring centralized identity management
+- **It standardizes access control across the enterprise, enhancing security but requiring centralized identity management**
 > Enabling SAML SSO at the enterprise account level standardizes access control across all organizations under that account, improving security posture through centralized identity management. This approach ensures consistent authentication policies but necessitates managing user identities from a single point
 </details>
 
@@ -1584,7 +1584,7 @@ What is a key implication of enabling SAML SSO for all organizations in an enter
 Where should you store your security policy publicly if you plan to communicate about disclosing vulnerabilities?
 <details><summary>Show the answer</summary><p>
 
-- In the root of your repository in a file named SECURITY.md
+- **In the root of your repository in a file named SECURITY.md**
 > Storing your security policy in the root of your repository in a file named SECURITY.md is the recommended practice. This makes the policy easily discoverable for anyone looking to report security vulnerabilities. GitHub also promotes this standard by providing features that highlight the SECURITY.md file to contributors who are submitting issues or pull requests
 </details>
 
@@ -1592,7 +1592,7 @@ Where should you store your security policy publicly if you plan to communicate 
 What is a key difference between GitHub Packages and releases?
 <details><summary>Show the answer</summary><p>
 
-- Releases are used for distributing software versions and associated assets, while GitHub Packages is designed for hosting and managing software packages
+- **Releases are used for distributing software versions and associated assets, while GitHub Packages is designed for hosting and managing software packages**
 > The key difference between GitHub Packages and releases lies in their intended use cases. GitHub Packages is tailored for hosting and managing software packages, providing features like versioning, dependency management, and integration with the GitHub ecosystem. Releases are focused on distributing software versions, often including binary files, source code, and other assets, making them ideal for final software distribution to end-users
 </details>
 
@@ -1600,11 +1600,11 @@ What is a key difference between GitHub Packages and releases?
 What are the benefits and risks of using apps and actions from the GitHub Marketplace?
 <details><summary>Show the answer</summary><p>
 
-- Benefits include improved productivity through pre-built solutions and streamlined processes
+- **Benefits include improved productivity through pre-built solutions and streamlined processes**
 > The use of pre-built solutions from the GitHub Marketplace can lead to improved productivity by leveraging tools and actions that automate and streamline development and deployment processes
-- Risks include potential security vulnerabilities from third-party code and dependency on external developers for updates
+- **Risks include potential security vulnerabilities from third-party code and dependency on external developers for updates**
 > One of the primary risks of using third-party apps and actions is the introduction of security vulnerabilities, along with potential challenges related to maintenance and updates dependent on external developers
-- Benefits include automation of workflows, enhanced security features, and integration with external tools
+- **Benefits include automation of workflows, enhanced security features, and integration with external tools**
 > Apps and actions from the GitHub Marketplace can significantly automate and enhance workflows, offer security features like automated code scanning, and facilitate seamless integration with external tools, improving efficiency
 </details>
 
@@ -1612,7 +1612,7 @@ What are the benefits and risks of using apps and actions from the GitHub Market
 How can an administrator prevent users from utilizing Actions from the marketplace?
 <details><summary>Show the answer</summary><p>
 
-- By configuring Policies to restrict usage to local actions only
+- **By configuring Policies to restrict usage to local actions only**
 > Administrators can configure Policies to restrict the use of Actions to local actions only, thereby preventing users from using Actions from the marketplace. This approach allows for greater control over the actions used in workflows, ensuring compliance with security or organizational policies without disabling GitHub Actions altogether
 </details>
 
@@ -1620,7 +1620,7 @@ How can an administrator prevent users from utilizing Actions from the marketpla
 How is audit access to a repository typically managed on GitHub?
 <details><summary>Show the answer</summary><p>
 
-- By utilizing GitHub's built-in audit logs feature, which tracks and records all actions taken within the repository for review and compliance purposes
+- **By utilizing GitHub's built-in audit logs feature, which tracks and records all actions taken within the repository for review and compliance purposes**
 > GitHub provides an audit logs feature that automatically tracks and records a wide range of activities performed within a repository, such as push operations, pull requests, changes to repository settings, and team membership updates. This feature is crucial for maintaining transparency, reviewing changes, and complying with regulatory requirements, offering administrators a comprehensive view of actions taken by users
 </details>
 
@@ -1628,7 +1628,7 @@ How is audit access to a repository typically managed on GitHub?
 How can an organization monitor the consumption of metered products like GitHub Actions minutes or storage for GitHub Packages?
 <details><summary>Show the answer</summary><p>
 
-- By accessing the "Usage reports" section within the organization's billing settings
+- **By accessing the "Usage reports" section within the organization's billing settings**
 > Organizations can monitor the consumption of metered products, such as GitHub Actions minutes or GitHub Packages storage, by accessing the "Usage reports" section within their billing settings. This feature provides detailed insights into resource utilization, helping organizations manage their usage and costs effectively
 </details>
 
@@ -1636,10 +1636,10 @@ How can an organization monitor the consumption of metered products like GitHub 
 Which of the following are supported two-factor authentication (2FA) methods on GitHub?
 <details><summary>Show the answer</summary><p>
 
-- Security keys
+- **Security keys**
 > Security keys, such as those that support the FIDO U2F standard, can be used for 2FA on GitHub, providing a hardware-based method of authentication that requires the user to have the key physically present
-- TOTP app
+- **TOTP app**
 > TOTP (Time-based One-Time Password) apps generate temporary codes that users enter as part of the 2FA process. Apps like Google Authenticator or Authy are examples of TOTP apps supported by GitHub
-- SMS
+- **SMS**
 > SMS is a supported method for 2FA on GitHub, where a text message with a unique code is sent to the user's phone, which they must enter to complete the authentication process
 </details>
