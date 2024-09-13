@@ -1,9 +1,9 @@
-# <img src="https://github.com/romanrabodzei/romanrabodzei/blob/main/github-administration.png" alt="GitHub Administration" width="35" height="35"> GitHub Administration
+# GitHub Administration
 
 
 **This certification validates your expertise in administering GitHub Enterprise.**
 <p>
-Candidates for this exam should have experience administering GitHub Enterprise, understand how GitHub is deployed, distributed, and licensed and how to provide support for GitHub Enterprise users. This exam measures your ability to accomplish the following technical tasks: manage user identities and GitHub authentication; manage access and permissions based on membership; enable secure software development and ensure compliance; and manage GitHub Actions and GitHub Packages.
+<img src="https://github.com/romanrabodzei/romanrabodzei/blob/main/github-administration.png" alt="GitHub Administration" width="100" height="100" style="float: left; margin-right: 10px;"> Candidates for this exam should have experience administering GitHub Enterprise, understand how GitHub is deployed, distributed, and licensed and how to provide support for GitHub Enterprise users. This exam measures your ability to accomplish the following technical tasks: manage user identities and GitHub authentication; manage access and permissions based on membership; enable secure software development and ensure compliance; and manage GitHub Actions and GitHub Packages.
 </p>
 
 > [!IMPORTANT]
