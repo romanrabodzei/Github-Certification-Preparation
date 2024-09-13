@@ -349,7 +349,7 @@ What are the implications of deploying within a single organization compared to 
 
 - **Multiple organizations increase operational flexibility but come with higher complexity and potential cost**
 > Creating multiple organizations can cater to the specific needs of different projects or teams, offering tailored access controls and the ability to manage resources and permissions more precisely. This approach enhances operational flexibility but also introduces additional complexity in terms of management and oversight. Furthermore, depending on the platform's pricing structure, managing multiple organizations could result in higher costs
-- A single organization simplifies administrative overhead but may not provide sufficient project isolation
+- **A single organization simplifies administrative overhead but may not provide sufficient project isolation**
 > Using a single organization can streamline the management process by centralizing teams, permissions, and repositories, thus reducing the administrative burden. However, it might not adequately segregate different projects or teams, especially if they have distinct operational requirements or need to be isolated for security or organizational reasons
 </details>
 
@@ -408,6 +408,7 @@ In a GitHub organization, which role possesses the highest level of access?
 <details><summary>Show the answer</summary><p>
 
 - **Owner**
+> In a GitHub organization, the Owner role possesses the highest level of access. Owners have complete administrative control over the organization, including managing settings, inviting new members, and overseeing repositories
 </details>
 
 ---
@@ -835,13 +836,6 @@ What's the difference between GitHub Apps and OAuth apps?
 </details>
 
 ---
-Which of the following is a supported SCIM provider for integrating with GitHub?
-<details><summary>Show the answer</summary><p>
-
-- **Azure**
-</details>
-
----
 Who is authorized to set up IP allow lists for a company on GitHub?
 <details><summary>Show the answer</summary><p>
 
@@ -1007,7 +1001,7 @@ What are the benefits and risks of using apps and actions from the GitHub Market
 </details>
 
 ---
-Within a GitHub organization, various roles can be assigned to members to control their access to repositories. Which of the following are valid repository roles?
+Within a GitHub organization, various roles can be assigned to members to control their access to repositories. Which are valid repository roles?
 <details><summary>Show the answer</summary><p>
 
 - **Read**
