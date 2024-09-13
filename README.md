@@ -1,6 +1,7 @@
+<div align="center">
+
 # Github Certification preparation
 
-<div align="center">
 <img src="https://github.com/romanrabodzei/romanrabodzei/blob/main/github-foundations.png" alt="GitHub Foundations" width="200" height="200">
 <img src="https://github.com/romanrabodzei/romanrabodzei/blob/main/github-actions.png" alt="GitHub Actions" width="200" height="200">
 <img src="https://github.com/romanrabodzei/romanrabodzei/blob/main/github-administration.png" alt="GitHub Administration" width="200" height="200">
