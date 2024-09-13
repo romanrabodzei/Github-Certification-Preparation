@@ -1,8 +1,5 @@
-<div align="center">
+# <img src="https://github.com/romanrabodzei/romanrabodzei/blob/main/github-administration.png" alt="GitHub Administration" width="35" height="35"> GitHub Administration
 
-# <img src="https://github.com/romanrabodzei/romanrabodzei/blob/main/github-administration.png" alt="GitHub Administration" width="50" height="50"> GitHub Administration
-
-</div>
 
 **This certification validates your expertise in administering GitHub Enterprise.**
 <p>
