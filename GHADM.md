@@ -1021,7 +1021,7 @@ Within a GitHub organization, various roles can be assigned to members to contro
 As an organization on GitHub plans to utilize self-hosted runners for its Actions workflows, what steps must be taken to integrate these runners?
 <details><summary>Show the answer</summary><p>
 
-- Obtain organization owner permissions, go to the organization's settings, choose Actions, then Runners, and adhere to the provided instructions to set up the self-hosted runner
+- **Obtain organization owner permissions, go to the organization's settings, choose Actions, then Runners, and adhere to the provided instructions to set up the self-hosted runner**
 > To add a self-hosted runner to an organization, one must have organization owner access. The process involves navigating to the organization's settings, selecting the Actions tab, then the Runners section, and following the setup instructions. This sequence ensures that the self-hosted runner is correctly configured to execute Actions workflows within the organization, providing a secure and customized execution environment for the organization's specific needs
 </details>
 
@@ -1029,11 +1029,11 @@ As an organization on GitHub plans to utilize self-hosted runners for its Action
 Which of the following types of access tokens are supported by GitHub?
 <details><summary>Show the answer</summary><p>
 
-- Personal Access Token (PAT)
+- **Personal Access Token (PAT)**
 > GitHub supports Personal Access Tokens (PATs) for users to access GitHub through the API securely
-- Installation Access Token for a GitHub App
+- **Installation Access Token for a GitHub App**
 > Installation Access Tokens are used by GitHub Apps to interact with the GitHub API on behalf of a specific installation on an account or repository
-- User Access Token for a GitHub App
+- **User Access Token for a GitHub App**
 > User Access Tokens for GitHub Apps enable the app to act on behalf of a user, offering a more granular permission model than PATs
 </details>
 
@@ -1041,7 +1041,7 @@ Which of the following types of access tokens are supported by GitHub?
 What practice is effective in preventing the accidental commit of sensitive data or files to a git repository?
 <details><summary>Show the answer</summary><p>
 
-- Using a visual program like GitHub Desktop to review commits before finalizing them
+- **Using a visual program like GitHub Desktop to review commits before finalizing them**
 > Utilizing a visual program like GitHub Desktop allows developers to carefully review each commit, including the changes being made. This review process helps in identifying and removing any sensitive data or files that should not be committed, thereby preventing accidental exposure
 </details>
 
@@ -1049,7 +1049,7 @@ What practice is effective in preventing the accidental commit of sensitive data
 Where can administrators find statistics on license usage for their organization on GitHub?
 <details><summary>Show the answer</summary><p>
 
-- In the organization's settings under the "Billing" section
+- **In the organization's settings under the "Billing" section**
 > Administrators can find comprehensive statistics on license usage for their organization directly within GitHub by navigating to the organization's settings and then to the "Billing" section. This area provides detailed information on usage and costs associated with the organization's GitHub account
 </details>
 
@@ -1057,7 +1057,7 @@ Where can administrators find statistics on license usage for their organization
 How can an organization owner view license usage statistics for their GitHub Enterprise Server?
 <details><summary>Show the answer</summary><p>
 
-- By navigating to the Site admin dashboard to view the license usage under Enterprise account settings
+- **By navigating to the Site admin dashboard to view the license usage under Enterprise account settings**
 > Organization owners can view statistics on license usage for their GitHub Enterprise Server by navigating to the Site admin dashboard. This section provides insights into the current license usage, including the number of active users, which is crucial for managing licenses effectively within an enterprise environment
 </details>
 
@@ -1065,7 +1065,7 @@ How can an organization owner view license usage statistics for their GitHub Ent
 When needing to purge sensitive data from a project's history in Git, which tools are recommended for the task?
 <details><summary>Show the answer</summary><p>
 
-- git filter-repo and BFG Repo-Cleaner
+- **git filter-repo and BFG Repo-Cleaner**
 > git filter-repo and BFG Repo-Cleaner are specialized tools designed for cleaning up sensitive data from a Git repository's history. These tools allow developers to remove unwanted data efficiently, ensuring that sensitive information does not remain in the project history
 </details>
 
@@ -1073,7 +1073,7 @@ When needing to purge sensitive data from a project's history in Git, which tool
 How can an administrator give a user the minimum required permissions for accessing a specific repository within an organization?
 <details><summary>Show the answer</summary><p>
 
-- By adding the user as an outside collaborator to the repository with the appropriate role
+- **By adding the user as an outside collaborator to the repository with the appropriate role**
 > To grant a user minimum required permissions for a specific repository, an administrator can add the user as an outside collaborator to that repository and assign them the role that best fits their needs, such as read, write, or maintain
 </details>
 
@@ -1081,7 +1081,7 @@ How can an administrator give a user the minimum required permissions for access
 What is the primary distinction between a GitHub App and a GitHub Action in terms of permissions?
 <details><summary>Show the answer</summary><p>
 
-- GitHub Apps have more granular permission settings, whereas Actions run with permissions tied to the GITHUB_TOKEN
+- **GitHub Apps have more granular permission settings, whereas Actions run with permissions tied to the GITHUB_TOKEN**
 > GitHub Apps are designed to interact with GitHub's API more securely and flexibly, offering granular permission settings that can be tailored to specific needs. In contrast, GitHub Actions operate with a more limited scope of permissions determined by the GITHUB_TOKEN, which provides a predefined set of permissions to interact with the GitHub API during workflow execution
 </details>
 
@@ -1089,7 +1089,7 @@ What is the primary distinction between a GitHub App and a GitHub Action in term
 How is access to self-hosted runners organized within an organization on GitHub through the use of runner groups?
 <details><summary>Show the answer</summary><p>
 
-- By establishing runner groups to organize runners and setting access rules for organization repositories
+- **By establishing runner groups to organize runners and setting access rules for organization repositories**
 > Runner groups in GitHub are designed to manage access to self-hosted runners efficiently within an organization. By creating runner groups, an organization can categorize its runners into sets and then define access policies that determine which repositories within the organization can use these runners. This system allows for flexible, scalable, and secure management of runner access across multiple projects, ensuring that only authorized repositories can trigger workflows on specific runners
 </details>
 
@@ -1097,7 +1097,7 @@ How is access to self-hosted runners organized within an organization on GitHub 
 What is a primary goal of the tooling ecosystem in an enterprise setting?
 <details><summary>Show the answer</summary><p>
 
-- To integrate various software development tools to enhance collaboration, automate workflows, and improve productivity across teams
+- **To integrate various software development tools to enhance collaboration, automate workflows, and improve productivity across teams**
 > The primary goal of establishing a tooling ecosystem within an enterprise is to create a cohesive environment where various tools work together seamlessly. This integration supports collaboration among teams, automates repetitive tasks, and overall enhances the productivity and efficiency of the software development process
 </details>
 
@@ -1105,7 +1105,7 @@ What is a primary goal of the tooling ecosystem in an enterprise setting?
 How can GitHub APIs enhance the administrative capabilities beyond the user interface?
 <details><summary>Show the answer</summary><p>
 
-- By allowing administrators to programmatically query the audit log and automate repository management tasks
+- **By allowing administrators to programmatically query the audit log and automate repository management tasks**
 > GitHub APIs extend administrative capabilities by providing programmable access to a wide range of GitHub functionalities, including querying the audit log for monitoring activities within the organization and automating tasks like repository creation, user management, and more, which enhances efficiency and control
 </details>
 
@@ -1113,7 +1113,7 @@ How can GitHub APIs enhance the administrative capabilities beyond the user inte
 How can developers authenticate to GitHub Packages to publish or install packages?
 <details><summary>Show the answer</summary><p>
 
-- Utilizing a Personal Access Token (PAT) with the required scopes
+- **Utilizing a Personal Access Token (PAT) with the required scopes**
 > To authenticate to GitHub Packages for publishing or installing packages, developers need to use a Personal Access Token (PAT) with the required scopes. This method ensures secure access and operation within GitHub Packages, allowing for controlled distribution and consumption of packages
 </details>
 
@@ -1121,7 +1121,7 @@ How can developers authenticate to GitHub Packages to publish or install package
 How can you ensure that users only utilize Actions created by GitHub or verified creators in their workflows?
 <details><summary>Show the answer</summary><p>
 
-- By configuring Policies to allow only actions created by GitHub or verified creators
+- **By configuring Policies to allow only actions created by GitHub or verified creators**
 > Administrators can configure Policies within GitHub to specifically allow actions created by GitHub or verified creators. This is achieved through the "Allow select actions" menu in the Actions policy settings, enabling organizations to limit the actions users can employ to those deemed secure and reputable, thus ensuring compliance with organizational standards and security policies
 </details>
 
@@ -1129,7 +1129,7 @@ How can you ensure that users only utilize Actions created by GitHub or verified
 Can an enterprise account on GitHub contain multiple organizations?
 <details><summary>Show the answer</summary><p>
 
-- Yes
+- **Yes**
 > An enterprise account on GitHub is designed to contain multiple organizations, allowing for centralized management of policies, billing, and security settings across all the organizations within the enterprise. This structure supports scalability and simplifies administration for large companies or groups with diverse teams and projects
 </details>
 
@@ -1137,7 +1137,7 @@ Can an enterprise account on GitHub contain multiple organizations?
 How can encrypted secrets be accessed within GitHub Actions workflows?
 <details><summary>Show the answer</summary><p>
 
-- Using the ${{ secrets.NAME }} syntax
+- **Using the ${{ secrets.NAME }} syntax**
 > Encrypted secrets are accessed within GitHub Actions workflows by using the ${{ secrets.NAME }} syntax, where NAME is the name of the secret. This ensures that secrets are securely injected into the workflow runs
 </details>
 
@@ -1145,7 +1145,7 @@ How can encrypted secrets be accessed within GitHub Actions workflows?
 What is a recommended standard for developer workflows regarding code collaboration?
 <details><summary>Show the answer</summary><p>
 
-- Implementing a fork-and-pull model for external contributors alongside a branching model for internal collaboration
+- **Implementing a fork-and-pull model for external contributors alongside a branching model for internal collaboration**
 > Combining a fork-and-pull model for external contributors with a branching model for internal team members is a best practice that balances open collaboration with control over the main codebase. It allows for community contributions while maintaining code quality and review processes for internal development
 </details>
 
@@ -1153,7 +1153,7 @@ What is a recommended standard for developer workflows regarding code collaborat
 Where can you find the dependency graph listing all the packages your repository depends on within your GitHub repository?
 <details><summary>Show the answer</summary><p>
 
-- In the Insights tab and then the Dependency graph section
+- **In the Insights tab and then the Dependency graph section**
 > The dependency graph is a feature that provides a visual representation of the packages and other repositories that your project depends on. You can find it by navigating to the Insights tab of your repository and selecting the Dependency graph section. This tool is invaluable for understanding your project's dependencies and for identifying potential security vulnerabilities
 </details>
 
@@ -1161,9 +1161,9 @@ Where can you find the dependency graph listing all the packages your repository
 What are the consequences of a user's membership in a GitHub organization or instance?
 <details><summary>Show the answer</summary><p>
 
-- The user gains access to private repositories within the organization based on their assigned permissions
+- **The user gains access to private repositories within the organization based on their assigned permissions**
 > Being a member of a GitHub organization allows a user access to the organization's private repositories to the extent permitted by their role and permissions within the organization. This facilitates collaboration and contribution to projects securely
-- Membership in an organization subjects the user to the organization's security policies, such as enforced two-factor authentication (2FA)
+- **Membership in an organization subjects the user to the organization's security policies, such as enforced two-factor authentication (2FA)**
 > When a user becomes a member of an organization, they must adhere to the security policies set by the organization, which may include requirements like two-factor authentication (2FA) to enhance security
 </details>
 
@@ -1171,7 +1171,7 @@ What are the consequences of a user's membership in a GitHub organization or ins
 Which tools can be used to tamper with Git history and erase sensitive data?
 <details><summary>Show the answer</summary><p>
 
-- git filter-repo and BFG Repo-Cleaner
+- **git filter-repo and BFG Repo-Cleaner**
 > Both git filter-repo and BFG Repo-Cleaner are powerful tools used to rewrite Git history and remove sensitive data from repositories. They are commonly used when sensitive information, such as passwords or confidential files, needs to be permanently removed from the repository history
 </details>
 
@@ -1179,7 +1179,7 @@ Which tools can be used to tamper with Git history and erase sensitive data?
 How can an administrator find and install the Azure Pipelines GitHub App from the GitHub Marketplace?
 <details><summary>Show the answer</summary><p>
 
-- By searching for "Azure Pipelines" in the GitHub Marketplace and following the installation instructions for their repository or organization
+- **By searching for "Azure Pipelines" in the GitHub Marketplace and following the installation instructions for their repository or organization**
 > The GitHub Marketplace is a central location where users can discover and install apps like Azure Pipelines directly within their GitHub environment. By searching for the app and following the provided installation instructions, administrators can easily integrate Azure Pipelines into their workflows
 </details>
 
@@ -1187,7 +1187,7 @@ How can an administrator find and install the Azure Pipelines GitHub App from th
 What is the simplest way to prevent the creation of public repositories within a GitHub organization?
 <details><summary>Show the answer</summary><p>
 
-- At the organization level, in "Member Privileges" settings, disallow the creation of public repositories
+- **At the organization level, in "Member Privileges" settings, disallow the creation of public repositories**
 > The most straightforward method to prevent the creation of public repositories within a GitHub organization is to adjust the settings in the "Member Privileges" section of the organization's settings. Administrators can specifically disallow the creation of public repositories, ensuring all new repositories created by members are private by default. This setting provides a proactive approach to maintaining repository privacy at the organizational level
 </details>
 
@@ -1195,7 +1195,7 @@ What is the simplest way to prevent the creation of public repositories within a
 How can GitHub Apps react to specific events, and what are some examples of these events?
 <details><summary>Show the answer</summary><p>
 
-- GitHub Apps subscribe to events through webhooks, which notify the app of specific actions like pull request openings or issue creations
+- **GitHub Apps subscribe to events through webhooks, which notify the app of specific actions like pull request openings or issue creations**
 > GitHub Apps indeed react to specific events by subscribing to them through webhooks. These events include actions like pull request openings, issue creations, push events, etc
 </details>
 
@@ -1203,7 +1203,7 @@ How can GitHub Apps react to specific events, and what are some examples of thes
 How does GitHub manage identity and authorization for users within organizations?
 <details><summary>Show the answer</summary><p>
 
-- GitHub uses a combination of SAML SSO for identity management and fine-grained access controls for authorization within organizations
+- **GitHub uses a combination of SAML SSO for identity management and fine-grained access controls for authorization within organizations**
 > For enterprise-level identity management, GitHub supports SAML Single Sign-On (SSO), allowing organizations to integrate with identity providers for secure authentication. Once authenticated, GitHub provides detailed access controls, enabling organizations to define specific permissions for users, such as read, write, or admin access to repositories, effectively managing authorization within the platform
 </details>
 
@@ -1211,7 +1211,7 @@ How does GitHub manage identity and authorization for users within organizations
 GitHub Actions workflow runs specifically on a self-hosted agent that operates on Linux with an ARM architecture?
 <details><summary>Show the answer</summary><p>
 
-- By using runs-on: [self-hosted, linux, ARM]
+- **By using runs-on: [self-hosted, linux, ARM]**
 > To target a workflow to run on a specific self-hosted runner that is using Linux with an ARM architecture, you should specify runs-on: [self-hosted, linux, ARM] in your workflow file. This combination of labels ensures that the job runs only on self-hosted runners that match all three specified criteria: being self-hosted, running Linux, and using the ARM architecture
 </details>
 
@@ -1219,7 +1219,7 @@ GitHub Actions workflow runs specifically on a self-hosted agent that operates o
 What is a fundamental difference between a GitHub App and a GitHub Action?
 <details><summary>Show the answer</summary><p>
 
-- GitHub Apps are third-party applications that extend GitHub functionalities, while Actions are used to automate workflows within the GitHub environment
+- **GitHub Apps are third-party applications that extend GitHub functionalities, while Actions are used to automate workflows within the GitHub environment**
 > GitHub Apps provide a way to integrate third-party services and extend GitHub functionalities, offering granular permissions for accessing specific GitHub data. GitHub Actions automate workflows directly within GitHub, enabling continuous integration and continuous deployment (CI/CD) processes without requiring external tools
 </details>
 
@@ -1227,7 +1227,7 @@ What is a fundamental difference between a GitHub App and a GitHub Action?
 What is the scope of encrypted secrets at the organization level in GitHub Actions?
 <details><summary>Show the answer</summary><p>
 
-- Available to multiple repositories within the organization
+- **Available to multiple repositories within the organization**
 > Encrypted secrets at the organization level are designed to be available across multiple repositories within the organization, allowing for easier management of secrets that are common to several projects
 </details>
 
@@ -1235,7 +1235,7 @@ What is the scope of encrypted secrets at the organization level in GitHub Actio
 How does Team sync through Active Directory (AD) function for GitHub organizations?
 <details><summary>Show the answer</summary><p>
 
-- It automatically synchronizes GitHub team memberships with user groups in Active Directory, reflecting changes in team composition directly from AD
+- **It automatically synchronizes GitHub team memberships with user groups in Active Directory, reflecting changes in team composition directly from AD**
 > Team sync through Active Directory (AD) allows for the automatic synchronization of GitHub team memberships with user groups defined in AD. This means that when changes are made to user groups in AD, such as adding or removing members, these changes are automatically reflected in the corresponding GitHub teams, streamlining team management and ensuring consistency across platforms
 </details>
 
@@ -1243,7 +1243,7 @@ How does Team sync through Active Directory (AD) function for GitHub organizatio
 How can GitHub Actions workflows authenticate to GitHub Packages for publishing or consuming packages?
 <details><summary>Show the answer</summary><p>
 
-- By utilizing the GITHUB_TOKEN provided by GitHub Actions for secure authentication
+- **By utilizing the GITHUB_TOKEN provided by GitHub Actions for secure authentication**
 > GitHub Actions workflows can securely authenticate to GitHub Packages using the GITHUB_TOKEN that is automatically provided by GitHub Actions. This token is scoped to the current repository, allowing workflows to publish or consume packages without needing to manually manage authentication tokens
 </details>
 
@@ -1251,7 +1251,7 @@ How can GitHub Actions workflows authenticate to GitHub Packages for publishing 
 What is a deploy key in the context of GitHub?
 <details><summary>Show the answer</summary><p>
 
-- An SSH key that grants access to a single repository on GitHub, used to deploy projects to a server
+- **An SSH key that grants access to a single repository on GitHub, used to deploy projects to a server**
 > A deploy key is an SSH key specifically used for deploying projects from a GitHub repository to a server. It grants access solely to a single repository. The public part of this key is attached directly to the repository on GitHub, ensuring secure communication between the repository and the server where the private key is stored. This setup is ideal for automation and CI/CD processes where repository-specific access is required without granting broader permissions associated with a personal account
 </details>
 
@@ -1259,15 +1259,15 @@ What is a deploy key in the context of GitHub?
 What are the two roles available at the team level within a GitHub organization?
 <details><summary>Show the answer</summary><p>
 
-- Maintainer
-- Member
+- **Maintainer**
+- **Member**
 </details>
 
 ---
 On GitHub Enterprise Server, how can an administrator generate a support bundle to provide to GitHub Support?
 <details><summary>Show the answer</summary><p>
 
-- By executing ssh -p 122 admin@hostname -- 'ghe-support-bundle -o' > support-bundle.tgz on the server
+- **By executing ssh -p 122 admin@hostname -- 'ghe-support-bundle -o' > support-bundle.tgz on the server**
 > The provided SSH command line is the appropriate method to generate a support bundle on GitHub Enterprise Server. This process collects vital system and application logs into a .tgz file, which can then be shared with GitHub Support for troubleshooting purposes. The command ensures that all necessary information is compiled efficiently and securely
 </details>
 
@@ -1275,7 +1275,7 @@ On GitHub Enterprise Server, how can an administrator generate a support bundle 
 How can you use 3rd party vaults to manage secrets for GitHub Actions?
 <details><summary>Show the answer</summary><p>
 
-- Secrets are stored in the third-party vault, and a decryption step within the workflow accesses them, using a key stored as a GitHub Actions secret
+- **Secrets are stored in the third-party vault, and a decryption step within the workflow accesses them, using a key stored as a GitHub Actions secret**
 > Utilizing third-party vaults for managing secrets in GitHub Actions involves securely storing the secrets outside of GitHub and accessing them during the workflow execution. A common method is to store a decryption key or access token as a secret within GitHub Actions. This key is then used in a step within the workflow to authenticate and decrypt or directly access the secrets stored in the third-party vault. This approach ensures that sensitive information is securely managed while still being accessible to the workflow when needed
 </details>
 
@@ -1283,7 +1283,7 @@ How can you use 3rd party vaults to manage secrets for GitHub Actions?
 Does GitHub Enterprise Server include the GitHub Packages feature?
 <details><summary>Show the answer</summary><p>
 
-- Yes
+- **Yes**
 > GitHub Enterprise Server includes the GitHub Packages feature, allowing users to host, manage, and share packages alongside their source code. This integration facilitates efficient package management within the same platform used for version control and CI/CD processes
 </details>
 
@@ -1291,9 +1291,9 @@ Does GitHub Enterprise Server include the GitHub Packages feature?
 When setting up a workflow template, which two files are essential for its creation?
 <details><summary>Show the answer</summary><p>
 
-- A JSON properties file with a ".properties.json" extension (e.g., my-workflow.properties.json)
+- **A JSON properties file with a ".properties.json" extension (e.g., my-workflow.properties.json)**
 > is necessary for defining workflow properties, such as descriptions, inputs, and outputs, in a structured format. This file helps in categorizing and providing metadata for the workflow template, making it easier to understand and use
-- A YAML file named after the workflow (e.g., my-workflow.yml)
+- **A YAML file named after the workflow (e.g., my-workflow.yml)**
 > A YAML file (e.g., my-workflow.yml) is crucial for defining the steps, jobs, and events that trigger the workflow. This file outlines the workflow's operations and is mandatory for the workflow to be recognized and executed by the system
 </details>
 
@@ -1301,7 +1301,7 @@ When setting up a workflow template, which two files are essential for its creat
 Where can organization administrators find statistics of license usage for their organization on GitHub?
 <details><summary>Show the answer</summary><p>
 
-- In the organization's settings under the "Billing" section
+- **In the organization's settings under the "Billing" section**
 > Organization administrators can find statistics on license usage, including details on seats used and available, directly within their organization's settings under the "Billing" section. This information helps in managing subscriptions and understanding the organization's utilization of GitHub resources
 </details>
 
@@ -1309,7 +1309,7 @@ Where can organization administrators find statistics of license usage for their
 How can an administrator generate support bundles and diagnostics for GitHub Enterprise Server?
 <details><summary>Show the answer</summary><p>
 
-- Through the site admin dashboard, by navigating to the 'Support' section and selecting 'Generate support bundle'
+- **Through the site admin dashboard, by navigating to the 'Support' section and selecting 'Generate support bundle'**
 > Administrators of GitHub Enterprise Server can generate support bundles and diagnostics directly through the site admin dashboard. This feature allows them to collect relevant data and logs, facilitating the troubleshooting process or when contacting GitHub Support for assistance
 </details>
 
@@ -1317,7 +1317,7 @@ How can an administrator generate support bundles and diagnostics for GitHub Ent
 What types of issues does GitHub Support cover?
 <details><summary>Show the answer</summary><p>
 
-- Account, Security, and Abuse issues
+- **Account, Security, and Abuse issues**
 > GitHub Support provides assistance for a range of issues, specifically focusing on Account, Security, and Abuse concerns. This includes helping users secure their accounts, addressing potential security vulnerabilities, and managing abuse reports to maintain a safe and supportive community
 </details>
 
@@ -1325,7 +1325,7 @@ What types of issues does GitHub Support cover?
 Which role should you assign to a contributor who needs full control over a repository except for access to sensitive or destructive actions?
 <details><summary>Show the answer</summary><p>
 
-- Maintainer, because the admin role would, for instance, allow them to delete the repository
+- **Maintainer, because the admin role would, for instance, allow them to delete the repository**
 > The Maintainer role in a GitHub repository or team is designed to offer comprehensive control over project development activities, such as managing issues, pull requests, and most settings, without granting permissions for sensitive or potentially destructive actions like deleting the repository. This makes it the ideal choice for contributors who need substantial control without the risk associated with admin-level permissions
 </details>
 
@@ -1333,7 +1333,7 @@ Which role should you assign to a contributor who needs full control over a repo
 Which feature allows users to access pre-made templates when creating a new workflow?
 <details><summary>Show the answer</summary><p>
 
-- Workflow Templates
+- **Workflow Templates**
 > Workflow Templates allow repository and organization owners to provide pre-made workflow templates to their users. These templates help streamline the process of creating new workflows by offering a standardized set of workflows that can be customized as needed, enabling users to quickly set up CI/CD pipelines or automate other processes without starting from scratch
 </details>
 
@@ -1341,7 +1341,7 @@ Which feature allows users to access pre-made templates when creating a new work
 What is the impact of an Enterprise IP allow list on publishing a GitHub Pages site directly from a branch without a custom GitHub Actions workflow?
 <details><summary>Show the answer</summary><p>
 
-- The build process is automatically permitted access to the repository for the GitHub Pages site
+- **The build process is automatically permitted access to the repository for the GitHub Pages site**
 > When publishing a GitHub Pages site directly from a branch, the build process is inherently allowed to access the repository without being blocked by the Enterprise IP allow list. This is because GitHub Pages and its build process are considered trusted services within the GitHub infrastructure, which means they are allowed to operate even when IP restrictions are applied to other parts of the enterprise. This setup ensures that GitHub Pages sites can be updated and published without needing to manually adjust the IP allow list for the build runners
 </details>
 
@@ -1349,7 +1349,7 @@ What is the impact of an Enterprise IP allow list on publishing a GitHub Pages s
 Can you erase the history of a repository to keep sensitive data secret once it has been committed?
 <details><summary>Show the answer</summary><p>
 
-- No. While you can overwrite a commit, the sensitive data must be considered unsecure once committed. If it involves a secret/password, it must be renewed
+- **No. While you can overwrite a commit, the sensitive data must be considered unsecure once committed. If it involves a secret/password, it must be renewed**
 > Once sensitive data has been committed to a repository, overwriting the commit does not entirely eliminate the risk that the data was exposed. The best practice in such cases is to assume the data is compromised. For secrets or passwords, the safest course of action is to renew or change them to prevent unauthorized access
 </details>
 
@@ -1357,7 +1357,7 @@ Can you erase the history of a repository to keep sensitive data secret once it 
 How can you automatically assign specific persons as reviewers when a part of the code is modified?
 <details><summary>Show the answer</summary><p>
 
-- By creating and maintaining CODEOWNERS files in the repository, which specify the individuals or teams that should be automatically assigned as reviewers for specific parts of the code
+- **By creating and maintaining CODEOWNERS files in the repository, which specify the individuals or teams that should be automatically assigned as reviewers for specific parts of the code**
 > The CODEOWNERS file is a GitHub feature that allows repository administrators to define individuals or teams as "code owners" for specific parts of a repository. When changes are made to areas of the code covered by the CODEOWNERS file, GitHub automatically assigns the specified owners as reviewers for pull requests involving those areas, streamlining the review process and ensuring that the right people are notified and involved in the review
 </details>
 
@@ -1365,7 +1365,7 @@ How can you automatically assign specific persons as reviewers when a part of th
 What is the primary method for a user to authenticate to GitHub when part of an organization with SAML SSO enabled?
 <details><summary>Show the answer</summary><p>
 
-- Through the organization's identity provider using SAML SSO
+- **Through the organization's identity provider using SAML SSO**
 > When an organization enables SAML Single Sign-On (SSO), users authenticate to GitHub through the organization's chosen identity provider. This process ensures secure access management and aligns with enterprise security policies, allowing centralized control over user access
 </details>
 
@@ -1373,7 +1373,7 @@ What is the primary method for a user to authenticate to GitHub when part of an 
 How does a user's list of permissions, such as their repository role, team membership, or organization membership, influence their actions within a GitHub organization?
 <details><summary>Show the answer</summary><p>
 
-- It dictates the specific actions a user can perform, ranging from viewing and editing files to managing access rights and settings, based on their assigned roles and memberships
+- **It dictates the specific actions a user can perform, ranging from viewing and editing files to managing access rights and settings, based on their assigned roles and memberships**
 > A user's permissions within a GitHub organization, determined by their repository role, team membership, and organization membership, directly influence the range of actions they are authorized to perform. These permissions can include various activities such as contributing to code, managing issues and pull requests, and adjusting repository or organization-wide settings, providing a structured and secure environment for collaboration
 </details>
 
@@ -1381,11 +1381,11 @@ How does a user's list of permissions, such as their repository role, team membe
 What are the consequences of a user’s membership in an instance, an organization, or multiple organizations on GitHub?
 <details><summary>Show the answer</summary><p>
 
-- Requirement to adhere to the security policies of each organization, including 2FA if enforced
+- **Requirement to adhere to the security policies of each organization, including 2FA if enforced**
 > Users must comply with each organization's security policies, which may include mandatory two-factor authentication (2FA), ensuring a uniform security standard across the platform
-- Eligibility to receive organization-specific notifications and participate in discussions
+- **Eligibility to receive organization-specific notifications and participate in discussions**
 > Being a member of an organization allows users to receive notifications pertinent to that organization and engage in discussions, fostering community and collaboration within the organization
-- Access to private repositories based on the permissions granted by organization owners or repository administrators
+- **Access to private repositories based on the permissions granted by organization owners or repository administrators**
 > Membership in an organization or instance on GitHub grants the user access to private repositories, contingent upon the specific permissions assigned by those with administrative control, enhancing collaboration within secure environments
 </details>
 
@@ -1393,20 +1393,20 @@ What are the consequences of a user’s membership in an instance, an organizati
 Which default labels are applied to a self-hosted agent in GitHub Actions?
 <details><summary>Show the answer</summary><p>
 
-- CPU architecture: x64, ARM, or ARM64
-- os: linux, windows, or macOS
-- self-hosted
+- **CPU architecture: x64, ARM, or ARM64**
+- **os: linux, windows, or macOS**
+- **self-hosted**
 </details>
 
 ---
 What are key components to include in a release strategy for developer workflows?
 <details><summary>Show the answer</summary><p>
 
-- Scheduled deployment windows for stable releases
+- **Scheduled deployment windows for stable releases**
 > Having scheduled deployment windows for releasing changes to production helps manage risk and ensures that stakeholders are aware of when new features or fixes will be available
-- Mandatory code review approvals before merging feature branches
+- **Mandatory code review approvals before merging feature branches**
 > Requiring code review approvals enforces a review process that can catch issues early, promote knowledge sharing, and ensure that changes meet the project's standards
-- Automated testing as part of the continuous integration process
+- **Automated testing as part of the continuous integration process**
 > Integrating automated testing into the CI process ensures that code changes are validated before being merged, helping to maintain code quality and stability
 </details>
 
@@ -1414,14 +1414,14 @@ What are key components to include in a release strategy for developer workflows
 Which role allows a person to manage issues of a repository without granting any write rights to the code?
 <details><summary>Show the answer</summary><p>
 
-- Triage
+- **Triage**
 </details>
 
 ---
 How should an enterprise adjust its policies and organization permissions on GitHub to align with its trust and control position?
 <details><summary>Show the answer</summary><p>
 
-- Implementing a granular permission model that reflects the company's specific trust levels and control needs, such as using read, write, maintain, and admin roles appropriately
+- **Implementing a granular permission model that reflects the company's specific trust levels and control needs, such as using read, write, maintain, and admin roles appropriately**
 > To align enterprise policies and organization permissions with a company's trust and control stance, it's essential to implement a granular permission model. This approach involves assigning roles (read, write, maintain, admin) based on the level of trust and the specific needs for control within the organization. It allows for flexible and secure access management, ensuring that members have the necessary permissions to perform their roles effectively while protecting sensitive information and maintaining overall security
 </details>
 
@@ -1429,11 +1429,11 @@ How should an enterprise adjust its policies and organization permissions on Git
 Which of the following statements are true regarding managing encrypted secrets in GitHub Actions?
 <details><summary>Show the answer</summary><p>
 
-- Secrets can be updated but not viewed in plaintext after creation
+- **Secrets can be updated but not viewed in plaintext after creation**
 > Once created, secrets can be updated but cannot be viewed in plaintext, ensuring their confidentiality. This protects the secret's integrity and security
-- 3rd party vaults can be integrated to manage secrets outside of GitHub
+- **3rd party vaults can be integrated to manage secrets outside of GitHub**
 > Integration with 3rd party vaults enables organizations to manage secrets outside of GitHub, providing additional flexibility and security options for managing sensitive information
-- Repository-level secrets can be accessed by workflows running in that repository
+- **Repository-level secrets can be accessed by workflows running in that repository**
 > Repository-level secrets are scoped to be accessible by workflows running in the repository where they were defined, allowing for secure and specific secret management
 </details>
 
@@ -1441,7 +1441,7 @@ Which of the following statements are true regarding managing encrypted secrets 
 How can an organization require two-factor authentication (2FA) for its members?
 <details><summary>Show the answer</summary><p>
 
-- Through the organization's security settings, by enabling the 'Require two-factor authentication' option
+- **Through the organization's security settings, by enabling the 'Require two-factor authentication' option**
 > An organization can require its members to use two-factor authentication by navigating to the organization's security settings and enabling the 'Require two-factor authentication' option. This ensures that all members have an additional layer of security on their accounts
 </details>
 
@@ -1449,16 +1449,16 @@ How can an organization require two-factor authentication (2FA) for its members?
 What are the different types of Enterprise Support available from GitHub?
 <details><summary>Show the answer</summary><p>
 
-- GitHub Enterprise Premium Plus support
-- GitHub Enterprise Premium support
-- GitHub Enterprise Support (Included with Enterprise Cloud and Enterprise Server)
+- **GitHub Enterprise Premium Plus support**
+- **GitHub Enterprise Premium support**
+- **GitHub Enterprise Support (Included with Enterprise Cloud and Enterprise Server)**
 </details>
 
 ---
 What is a key consideration when writing scripts to manage multiple GitHub organizations and access rights?
 <details><summary>Show the answer</summary><p>
 
-- Ensuring scripts are adaptable to handle diverse permission models and organizational structures
+- **Ensuring scripts are adaptable to handle diverse permission models and organizational structures**
 > When managing multiple GitHub organizations and access rights through scripts, it's essential to ensure these scripts are versatile and adaptable. They should be designed to accommodate various permission models and the unique structures of different organizations to maintain effectiveness across a broad range of administrative scenarios
 </details>
 
@@ -1466,7 +1466,7 @@ What is a key consideration when writing scripts to manage multiple GitHub organ
 Can you upload container images to GitHub Packages?
 <details><summary>Show the answer</summary><p>
 
-- Yes, GitHub Packages supports hosting container images
+- **Yes, GitHub Packages supports hosting container images**
 > GitHub Packages provides support for hosting container images, making it a versatile platform for developers to manage both their code and containerized applications in one place. This feature enables seamless integration of container workflows with GitHub's ecosystem
 </details>
 
@@ -1474,7 +1474,7 @@ Can you upload container images to GitHub Packages?
 What is the maximum number of members allowed in a GitHub organization?
 <details><summary>Show the answer</summary><p>
 
-- 10000
+- **10000**
 > A GitHub organization can have up to 10,000 members, allowing for extensive collaboration among large teams and enterprises. This limit is designed to accommodate the needs of most organizations while maintaining performance and manageability
 </details>
 
@@ -1482,9 +1482,9 @@ What is the maximum number of members allowed in a GitHub organization?
 What are the benefits of using GitHub Packages within workflows?
 <details><summary>Show the answer</summary><p>
 
-- It integrates seamlessly with GitHub Actions for automating package publishing and consumption
+- **It integrates seamlessly with GitHub Actions for automating package publishing and consumption**
 > One of the significant benefits of GitHub Packages is its integration with GitHub Actions, enabling automated workflows for publishing new package versions and consuming packages within CI/CD pipelines. This automation streamlines the development process and ensures consistency across environments
-- It provides a centralized platform for hosting and sharing software packages across teams and projects
+- **It provides a centralized platform for hosting and sharing software packages across teams and projects**
 > GitHub Packages serves as a centralized platform for hosting and sharing software packages, enhancing collaboration by allowing teams and projects to easily access and manage dependencies within the GitHub ecosystem
 </details>
 
@@ -1492,14 +1492,14 @@ What are the benefits of using GitHub Packages within workflows?
 What is the appropriate repository permission level for contributors who will actively push changes to your repository?
 <details><summary>Show the answer</summary><p>
 
-- Write
+- **Write**
 </details>
 
 ---
 How can an organization within a GitHub Enterprise account enforce SAML SSO?
 <details><summary>Show the answer</summary><p>
 
-- By navigating to the organization's security settings and selecting 'SAML single sign-on' under Authentication
+- **By navigating to the organization's security settings and selecting 'SAML single sign-on' under Authentication**
 > Administrators can enforce SAML SSO for their organization by accessing the organization's security settings on GitHub, then selecting the 'SAML single sign-on' option under the Authentication section. This allows for the configuration and enforcement of SAML SSO directly within the GitHub interface
 </details>
 
@@ -1507,7 +1507,7 @@ How can an organization within a GitHub Enterprise account enforce SAML SSO?
 How can you exclude sensitive files from being included in your GitHub repository?
 <details><summary>Show the answer</summary><p>
 
-- Building and maintaining .gitignore files to specify the files and directories that should be excluded from version control
+- **Building and maintaining .gitignore files to specify the files and directories that should be excluded from version control**
 > The .gitignore file is a crucial tool in a developer's arsenal for managing repositories. By specifying filenames, directory names, or patterns in a .gitignore file, developers can prevent sensitive or unnecessary files and directories from being added to version control. This proactive approach helps in safeguarding sensitive information and keeping repositories clean and focused on relevant code
 </details>
 
@@ -1515,16 +1515,16 @@ How can you exclude sensitive files from being included in your GitHub repositor
 What are the three roles available at the organization level within a GitHub organization?
 <details><summary>Show the answer</summary><p>
 
-- Billing Manager
-- Member
-- Owner
+- **Billing Manager**
+- **Member**
+- **Owner**
 </details>
 
 ---
 By default, can all users of an organization see all repositories?
 <details><summary>Show the answer</summary><p>
 
-- Yes, if the "Read" access is defined as the default role in "base permissions" in the organization's settings
+- **Yes, if the "Read" access is defined as the default role in "base permissions" in the organization's settings**
 > In GitHub organizations, the visibility of repositories to all users within the organization can be controlled through the "base permissions" setting. If "Read" access is set as the default role, all users in the organization can see all repositories by default, unless specific access controls are applied to restrict visibility further
 </details>
 
@@ -1532,7 +1532,7 @@ By default, can all users of an organization see all repositories?
 In which folder within a self-hosted agent can you find logs for debugging the runner's behavior?
 <details><summary>Show the answer</summary><p>
 
-- /_diag
+- **/_diag**
 > The logs for debugging the behavior of a self-hosted runner are located in the /_diag folder. This directory contains detailed logs about the runner's operations, job execution, and any errors that may occur, making it an essential resource for troubleshooting and ensuring the smooth running of your workflows
 </details>
 
@@ -1540,7 +1540,7 @@ In which folder within a self-hosted agent can you find logs for debugging the r
 What best defines Teams within a GitHub organization?
 <details><summary>Show the answer</summary><p>
 
-- Structured groups within an organization, designed to reflect company or project hierarchies, where members can be given specific access rights to repositories
+- **Structured groups within an organization, designed to reflect company or project hierarchies, where members can be given specific access rights to repositories**
 > Teams within a GitHub organization are structured groups that can mirror the company's or project's hierarchy, making it easier to manage access rights and permissions. Members of a team can be granted different levels of access to repositories based on the team's purpose and needs, facilitating collaboration and maintaining security and organizational structure
 </details>
 
