@@ -825,14 +825,6 @@ When determining if a code scanning alert needs to be dismissed, what is a valid
 </details>
 
 ---
-When determining if a code scanning alert needs to be dismissed, what is a valid reason for doing so?
-<details><summary>Show the answer</summary><p>
-
-- **The alert is related to a piece of code that is about to be deprecated**
-> Dismissing a code scanning alert because the alert is related to a piece of code that is about to be deprecated is a valid reason. If the code in question is scheduled for removal or replacement, spending resources to fix an alert may not be necessary or efficient. This approach allows teams to focus on maintaining and improving the security of code that will remain in use
-</details>
-
----
 When setting security policies for an organization and its repositories, what actions should be taken?
 <details><summary>Show the answer</summary><p>
 
@@ -1505,18 +1497,6 @@ What is the primary focus area of GitHub's dependency management feature?
 </details>
 
 ---
-When configuring secret scanning for a repository or organization, which of the following actions are appropriate to ensure comprehensive coverage and response to alerts?
-<details><summary>Show the answer</summary><p>
-
-- **Enabling notifications for all relevant stakeholders, including security teams and repository administrators**
-> Ensuring that all relevant stakeholders receive notifications about secret scanning alerts is crucial for a timely and effective response to any detected secrets
-- **Configuring custom patterns specific to the organization's use case to enhance secret scanning effectiveness**
-> Configuring custom patterns allows organizations to tailor secret scanning to their specific needs, potentially catching secrets that are unique to their environment or not covered by GitHub's default patterns
-- **Excluding all third-party directories from scanning to reduce the number of alerts**
-> Regularly reviewing and updating exclusions ensures that the secret scanning coverage remains comprehensive and relevant, avoiding unnecessary exclusions that could leave vulnerabilities unchecked
-</details>
-
----
 What is the primary purpose of CodeQL queries?
 <details><summary>Show the answer</summary><p>
 
@@ -1703,3 +1683,29 @@ Which file format is used to integrate results from a 3rd party scanning tool in
 - **The SARIF format (Static Analysis Results Interchange Format)**
 > The SARIF format (Static Analysis Results Interchange Format) is specifically designed for integrating results from third-party scanning tools into GitHub's code scanning features. SARIF allows for a standardized representation of analysis results, making it easier to share and understand findings across different tools and platforms> 
 </details>
+
+---
+Your team is considering the implementation of GHAS features for your open-source project hosted on GitHub. What feature comes automatically enabled for your open-source project?
+<details><summary>Show the answer</summary><p>
+
+- **Secret scanning for detecting exposed secrets within the project's codebase**
+> GitHub provides secret scanning for public repositories, which automatically scans the codebase for exposed secrets, such as API keys or credentials, helping maintain the security of the project
+</details>
+
+---
+Which user role is required to view secret scanning alerts in a GitHub repository?
+<details><summary>Show the answer</summary><p>
+
+- **Repository administrator**
+> Repository administrators have the necessary permissions to view secret scanning alerts, as these alerts can contain sensitive information about security vulnerabilities that need to be addressed by users with administrative privileges
+</details>
+
+---
+As a security manager, you need to ensure that secret scanning is enabled for all private repositories in your organization. Which action should you take?
+<details><summary>Show the answer</summary><p>
+
+- **Access the organization's settings and enable secret scanning at the organization level to apply it to all existing and future repositories**
+> Enabling secret scanning at the organization level ensures that all current and future repositories under the organization have secret scanning activated
+</details>
+
+---
