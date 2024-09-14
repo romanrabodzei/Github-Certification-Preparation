@@ -1275,7 +1275,7 @@ Q: Which filters for issues that do not require advanced syntax can you use on G
 - **Everything mentioning you**
 > The 'Everything mentioning you' filter helps you see all issues where your username has been mentioned. This is a simple way to track conversations and tasks where your input or action may be needed
 - **Your Issues**
-The 'Your Issues' filter allows you to quickly view all issues that you have created. This is a straightforward filter that does not require advanced query syntax
+> The 'Your Issues' filter allows you to quickly view all issues that you have created. This is a straightforward filter that does not require advanced query syntax
 - **Everything assigned to you**
 > 'Everything assigned to you' is a filter that shows all issues across different repositories that are currently assigned to you. This filter is easy to use and doesn't involve complex syntax
 </details>
