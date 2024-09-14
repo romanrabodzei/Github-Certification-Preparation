@@ -6,7 +6,7 @@ Candidates for this exam should have experience administering GitHub Enterprise,
 </p>
 
 > [!IMPORTANT]
-> **These are NOT real questions from the exam, but quite close enough to what you can get. The goal is to help you to be prepared and obtain the certification.**
+> **These are NOT real questions from the exam, but quite close enough to what you can get. The goal is to help you prepare and obtain the certification.**
 
 ## Skills measured
 
