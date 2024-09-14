@@ -11,3 +11,6 @@
 <p>
 This repository contains questions and answers to help you prepare for the GitHub certification exams. Whether you are a beginner or an experienced user, you’ll find valuable insights and practice material to enhance your GitHub skills and knowledge. Good luck with the exams!
 </p>
+
+> [!IMPORTANT]
+> **These are NOT real questions from the exam, but quite close enough to what you can get. The goal is to help you prepare and obtain the certification.**
