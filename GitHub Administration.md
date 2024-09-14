@@ -20,7 +20,7 @@ Candidates for this exam should have experience administering GitHub Enterprise,
 
 ## Questions
 
-As the IT manager preparing to integrate your organization's GitHub Enterprise Cloud with a System for Cross-domain Identity Management (SCIM) API, you are evaluating which Identity Providers (IdPs) are supported. Which three IdPs are officially supported by GitHub Enterprise Cloud for SCIM API integration with organizations?
+Q: As the IT manager preparing to integrate your organization's GitHub Enterprise Cloud with a System for Cross-domain Identity Management (SCIM) API, you are evaluating which Identity Providers (IdPs) are supported. Which three IdPs are officially supported by GitHub Enterprise Cloud for SCIM API integration with organizations?
 <details><summary>Show the answer</summary><p>
 
 - **Microsoft Entra ID**
@@ -32,7 +32,7 @@ As the IT manager preparing to integrate your organization's GitHub Enterprise C
 </details>
 
 ---
-You are tasked with improving the security and management of your company's GitHub Enterprise Cloud, you are exploring options for user management. What is the primary function of Enterprise Managed Users in GitHub?
+Q: You are tasked with improving the security and management of your company's GitHub Enterprise Cloud, you are exploring options for user management. What is the primary function of Enterprise Managed Users in GitHub?
 <details><summary>Show the answer</summary><p>
 
 - **To centrally manage identity and access of enterprise members on GitHub from an identity provider (IdP)**
@@ -40,7 +40,7 @@ You are tasked with improving the security and management of your company's GitH
 </details>
 
 ---
-As a software development team leader, you're considering integrating apps and actions from the GitHub Marketplace into your projects. What are the benefits and risks associated with using these marketplace resources?
+Q: As a software development team leader, you're considering integrating apps and actions from the GitHub Marketplace into your projects. What are the benefits and risks associated with using these marketplace resources?
 <details><summary>Show the answer</summary><p>
 
 - **Benefits include automation of workflows and enhanced functionality; risks include potential security vulnerabilities and dependency on third-party services**
@@ -48,7 +48,7 @@ As a software development team leader, you're considering integrating apps and a
 </details>
 
 ---
-Which Docker command is used to publish a container image to GitHub Packages?
+Q: Which Docker command is used to publish a container image to GitHub Packages?
 <details><summary>Show the answer</summary><p>
 
 - **docker push ghcr.io/OWNER/IMAGE_NAME:TAG**
@@ -56,7 +56,7 @@ Which Docker command is used to publish a container image to GitHub Packages?
 </details>
 
 ---
-How are GitHub Actions minutes consumed for jobs running on different operating systems?
+Q: How are GitHub Actions minutes consumed for jobs running on different operating systems?
 <details><summary>Show the answer</summary><p>
 
 - **Jobs on Windows and macOS consume minutes at 2 and 10 times the rate of jobs on Linux runners, respectively**
@@ -64,7 +64,7 @@ How are GitHub Actions minutes consumed for jobs running on different operating 
 </details>
 
 ---
-What are the steps to utilize the Azure Pipelines GitHub App from the GitHub Marketplace for deploying your code?
+Q: What are the steps to utilize the Azure Pipelines GitHub App from the GitHub Marketplace for deploying your code?
 <details><summary>Show the answer</summary><p>
 
 - **Search for "Azure Pipelines" in the GitHub Marketplace, select the app, click "Install", and then follow the setup instructions to configure your deployment**
@@ -72,7 +72,7 @@ What are the steps to utilize the Azure Pipelines GitHub App from the GitHub Mar
 </details>
 
 ---
-You're exploring the differences between enabling SAML Single Sign-On (SSO) for a single organization versus for all organizations within an enterprise account. What is a key difference between these two approaches?
+Q: You're exploring the differences between enabling SAML Single Sign-On (SSO) for a single organization versus for all organizations within an enterprise account. What is a key difference between these two approaches?
 <details><summary>Show the answer</summary><p>
 
 - **SAML SSO for a single organization allows for different Identity Providers (IdPs) for each organization, whereas enabling it for all organizations mandates a single IdP for the entire enterprise**
@@ -80,7 +80,7 @@ You're exploring the differences between enabling SAML Single Sign-On (SSO) for 
 </details>
 
 ---
-How can a self-hosted runner be integrated into a specific GitHub repository?
+Q: How can a self-hosted runner be integrated into a specific GitHub repository?
 <details><summary>Show the answer</summary><p>
 
 - **Access the repository settings, navigate to Actions then Runners, and follow the setup instructions to download, configure, and initiate the self-hosted runner software**
@@ -88,7 +88,7 @@ How can a self-hosted runner be integrated into a specific GitHub repository?
 </details>
 
 ---
-What is the purpose of enterprise policies within GitHub Enterprise Cloud?
+Q: What is the purpose of enterprise policies within GitHub Enterprise Cloud?
 <details><summary>Show the answer</summary><p>
 
 - **Enterprise policies establish uniform guidelines across all organizations within an enterprise, ensuring consistent governance and eliminating individual organization policy variations**
@@ -96,7 +96,7 @@ What is the purpose of enterprise policies within GitHub Enterprise Cloud?
 </details>
 
 ---
-Which package managers and formats does GitHub Packages support?
+Q: Which package managers and formats does GitHub Packages support?
 <details><summary>Show the answer</summary><p>
 
 - **NuGet for .NET**
@@ -106,7 +106,7 @@ Which package managers and formats does GitHub Packages support?
 </details>
 
 ---
-As an IT administrator implementing GitHub for your company's development processes, you're integrating GitHub Enterprise Cloud with your identity management. How are user accounts provisioned with Enterprise Managed Users?
+Q: As an IT administrator implementing GitHub for your company's development processes, you're integrating GitHub Enterprise Cloud with your identity management. How are user accounts provisioned with Enterprise Managed Users?
 <details><summary>Show the answer</summary><p>
 
 - **User accounts are provisioned by the enterprise's IdP, with access provided to GitHub Enterprise Cloud**
@@ -114,7 +114,7 @@ As an IT administrator implementing GitHub for your company's development proces
 </details>
 
 ---
-What are the security concerns associated with using self-hosted runners for public repositories?
+Q: What are the security concerns associated with using self-hosted runners for public repositories?
 <details><summary>Show the answer</summary><p>
 
 - **Storing harmful data persistently**
@@ -128,7 +128,7 @@ What are the security concerns associated with using self-hosted runners for pub
 </details>
 
 ---
-As the administrator of a GitHub Organization, you aim to ensure that all users authenticate using the company's identity provider. Which option should you implement to integrate corporate authentication?
+Q: As the administrator of a GitHub Organization, you aim to ensure that all users authenticate using the company's identity provider. Which option should you implement to integrate corporate authentication?
 <details><summary>Show the answer</summary><p>
 
 - **Setup SAML SSO**
@@ -136,7 +136,7 @@ As the administrator of a GitHub Organization, you aim to ensure that all users 
 </details>
 
 ---
-As a DevOps engineer tasked with setting up a collaborative environment for your company's software development projects, you're considering GitHub solutions. What is GitHub Enterprise Server primarily designed for?
+Q: As a DevOps engineer tasked with setting up a collaborative environment for your company's software development projects, you're considering GitHub solutions. What is GitHub Enterprise Server primarily designed for?
 <details><summary>Show the answer</summary><p>
 
 - **A self-hosted platform for software development within your enterprise**
@@ -144,7 +144,7 @@ As a DevOps engineer tasked with setting up a collaborative environment for your
 </details>
 
 ---
-Is it possible to create nested teams within a GitHub organization, and how are they typically used?
+Q: Is it possible to create nested teams within a GitHub organization, and how are they typically used?
 <details><summary>Show the answer</summary><p>
 
 - **Yes, nested teams are supported and commonly used to mirror an organization's internal structure**
@@ -152,7 +152,7 @@ Is it possible to create nested teams within a GitHub organization, and how are 
 </details>
 
 ---
-As an IT manager implementing GitHub Enterprise Cloud with Enterprise Managed Users, you need to understand how usernames and profile information are managed. Which statement accurately reflects this process?
+Q: As an IT manager implementing GitHub Enterprise Cloud with Enterprise Managed Users, you need to understand how usernames and profile information are managed. Which statement accurately reflects this process?
 <details><summary>Show the answer</summary><p>
 
 - **Usernames and profile information are set through the enterprise's IdP and cannot be changed by the users**
@@ -160,14 +160,14 @@ As an IT manager implementing GitHub Enterprise Cloud with Enterprise Managed Us
 </details>
 
 ---
-Who is authorized to manage billing information within a GitHub organization?
+Q: Who is authorized to manage billing information within a GitHub organization?
 <details><summary>Show the answer</summary><p>
 
 - **Owner and Billing Manager**
 </details>
 
 ---
-In your role as an organization owner, you need to promote a team member to a higher role within your GitHub organization. How can you accomplish this task?
+Q: In your role as an organization owner, you need to promote a team member to a higher role within your GitHub organization. How can you accomplish this task?
 <details><summary>Show the answer</summary><p>
 
 - **By navigating to the organization's settings, selecting Members, and then adjusting the member's role from the list**
@@ -175,7 +175,7 @@ In your role as an organization owner, you need to promote a team member to a hi
 </details>
 
 ---
-You're evaluating the scope of GitHub Support to address various issues. Which of the following issues can GitHub Support help resolve?
+Q: You're evaluating the scope of GitHub Support to address various issues. Which of the following issues can GitHub Support help resolve?
 <details><summary>Show the answer</summary><p>
 
 - **Assistance with GitHub account and billing queries**
@@ -185,7 +185,7 @@ You're evaluating the scope of GitHub Support to address various issues. Which o
 </details>
 
 ---
-What are the default permissions of a member in a GitHub organization?
+Q: What are the default permissions of a member in a GitHub organization?
 <details><summary>Show the answer</summary><p>
 
 - **Members can create private repositories (subject to the organization's policy) and participate in projects within the organization to which they are granted access**
@@ -193,7 +193,7 @@ What are the default permissions of a member in a GitHub organization?
 </details>
 
 ---
-Which GitHub plan includes the feature to use secret scanning in private repositories?
+Q: Which GitHub plan includes the feature to use secret scanning in private repositories?
 <details><summary>Show the answer</summary><p>
 
 - **Any GitHub Enterprise plan with a GHAS license**
@@ -201,7 +201,7 @@ Which GitHub plan includes the feature to use secret scanning in private reposit
 </details>
 
 ---
-As a project manager overseeing your development team's use of GitHub Enterprise, you're addressing the needs of managed users who wish to contribute to projects outside of the enterprise. What must these users do to participate in external projects?
+Q: As a project manager overseeing your development team's use of GitHub Enterprise, you're addressing the needs of managed users who wish to contribute to projects outside of the enterprise. What must these users do to participate in external projects?
 <details><summary>Show the answer</summary><p>
 
 - **Managed users are not allowed to contribute to public resources, and they need a separate personal account for this purpose**
@@ -209,7 +209,7 @@ As a project manager overseeing your development team's use of GitHub Enterprise
 </details>
 
 ---
-As an administrator tasked with overseeing your organization's use of GitHub Advanced Security, you're evaluating the different levels of support available to assist with its installation and usage. Which is the minimum level of support that provides help specifically for Advanced Security?
+Q: As an administrator tasked with overseeing your organization's use of GitHub Advanced Security, you're evaluating the different levels of support available to assist with its installation and usage. Which is the minimum level of support that provides help specifically for Advanced Security?
 <details><summary>Show the answer</summary><p>
 
 - **GitHub Enterprise Support**
@@ -217,7 +217,7 @@ As an administrator tasked with overseeing your organization's use of GitHub Adv
 </details>
 
 ---
-As a project manager exploring collaborative platforms for your development team, you're evaluating GitHub for managing your projects. What is the primary purpose of creating a GitHub organization?
+Q: As a project manager exploring collaborative platforms for your development team, you're evaluating GitHub for managing your projects. What is the primary purpose of creating a GitHub organization?
 <details><summary>Show the answer</summary><p>
 
 - **To allow businesses and open-source projects to collaborate across many projects at once with advanced security and administrative features**
@@ -225,7 +225,7 @@ As a project manager exploring collaborative platforms for your development team
 </details>
 
 ---
-How is authentication to GitHub Packages typically performed?
+Q: How is authentication to GitHub Packages typically performed?
 <details><summary>Show the answer</summary><p>
 
 - **By using a Personal Access Token (PAT) with the necessary scope**
@@ -233,7 +233,7 @@ How is authentication to GitHub Packages typically performed?
 </details>
 
 ---
-How can a GitHub organization simplify access management and enhance collaboration among its members?
+Q: How can a GitHub organization simplify access management and enhance collaboration among its members?
 <details><summary>Show the answer</summary><p>
 
 - **By creating nested teams that reflect the organization's structure, with cascading access permissions and mentions**
@@ -241,7 +241,7 @@ How can a GitHub organization simplify access management and enhance collaborati
 </details>
 
 ---
-How can an organization admin set default permissions for new members in a GitHub organization?
+Q: How can an organization admin set default permissions for new members in a GitHub organization?
 <details><summary>Show the answer</summary><p>
 
 - **In the organization's settings, under the Access section, choose Member privileges, then select a permissions level under Base permissions and confirm the change**
@@ -249,7 +249,7 @@ How can an organization admin set default permissions for new members in a GitHu
 </details>
 
 ---
-How can an organization improve the security of their GitHub Actions workflows?
+Q: How can an organization improve the security of their GitHub Actions workflows?
 <details><summary>Show the answer</summary><p>
 
 - **By adopting practices like secure handling of secrets and regularly reviewing audit logs for anomalies**
@@ -257,7 +257,7 @@ How can an organization improve the security of their GitHub Actions workflows?
 </details>
 
 ---
-Is it possible to upload container images to GitHub Packages?
+Q: Is it possible to upload container images to GitHub Packages?
 <details><summary>Show the answer</summary><p>
 
 - **Yes, GitHub Packages supports the hosting of container images**
@@ -265,7 +265,7 @@ Is it possible to upload container images to GitHub Packages?
 </details>
 
 ---
-You decide to utilize a GitHub feature that visualizes a repository's ecosystem of packages. What is this feature called that displays both the dependencies of the project and the projects dependent upon it?
+Q: You decide to utilize a GitHub feature that visualizes a repository's ecosystem of packages. What is this feature called that displays both the dependencies of the project and the projects dependent upon it?
 <details><summary>Show the answer</summary><p>
 
 - **GitHub dependency graph**
@@ -273,7 +273,7 @@ You decide to utilize a GitHub feature that visualizes a repository's ecosystem 
 </details>
 
 ---
-Which type of runners should be utilized for GitHub Actions when an IP allow list is active for your enterprise?
+Q: Which type of runners should be utilized for GitHub Actions when an IP allow list is active for your enterprise?
 <details><summary>Show the answer</summary><p>
 
 - **Self-hosted runners or specific GitHub-hosted runners with defined static IP ranges**
@@ -281,7 +281,7 @@ Which type of runners should be utilized for GitHub Actions when an IP allow lis
 </details>
 
 ---
-How can you ensure communication between your self-hosted or specific GitHub-hosted runners and GitHub when an IP allow list is active?
+Q: How can you ensure communication between your self-hosted or specific GitHub-hosted runners and GitHub when an IP allow list is active?
 <details><summary>Show the answer</summary><p>
 
 - **Include your runners' IP addresses or ranges in the enterprise's IP allow list settings**
@@ -289,14 +289,14 @@ How can you ensure communication between your self-hosted or specific GitHub-hos
 </details>
 
 ---
-Where can GitHub Enterprise Server be deployed?
+Q: Where can GitHub Enterprise Server be deployed?
 <details><summary>Show the answer</summary><p>
 
 - **On-premises data center or to a public cloud service (e.g., AWS, GCP, Azure)**
 </details>
 
 ---
-What is the primary purpose of the audit log for organization admins within a GitHub organization?
+Q: What is the primary purpose of the audit log for organization admins within a GitHub organization?
 <details><summary>Show the answer</summary><p>
 
 - **The audit log enables organization admins to track and review actions performed by members, providing critical insights for security and compliance monitoring**
@@ -304,7 +304,7 @@ What is the primary purpose of the audit log for organization admins within a Gi
 </details>
 
 ---
-As a systems administrator tasked with enhancing your company's development infrastructure, you're considering implementing GitHub Enterprise Server. Which of the following is a key feature of GitHub Enterprise Server?
+Q: As a systems administrator tasked with enhancing your company's development infrastructure, you're considering implementing GitHub Enterprise Server. Which of the following is a key feature of GitHub Enterprise Server?
 <details><summary>Show the answer</summary><p>
 
 - **Runs on your infrastructure and governed by access and security controls you define**
@@ -312,7 +312,7 @@ As a systems administrator tasked with enhancing your company's development infr
 </details>
 
 ---
-Who is authorized to edit a team within a GitHub organization?
+Q: Who is authorized to edit a team within a GitHub organization?
 <details><summary>Show the answer</summary><p>
 
 - **Team maintainers or organization admins**
@@ -320,7 +320,7 @@ Who is authorized to edit a team within a GitHub organization?
 </details>
 
 ---
-Which GitHub Support level provides SLA and written support in English 24/7?
+Q: Which GitHub Support level provides SLA and written support in English 24/7?
 <details><summary>Show the answer</summary><p>
 
 - **GitHub Premium Support**
@@ -328,7 +328,7 @@ Which GitHub Support level provides SLA and written support in English 24/7?
 </details>
 
 ---
-As an administrator setting up a new project in your GitHub organization, you're considering involving external experts as collaborators. How does the role of an outside collaborator differ from that of a member within your organization?
+Q: As an administrator setting up a new project in your GitHub organization, you're considering involving external experts as collaborators. How does the role of an outside collaborator differ from that of a member within your organization?
 <details><summary>Show the answer</summary><p>
 
 - **Outside collaborators are assigned access on a repository-by-repository basis, while members may have broader permissions within the organization depending on their role**
@@ -336,7 +336,7 @@ As an administrator setting up a new project in your GitHub organization, you're
 </details>
 
 ---
-What is the main difference between visible and secret teams in a GitHub organization?
+Q: What is the main difference between visible and secret teams in a GitHub organization?
 <details><summary>Show the answer</summary><p>
 
 - **Visible teams are open to all organization members, while secret teams are private, only seen by team members and owners**
@@ -344,7 +344,7 @@ What is the main difference between visible and secret teams in a GitHub organiz
 </details>
 
 ---
-What are the implications of deploying within a single organization compared to multiple organizations on platforms like GitHub?
+Q: What are the implications of deploying within a single organization compared to multiple organizations on platforms like GitHub?
 <details><summary>Show the answer</summary><p>
 
 - **Multiple organizations increase operational flexibility but come with higher complexity and potential cost**
@@ -354,7 +354,7 @@ What are the implications of deploying within a single organization compared to 
 </details>
 
 ---
-What is the primary purpose of enterprise accounts in GitHub Enterprise Cloud?
+Q: What is the primary purpose of enterprise accounts in GitHub Enterprise Cloud?
 <details><summary>Show the answer</summary><p>
 
 - **To provide administrators with a single point of visibility and management across multiple organizations**
@@ -362,7 +362,7 @@ What is the primary purpose of enterprise accounts in GitHub Enterprise Cloud?
 </details>
 
 ---
-What is the default spending limit for GitHub Actions on monthly-billed accounts?
+Q: What is the default spending limit for GitHub Actions on monthly-billed accounts?
 <details><summary>Show the answer</summary><p>
 
 - **The default spending limit is $0, preventing additional usage beyond the included amounts**
@@ -370,7 +370,7 @@ What is the default spending limit for GitHub Actions on monthly-billed accounts
 </details>
 
 ---
-As an administrator, how do you ensure a user has the least privilege necessary for accessing a particular repository in your GitHub organization?
+Q: As an administrator, how do you ensure a user has the least privilege necessary for accessing a particular repository in your GitHub organization?
 <details><summary>Show the answer</summary><p>
 
 - **Grant the user 'Read' access as an outside collaborator to the specific repository, allowing them to clone the repository without the capability to push changes**
@@ -378,7 +378,7 @@ As an administrator, how do you ensure a user has the least privilege necessary 
 </details>
 
 ---
-You're interested in enhancing your GitHub repositories with additional functionalities by installing a new GitHub App from the GitHub Marketplace. What are the correct steps to follow for installing a GitHub App for your organization?
+Q: You're interested in enhancing your GitHub repositories with additional functionalities by installing a new GitHub App from the GitHub Marketplace. What are the correct steps to follow for installing a GitHub App for your organization?
 <details><summary>Show the answer</summary><p>
 
 - **Browse GitHub Marketplace, select the app, choose a plan, select the organization, and then review and install the app**
@@ -386,7 +386,7 @@ You're interested in enhancing your GitHub repositories with additional function
 </details>
 
 ---
-As a network engineer tasked with managing the GitHub Enterprise Server for your organization, you're exploring various administration options. How can GitHub Enterprise Server's administration be handled?
+Q: As a network engineer tasked with managing the GitHub Enterprise Server for your organization, you're exploring various administration options. How can GitHub Enterprise Server's administration be handled?
 <details><summary>Show the answer</summary><p>
 
 - **Via browser, administrative SSH access, and REST or GraphQL APIs**
@@ -394,7 +394,7 @@ As a network engineer tasked with managing the GitHub Enterprise Server for your
 </details>
 
 ---
-As a GitHub Enterprise Server administrator, you are required to generate a support bundle for troubleshooting purposes. Which of the following steps correctly outline the procedure for doing so?
+Q: As a GitHub Enterprise Server administrator, you are required to generate a support bundle for troubleshooting purposes. Which of the following steps correctly outline the procedure for doing so?
 <details><summary>Show the answer</summary><p>
 
 - **Generate and download a support bundle directly to your local machine via SSH using the ghe-support-bundle -o > support-bundle.tgz CLI command**
@@ -404,7 +404,7 @@ As a GitHub Enterprise Server administrator, you are required to generate a supp
 </details>
 
 ---
-In a GitHub organization, which role possesses the highest level of access?
+Q: In a GitHub organization, which role possesses the highest level of access?
 <details><summary>Show the answer</summary><p>
 
 - **Owner**
@@ -412,7 +412,7 @@ In a GitHub organization, which role possesses the highest level of access?
 </details>
 
 ---
-Which features are exclusively provided by GitHub Enterprise Cloud compared to the GitHub Free plan?
+Q: Which features are exclusively provided by GitHub Enterprise Cloud compared to the GitHub Free plan?
 <details><summary>Show the answer</summary><p>
 
 - **Ability to restrict email notifications to verified domains**
@@ -426,7 +426,7 @@ Which features are exclusively provided by GitHub Enterprise Cloud compared to t
 </details>
 
 ---
-How can an enterprise monitor its GitHub Actions usage?
+Q: How can an enterprise monitor its GitHub Actions usage?
 <details><summary>Show the answer</summary><p>
 
 - **By utilizing webhooks for workflow jobs and runs, and incorporating a data archiving strategy**
@@ -434,7 +434,7 @@ How can an enterprise monitor its GitHub Actions usage?
 </details>
 
 ---
-What is a key advantage of having an enterprise account on GitHub Enterprise Cloud for an organization?
+Q: What is a key advantage of having an enterprise account on GitHub Enterprise Cloud for an organization?
 <details><summary>Show the answer</summary><p>
 
 - **It allows owners to centrally manage policy and billing for multiple organizations**
@@ -442,7 +442,7 @@ What is a key advantage of having an enterprise account on GitHub Enterprise Clo
 </details>
 
 ---
-In your role as a GitHub organization administrator, you're outlining responsibilities for new team roles. What is the primary responsibility of a billing manager in a GitHub organization?
+Q: In your role as a GitHub organization administrator, you're outlining responsibilities for new team roles. What is the primary responsibility of a billing manager in a GitHub organization?
 <details><summary>Show the answer</summary><p>
 
 - **Managing billing settings for the organization, including updating payment methods and reviewing invoices**
@@ -450,14 +450,14 @@ In your role as a GitHub organization administrator, you're outlining responsibi
 </details>
 
 ---
-In which formats can GitHub audit logs be exported?
+Q: In which formats can GitHub audit logs be exported?
 <details><summary>Show the answer</summary><p>
 
 - **JSON and CSV**
 </details>
 
 ---
-In a software development company's GitHub organization, what is the primary responsibility of a Security Manager?
+Q: In a software development company's GitHub organization, what is the primary responsibility of a Security Manager?
 <details><summary>Show the answer</summary><p>
 
 - **They oversee security alerts and configure code security settings across the organization, with read access to all repositories**
@@ -465,7 +465,7 @@ In a software development company's GitHub organization, what is the primary res
 </details>
 
 ---
-As a GitHub Enterprise administrator tasked with enhancing the security of your organization's GitHub account, you're planning to enable and enforce SAML Single Sign-On (SSO). What are the correct steps to accomplish this for a single organization?
+Q: As a GitHub Enterprise administrator tasked with enhancing the security of your organization's GitHub account, you're planning to enable and enforce SAML Single Sign-On (SSO). What are the correct steps to accomplish this for a single organization?
 <details><summary>Show the answer</summary><p>
 
 - **Access Organization Settings, click Security, enable SAML SSO, add IdP URL, test the configuration, and opt to enforce SAML SSO upon successful testing**
@@ -473,7 +473,7 @@ As a GitHub Enterprise administrator tasked with enhancing the security of your 
 </details>
 
 ---
-As a system administrator responsible for your organization's GitHub Enterprise Server, you're tasked with implementing best practices to prevent data loss. What does GitHub recommend for this purpose?
+Q: As a system administrator responsible for your organization's GitHub Enterprise Server, you're tasked with implementing best practices to prevent data loss. What does GitHub recommend for this purpose?
 <details><summary>Show the answer</summary><p>
 
 - **Establishing a plan for disaster recovery and configuring backups**
@@ -481,7 +481,7 @@ As a system administrator responsible for your organization's GitHub Enterprise 
 </details>
 
 ---
-Which is the main restriction of Enterprise Managed User accounts in GitHub Enterprise Cloud?
+Q: Which is the main restriction of Enterprise Managed User accounts in GitHub Enterprise Cloud?
 <details><summary>Show the answer</summary><p>
 
 - **They cannot interact with public repositories outside their enterprise**
@@ -489,7 +489,7 @@ Which is the main restriction of Enterprise Managed User accounts in GitHub Ente
 </details>
 
 ---
-What is the main difference between GitHub Enterprise Cloud and GitHub Enterprise Server in terms of hosting?
+Q: What is the main difference between GitHub Enterprise Cloud and GitHub Enterprise Server in terms of hosting?
 <details><summary>Show the answer</summary><p>
 
 - **GitHub Enterprise Cloud is hosted by GitHub, while GitHub Enterprise Server is hosted on your own servers**
@@ -497,7 +497,7 @@ What is the main difference between GitHub Enterprise Cloud and GitHub Enterpris
 </details>
 
 ---
-How should workflows be configured with runners to meet specific workload requirements efficiently?
+Q: How should workflows be configured with runners to meet specific workload requirements efficiently?
 <details><summary>Show the answer</summary><p>
 
 - **Opt for self-hosted runners for tailored environments or GitHub-hosted runners for automated updates and isolated environments**
@@ -505,7 +505,7 @@ How should workflows be configured with runners to meet specific workload requir
 </details>
 
 ---
-You are tasked with generating and sharing diagnostic files to support troubleshooting efforts. Which of the following methods are correct for accomplishing this?
+Q: You are tasked with generating and sharing diagnostic files to support troubleshooting efforts. Which of the following methods are correct for accomplishing this?
 <details><summary>Show the answer</summary><p>
 
 - **Create a diagnostic file from the Management Console by navigating to the Support tab and clicking "Download diagnostics info."**
@@ -515,7 +515,7 @@ You are tasked with generating and sharing diagnostic files to support troublesh
 </details>
 
 ---
-As a security administrator setting up GitHub Enterprise Cloud for your organization, you're configuring user access through managed user accounts. What is required for a user to authenticate with these accounts?
+Q: As a security administrator setting up GitHub Enterprise Cloud for your organization, you're configuring user access through managed user accounts. What is required for a user to authenticate with these accounts?
 <details><summary>Show the answer</summary><p>
 
 - **Users must authenticate on the enterprise's IdP to access resources on GitHub.com**
@@ -523,7 +523,7 @@ As a security administrator setting up GitHub Enterprise Cloud for your organiza
 </details>
 
 ---
-What authentication method is necessary for downloading or publishing to GitHub Packages within GitHub Actions workflows or other CI/CD platforms?
+Q: What authentication method is necessary for downloading or publishing to GitHub Packages within GitHub Actions workflows or other CI/CD platforms?
 <details><summary>Show the answer</summary><p>
 
 - **Utilize the GITHUB_TOKEN for publishing packages linked to the workflow's repository and a Personal Access Token (PAT) for installing packages from private repositories**
@@ -531,7 +531,7 @@ What authentication method is necessary for downloading or publishing to GitHub 
 </details>
 
 ---
-What role do teams play within a GitHub organization?
+Q: What role do teams play within a GitHub organization?
 <details><summary>Show the answer</summary><p>
 
 - **Teams manage repository access, handle notifications, and allow hierarchical organization with nested teams**
@@ -539,7 +539,7 @@ What role do teams play within a GitHub organization?
 </details>
 
 ---
-In a GitHub organization, which role is responsible for managing access to the organization's resources?
+Q: In a GitHub organization, which role is responsible for managing access to the organization's resources?
 <details><summary>Show the answer</summary><p>
 
 - **Organization owner**
@@ -547,7 +547,7 @@ In a GitHub organization, which role is responsible for managing access to the o
 </details>
 
 ---
-You are a software developer looking to optimize CI/CD workflows for your open-source project hosted on GitHub. You're considering the cost implications of using GitHub Actions. How does GitHub bill for GitHub Actions usage in public repositories?
+Q: You are a software developer looking to optimize CI/CD workflows for your open-source project hosted on GitHub. You're considering the cost implications of using GitHub Actions. How does GitHub bill for GitHub Actions usage in public repositories?
 <details><summary>Show the answer</summary><p>
 
 - **GitHub Actions usage is free for public repositories**
@@ -555,7 +555,7 @@ You are a software developer looking to optimize CI/CD workflows for your open-s
 </details>
 
 ---
-How can an organization admin effectively search for webhook modification events in the audit log?
+Q: How can an organization admin effectively search for webhook modification events in the audit log?
 <details><summary>Show the answer</summary><p>
 
 - **By using the operation qualifier, such as operation:modify, to locate events where a resource like a webhook was altered**
@@ -563,7 +563,7 @@ How can an organization admin effectively search for webhook modification events
 </details>
 
 ---
-What information is accessible on a GitHub organization's team page?
+Q: What information is accessible on a GitHub organization's team page?
 <details><summary>Show the answer</summary><p>
 
 - **Team members, child teams, the team's repositories, and settings for updating the team's description and profile picture**
@@ -571,7 +571,7 @@ What information is accessible on a GitHub organization's team page?
 </details>
 
 ---
-Which of the following are true about the benefits and drawbacks of creating a new organization on GitHub?
+Q: Which of the following are true about the benefits and drawbacks of creating a new organization on GitHub?
 <details><summary>Show the answer</summary><p>
 
 - **Benefit: Enables structured permission management across multiple projects**
@@ -583,7 +583,7 @@ Which of the following are true about the benefits and drawbacks of creating a n
 </details>
 
 ---
-How can an organization create and configure a self-hosted runner group on GitHub?
+Q: How can an organization create and configure a self-hosted runner group on GitHub?
 <details><summary>Show the answer</summary><p>
 
 - **Access the organization's settings, choose Actions, select Runner groups, then create a new group and define the repository access policy**
@@ -591,7 +591,7 @@ How can an organization create and configure a self-hosted runner group on GitHu
 </details>
 
 ---
-What are the effects and potential abuse vectors of enabling self-hosted runners on public repositories?
+Q: What are the effects and potential abuse vectors of enabling self-hosted runners on public repositories?
 <details><summary>Show the answer</summary><p>
 
 - **Unauthorized access to the runner if not securely configured**
@@ -603,7 +603,7 @@ What are the effects and potential abuse vectors of enabling self-hosted runners
 </details>
 
 ---
-Within a GitHub organization's team, what positions can a team member occupy?
+Q: Within a GitHub organization's team, what positions can a team member occupy?
 <details><summary>Show the answer</summary><p>
 
 - **Team maintainer, Team member**
@@ -611,7 +611,7 @@ Within a GitHub organization's team, what positions can a team member occupy?
 </details>
 
 ---
-What factors should be considered when analyzing the consumption of metered products like GitHub Actions minutes or storage for GitHub Packages?
+Q: What factors should be considered when analyzing the consumption of metered products like GitHub Actions minutes or storage for GitHub Packages?
 <details><summary>Show the answer</summary><p>
 
 - **The type of workflows triggering GitHub Actions and their frequency**
@@ -623,7 +623,7 @@ What factors should be considered when analyzing the consumption of metered prod
 </details>
 
 ---
-How does the SCIM protocol facilitate identity management in GitHub?
+Q: How does the SCIM protocol facilitate identity management in GitHub?
 <details><summary>Show the answer</summary><p>
 
 - **By automating user and team synchronization between GitHub and identity providers**
@@ -631,7 +631,7 @@ How does the SCIM protocol facilitate identity management in GitHub?
 </details>
 
 ---
-What is the purpose of Teams within a GitHub organization?
+Q: What is the purpose of Teams within a GitHub organization?
 <details><summary>Show the answer</summary><p>
 
 - **To group organization members who share common responsibilities, enabling simplified repository access management and collaboration**
@@ -639,7 +639,7 @@ What is the purpose of Teams within a GitHub organization?
 </details>
 
 ---
-What makes webhooks a preferable choice over audit logs or API polling for tracking events in GitHub organizations?
+Q: What makes webhooks a preferable choice over audit logs or API polling for tracking events in GitHub organizations?
 <details><summary>Show the answer</summary><p>
 
 - **Webhooks deliver instant notifications for specific events, reducing the need for frequent audit log checks or API polling**
@@ -647,7 +647,7 @@ What makes webhooks a preferable choice over audit logs or API polling for track
 </details>
 
 ---
-How is pricing for GitHub Actions determined for public repositories?
+Q: How is pricing for GitHub Actions determined for public repositories?
 <details><summary>Show the answer</summary><p>
 
 - **GitHub Actions usage is free for public repositories**
@@ -655,7 +655,7 @@ How is pricing for GitHub Actions determined for public repositories?
 </details>
 
 ---
-As an IT administrator configuring user access for your organization's GitHub Enterprise Cloud, you're exploring how to automate user account management. What does SCIM stand for and how is it utilized in the context of GitHub?
+Q: As an IT administrator configuring user access for your organization's GitHub Enterprise Cloud, you're exploring how to automate user account management. What does SCIM stand for and how is it utilized in the context of GitHub?
 <details><summary>Show the answer</summary><p>
 
 - **SCIM is a protocol for automating identity provisioning and management, integrating with Identity Providers to manage memberships in GitHub Enterprise Cloud**
@@ -663,7 +663,7 @@ As an IT administrator configuring user access for your organization's GitHub En
 </details>
 
 ---
-What is the primary rate limit for authenticated personal users making REST API requests to GitHub API?
+Q: What is the primary rate limit for authenticated personal users making REST API requests to GitHub API?
 <details><summary>Show the answer</summary><p>
 
 - **5,000 requests per hour**
@@ -671,7 +671,7 @@ What is the primary rate limit for authenticated personal users making REST API 
 </details>
 
 ---
-What strategy should be employed for managing and leveraging reusable components in GitHub Actions?
+Q: What strategy should be employed for managing and leveraging reusable components in GitHub Actions?
 <details><summary>Show the answer</summary><p>
 
 - **Utilize a central repository for shared actions and workflows, adopt consistent naming conventions, and plan for regular updates and maintenance**
@@ -679,7 +679,7 @@ What strategy should be employed for managing and leveraging reusable components
 </details>
 
 ---
-Before employing git filter-repo or BFG Repo-Cleaner to remove sensitive data from your repository, which preliminary action is recommended?
+Q: Before employing git filter-repo or BFG Repo-Cleaner to remove sensitive data from your repository, which preliminary action is recommended?
 <details><summary>Show the answer</summary><p>
 
 - **Merge or close all open pull requests**
@@ -687,7 +687,7 @@ Before employing git filter-repo or BFG Repo-Cleaner to remove sensitive data fr
 </details>
 
 ---
-What is a primary effect of configuring IP allow lists for GitHub-hosted runners?
+Q: What is a primary effect of configuring IP allow lists for GitHub-hosted runners?
 <details><summary>Show the answer</summary><p>
 
 - **It restricts which IP addresses can interact with GitHub-hosted runners, enhancing security**
@@ -695,7 +695,7 @@ What is a primary effect of configuring IP allow lists for GitHub-hosted runners
 </details>
 
 ---
-How can GitHub APIs extend the capabilities of administrators beyond the user interface?
+Q: How can GitHub APIs extend the capabilities of administrators beyond the user interface?
 <details><summary>Show the answer</summary><p>
 
 - **By allowing the automation of tasks such as querying the audit log and integrating with external tools**
@@ -703,7 +703,7 @@ How can GitHub APIs extend the capabilities of administrators beyond the user in
 </details>
 
 ---
-What management option is exclusive to GitHub Enterprise Cloud for handling user accounts?
+Q: What management option is exclusive to GitHub Enterprise Cloud for handling user accounts?
 <details><summary>Show the answer</summary><p>
 
 - **Using Enterprise Managed Users to create and manage user accounts through your Identity Provider (IdP)**
@@ -711,7 +711,7 @@ What management option is exclusive to GitHub Enterprise Cloud for handling user
 </details>
 
 ---
-What is recommended for enhancing code collaboration within developer workflows?
+Q: What is recommended for enhancing code collaboration within developer workflows?
 <details><summary>Show the answer</summary><p>
 
 - **Implementing a fork-and-pull model for external contributors and a branching model for internal collaboration**
@@ -719,7 +719,7 @@ What is recommended for enhancing code collaboration within developer workflows?
 </details>
 
 ---
-How can you authenticate to GitHub Packages to publish a package?
+Q: How can you authenticate to GitHub Packages to publish a package?
 <details><summary>Show the answer</summary><p>
 
 - **By embedding a Personal Access Token (PAT) with the appropriate permissions in your configuration**
@@ -727,7 +727,7 @@ How can you authenticate to GitHub Packages to publish a package?
 </details>
 
 ---
-After the removal of sensitive data from a repository's history and its subsequent push to GitHub, which action is essential to completely remove the data from GitHub?
+Q: After the removal of sensitive data from a repository's history and its subsequent push to GitHub, which action is essential to completely remove the data from GitHub?
 <details><summary>Show the answer</summary><p>
 
 - **Contact GitHub Support to remove cached views and references**
@@ -735,7 +735,7 @@ After the removal of sensitive data from a repository's history and its subseque
 </details>
 
 ---
-Which of the following are valid authentication methods available in GitHub?
+Q: Which of the following are valid authentication methods available in GitHub?
 <details><summary>Show the answer</summary><p>
 
 - **Personal access token (PAT)**
@@ -744,7 +744,7 @@ Which of the following are valid authentication methods available in GitHub?
 </details>
 
 ---
-Under which circumstance is GitHub Packages NOT the appropriate tool to use?
+Q: Under which circumstance is GitHub Packages NOT the appropriate tool to use?
 <details><summary>Show the answer</summary><p>
 
 - **When desiring to share code between methods within your application**
@@ -752,7 +752,7 @@ Under which circumstance is GitHub Packages NOT the appropriate tool to use?
 </details>
 
 ---
-Which role within a team allows a member to manage team settings and repository access?
+Q: Which role within a team allows a member to manage team settings and repository access?
 <details><summary>Show the answer</summary><p>
 
 - **Maintainer**
@@ -760,7 +760,7 @@ Which role within a team allows a member to manage team settings and repository 
 </details>
 
 ---
-How can GitHub Actions workflows utilize GitHub Packages for CI/CD processes?
+Q: How can GitHub Actions workflows utilize GitHub Packages for CI/CD processes?
 <details><summary>Show the answer</summary><p>
 
 - **By using the GITHUB_TOKEN for authentication to publish or install packages**
@@ -768,7 +768,7 @@ How can GitHub Actions workflows utilize GitHub Packages for CI/CD processes?
 </details>
 
 ---
-In a software development organization on GitHub, what are the specific responsibilities of a GitHub App manager?
+Q: In a software development organization on GitHub, what are the specific responsibilities of a GitHub App manager?
 <details><summary>Show the answer</summary><p>
 
 - **GitHub App managers can adjust the settings for GitHub App registrations owned by the organization but cannot install or uninstall GitHub Apps**
@@ -776,7 +776,7 @@ In a software development organization on GitHub, what are the specific responsi
 </details>
 
 ---
-What are the key differences between GitHub Packages and releases?
+Q: What are the key differences between GitHub Packages and releases?
 <details><summary>Show the answer</summary><p>
 
 - **Releases are used for distributing final versions of software, often with binary files and executables**
@@ -788,7 +788,7 @@ What are the key differences between GitHub Packages and releases?
 </details>
 
 ---
-What action is required from GitHub Support rather than being solvable by an administrator?
+Q: What action is required from GitHub Support rather than being solvable by an administrator?
 <details><summary>Show the answer</summary><p>
 
 - **Restoring a deleted repository**
@@ -796,7 +796,7 @@ What action is required from GitHub Support rather than being solvable by an adm
 </details>
 
 ---
-When writing scripts to manage multiple GitHub organizations and handle different access rights, what is a key consideration to ensure maintainability?
+Q: When writing scripts to manage multiple GitHub organizations and handle different access rights, what is a key consideration to ensure maintainability?
 <details><summary>Show the answer</summary><p>
 
 - **Utilizing the GitHub API with a Personal Access Token (PAT) that has the appropriate scopes across all organizations**
@@ -804,7 +804,7 @@ When writing scripts to manage multiple GitHub organizations and handle differen
 </details>
 
 ---
-What is the primary purpose of SCIM and team synchronization in GitHub?
+Q: What is the primary purpose of SCIM and team synchronization in GitHub?
 <details><summary>Show the answer</summary><p>
 
 - **To automate identity provisioning and connect GitHub teams with IdP groups for efficient membership management**
@@ -812,7 +812,7 @@ What is the primary purpose of SCIM and team synchronization in GitHub?
 </details>
 
 ---
-Which GitHub solution is hosted by GitHub and offers a cloud-based enterprise environment?
+Q: Which GitHub solution is hosted by GitHub and offers a cloud-based enterprise environment?
 <details><summary>Show the answer</summary><p>
 
 - **GitHub Enterprise Cloud (GHEC)**
@@ -820,7 +820,7 @@ Which GitHub solution is hosted by GitHub and offers a cloud-based enterprise en
 </details>
 
 ---
-What distinguishes GitHub AE from other GitHub enterprise offerings?
+Q: What distinguishes GitHub AE from other GitHub enterprise offerings?
 <details><summary>Show the answer</summary><p>
 
 - **GitHub AE is specifically designed for the highest levels of security and compliance, catering to government and highly regulated industries**
@@ -828,7 +828,7 @@ What distinguishes GitHub AE from other GitHub enterprise offerings?
 </details>
 
 ---
-What's the difference between GitHub Apps and OAuth apps?
+Q: What's the difference between GitHub Apps and OAuth apps?
 <details><summary>Show the answer</summary><p>
 
 - **GitHub Apps offer granular permissions to specific repositories, while OAuth Apps request access to user data across all repositories**
@@ -836,7 +836,7 @@ What's the difference between GitHub Apps and OAuth apps?
 </details>
 
 ---
-Who is authorized to set up IP allow lists for a company on GitHub?
+Q: Who is authorized to set up IP allow lists for a company on GitHub?
 <details><summary>Show the answer</summary><p>
 
 - **Enterprise owners**
@@ -844,7 +844,7 @@ Who is authorized to set up IP allow lists for a company on GitHub?
 </details>
 
 ---
-How can GitHub Actions be effectively reused across multiple workflows within an enterprise?
+Q: How can GitHub Actions be effectively reused across multiple workflows within an enterprise?
 <details><summary>Show the answer</summary><p>
 
 - **By creating reusable workflows and actions stored in a dedicated repository and referencing them in other workflows**
@@ -852,7 +852,7 @@ How can GitHub Actions be effectively reused across multiple workflows within an
 </details>
 
 ---
-In your organization on GitHub, you need a role for new contributors who should help manage project issues and pull requests without the ability to modify code directly. Which repository role should you assign to these contributors?
+Q: In your organization on GitHub, you need a role for new contributors who should help manage project issues and pull requests without the ability to modify code directly. Which repository role should you assign to these contributors?
 <details><summary>Show the answer</summary><p>
 
 - **Triage**
@@ -860,7 +860,7 @@ In your organization on GitHub, you need a role for new contributors who should 
 </details>
 
 ---
-What is a critical first step in developing an enterprise's CI/CD strategy?
+Q: What is a critical first step in developing an enterprise's CI/CD strategy?
 <details><summary>Show the answer</summary><p>
 
 - **Identifying the software development lifecycle and integration points for automation**
@@ -868,7 +868,7 @@ What is a critical first step in developing an enterprise's CI/CD strategy?
 </details>
 
 ---
-How are GitHub Actions typically consumed compared to GitHub Apps?
+Q: How are GitHub Actions typically consumed compared to GitHub Apps?
 <details><summary>Show the answer</summary><p>
 
 - **GitHub Actions are used within workflows in repositories, while GitHub Apps are installed at the organization or repository level**
@@ -876,7 +876,7 @@ How are GitHub Actions typically consumed compared to GitHub Apps?
 </details>
 
 ---
-What is a key difference between GitHub-hosted and self-hosted runners?
+Q: What is a key difference between GitHub-hosted and self-hosted runners?
 <details><summary>Show the answer</summary><p>
 
 - **GitHub-hosted runners are automatically scaled and maintained by GitHub, while self-hosted runners are managed and hosted by the user**
@@ -884,7 +884,7 @@ What is a key difference between GitHub-hosted and self-hosted runners?
 </details>
 
 ---
-How can organization admins access the audit log for actions performed within their GitHub organization?
+Q: How can organization admins access the audit log for actions performed within their GitHub organization?
 <details><summary>Show the answer</summary><p>
 
 - **Navigate to the organization's settings by selecting the profile photo, choosing "Your organizations," selecting the desired organization, going to "Settings," finding "Audit log," and using the "Export" dropdown to export the log in either JSON or CSV format**
@@ -892,7 +892,7 @@ How can organization admins access the audit log for actions performed within th
 </details>
 
 ---
-How do you change which repositories can access a specific runner group in an organization?
+Q: How do you change which repositories can access a specific runner group in an organization?
 <details><summary>Show the answer</summary><p>
 
 - **In the organization's settings, go to Actions, click on Runner groups, select a group, and then adjust the repository access settings**
@@ -900,7 +900,7 @@ How do you change which repositories can access a specific runner group in an or
 </details>
 
 ---
-When recommending tooling and workflows to teams within an enterprise, what considerations should be taken into account?
+Q: When recommending tooling and workflows to teams within an enterprise, what considerations should be taken into account?
 <details><summary>Show the answer</summary><p>
 
 - **The current technology stack and development practices of the team**
@@ -912,7 +912,7 @@ When recommending tooling and workflows to teams within an enterprise, what cons
 </details>
 
 ---
-What are the advantages of using nested teams within a GitHub organization's structure?
+Q: What are the advantages of using nested teams within a GitHub organization's structure?
 <details><summary>Show the answer</summary><p>
 
 - **Nested teams allow for hierarchical organization, inheriting permissions from parent teams, easing permission management, and facilitating communication**
@@ -920,7 +920,7 @@ What are the advantages of using nested teams within a GitHub organization's str
 </details>
 
 ---
-Can organization administrators adjust IP allow list settings that are inherited from their enterprise's master allow list?
+Q: Can organization administrators adjust IP allow list settings that are inherited from their enterprise's master allow list?
 <details><summary>Show the answer</summary><p>
 
 - **No, they cannot alter settings inherited from the enterprise's allow list**
@@ -928,7 +928,7 @@ Can organization administrators adjust IP allow list settings that are inherited
 </details>
 
 ---
-How does integrating team synchronization with Microsoft Entra ID benefit GitHub Enterprise Cloud organizations?
+Q: How does integrating team synchronization with Microsoft Entra ID benefit GitHub Enterprise Cloud organizations?
 <details><summary>Show the answer</summary><p>
 
 - **By automatically updating GitHub team memberships to reflect changes in the IdP group, eliminating the need for manual management**
@@ -936,7 +936,7 @@ How does integrating team synchronization with Microsoft Entra ID benefit GitHub
 </details>
 
 ---
-How can administrators generate support bundles and diagnostics in GitHub Enterprise Server?
+Q: How can administrators generate support bundles and diagnostics in GitHub Enterprise Server?
 <details><summary>Show the answer</summary><p>
 
 - **Through the site admin dashboard, by navigating to the 'Support' section and selecting 'Generate support bundle'**
@@ -944,7 +944,7 @@ How can administrators generate support bundles and diagnostics in GitHub Enterp
 </details>
 
 ---
-What best describes GitHub Enterprise Policies?
+Q: What best describes GitHub Enterprise Policies?
 <details><summary>Show the answer</summary><p>
 
 - **Settings managed by organization owners to control aspects like repository management, team access, and security features within their GitHub organization**
@@ -952,7 +952,7 @@ What best describes GitHub Enterprise Policies?
 </details>
 
 ---
-What functionality does team synchronization via SCIM provide?
+Q: What functionality does team synchronization via SCIM provide?
 <details><summary>Show the answer</summary><p>
 
 - **It automatically updates GitHub team memberships based on changes in the identity provider**
@@ -960,7 +960,7 @@ What functionality does team synchronization via SCIM provide?
 </details>
 
 ---
-Which methods can be used to authenticate against GitHub?
+Q: Which methods can be used to authenticate against GitHub?
 <details><summary>Show the answer</summary><p>
 
 - **Using a username and password**
@@ -971,7 +971,7 @@ Which methods can be used to authenticate against GitHub?
 </details>
 
 ---
-Which standards are recommended for developer workflows?
+Q: Which standards are recommended for developer workflows?
 <details><summary>Show the answer</summary><p>
 
 - **Implementing branch protection rules**
@@ -981,7 +981,7 @@ Which standards are recommended for developer workflows?
 </details>
 
 ---
-How can access to reusable GitHub Actions be controlled within an enterprise?
+Q: How can access to reusable GitHub Actions be controlled within an enterprise?
 <details><summary>Show the answer</summary><p>
 
 - **By configuring repository visibility and access permissions, and using GitHub's built-in features to restrict the use of actions to authorized personnel**
@@ -989,7 +989,7 @@ How can access to reusable GitHub Actions be controlled within an enterprise?
 </details>
 
 ---
-What are the benefits and risks of using apps and actions from the GitHub Marketplace?
+Q: What are the benefits and risks of using apps and actions from the GitHub Marketplace?
 <details><summary>Show the answer</summary><p>
 
 - **Benefits include automation of workflows, enhanced security scanning, and integration with external tools**
@@ -1001,7 +1001,7 @@ What are the benefits and risks of using apps and actions from the GitHub Market
 </details>
 
 ---
-Within a GitHub organization, various roles can be assigned to members to control their access to repositories. Which are valid repository roles?
+Q: Within a GitHub organization, various roles can be assigned to members to control their access to repositories. Which are valid repository roles?
 <details><summary>Show the answer</summary><p>
 
 - **Read**
@@ -1012,7 +1012,7 @@ Within a GitHub organization, various roles can be assigned to members to contro
 </details>
 
 ---
-As an organization on GitHub plans to utilize self-hosted runners for its Actions workflows, what steps must be taken to integrate these runners?
+Q: As an organization on GitHub plans to utilize self-hosted runners for its Actions workflows, what steps must be taken to integrate these runners?
 <details><summary>Show the answer</summary><p>
 
 - **Obtain organization owner permissions, go to the organization's settings, choose Actions, then Runners, and adhere to the provided instructions to set up the self-hosted runner**
@@ -1020,7 +1020,7 @@ As an organization on GitHub plans to utilize self-hosted runners for its Action
 </details>
 
 ---
-Which of the following types of access tokens are supported by GitHub?
+Q: Which of the following types of access tokens are supported by GitHub?
 <details><summary>Show the answer</summary><p>
 
 - **Personal Access Token (PAT)**
@@ -1032,7 +1032,7 @@ Which of the following types of access tokens are supported by GitHub?
 </details>
 
 ---
-What practice is effective in preventing the accidental commit of sensitive data or files to a git repository?
+Q: What practice is effective in preventing the accidental commit of sensitive data or files to a git repository?
 <details><summary>Show the answer</summary><p>
 
 - **Using a visual program like GitHub Desktop to review commits before finalizing them**
@@ -1040,7 +1040,7 @@ What practice is effective in preventing the accidental commit of sensitive data
 </details>
 
 ---
-Where can administrators find statistics on license usage for their organization on GitHub?
+Q: Where can administrators find statistics on license usage for their organization on GitHub?
 <details><summary>Show the answer</summary><p>
 
 - **In the organization's settings under the "Billing" section**
@@ -1048,7 +1048,7 @@ Where can administrators find statistics on license usage for their organization
 </details>
 
 ---
-How can an organization owner view license usage statistics for their GitHub Enterprise Server?
+Q: How can an organization owner view license usage statistics for their GitHub Enterprise Server?
 <details><summary>Show the answer</summary><p>
 
 - **By navigating to the Site admin dashboard to view the license usage under Enterprise account settings**
@@ -1056,7 +1056,7 @@ How can an organization owner view license usage statistics for their GitHub Ent
 </details>
 
 ---
-When needing to purge sensitive data from a project's history in Git, which tools are recommended for the task?
+Q: When needing to purge sensitive data from a project's history in Git, which tools are recommended for the task?
 <details><summary>Show the answer</summary><p>
 
 - **git filter-repo and BFG Repo-Cleaner**
@@ -1064,7 +1064,7 @@ When needing to purge sensitive data from a project's history in Git, which tool
 </details>
 
 ---
-How can an administrator give a user the minimum required permissions for accessing a specific repository within an organization?
+Q: How can an administrator give a user the minimum required permissions for accessing a specific repository within an organization?
 <details><summary>Show the answer</summary><p>
 
 - **By adding the user as an outside collaborator to the repository with the appropriate role**
@@ -1072,7 +1072,7 @@ How can an administrator give a user the minimum required permissions for access
 </details>
 
 ---
-What is the primary distinction between a GitHub App and a GitHub Action in terms of permissions?
+Q: What is the primary distinction between a GitHub App and a GitHub Action in terms of permissions?
 <details><summary>Show the answer</summary><p>
 
 - **GitHub Apps have more granular permission settings, whereas Actions run with permissions tied to the GITHUB_TOKEN**
@@ -1080,7 +1080,7 @@ What is the primary distinction between a GitHub App and a GitHub Action in term
 </details>
 
 ---
-How is access to self-hosted runners organized within an organization on GitHub through the use of runner groups?
+Q: How is access to self-hosted runners organized within an organization on GitHub through the use of runner groups?
 <details><summary>Show the answer</summary><p>
 
 - **By establishing runner groups to organize runners and setting access rules for organization repositories**
@@ -1088,7 +1088,7 @@ How is access to self-hosted runners organized within an organization on GitHub 
 </details>
 
 ---
-What is a primary goal of the tooling ecosystem in an enterprise setting?
+Q: What is a primary goal of the tooling ecosystem in an enterprise setting?
 <details><summary>Show the answer</summary><p>
 
 - **To integrate various software development tools to enhance collaboration, automate workflows, and improve productivity across teams**
@@ -1096,7 +1096,7 @@ What is a primary goal of the tooling ecosystem in an enterprise setting?
 </details>
 
 ---
-How can GitHub APIs enhance the administrative capabilities beyond the user interface?
+Q: How can GitHub APIs enhance the administrative capabilities beyond the user interface?
 <details><summary>Show the answer</summary><p>
 
 - **By allowing administrators to programmatically query the audit log and automate repository management tasks**
@@ -1104,7 +1104,7 @@ How can GitHub APIs enhance the administrative capabilities beyond the user inte
 </details>
 
 ---
-How can developers authenticate to GitHub Packages to publish or install packages?
+Q: How can developers authenticate to GitHub Packages to publish or install packages?
 <details><summary>Show the answer</summary><p>
 
 - **Utilizing a Personal Access Token (PAT) with the required scopes**
@@ -1112,7 +1112,7 @@ How can developers authenticate to GitHub Packages to publish or install package
 </details>
 
 ---
-How can you ensure that users only utilize Actions created by GitHub or verified creators in their workflows?
+Q: How can you ensure that users only utilize Actions created by GitHub or verified creators in their workflows?
 <details><summary>Show the answer</summary><p>
 
 - **By configuring Policies to allow only actions created by GitHub or verified creators**
@@ -1120,7 +1120,7 @@ How can you ensure that users only utilize Actions created by GitHub or verified
 </details>
 
 ---
-Can an enterprise account on GitHub contain multiple organizations?
+Q: Can an enterprise account on GitHub contain multiple organizations?
 <details><summary>Show the answer</summary><p>
 
 - **Yes**
@@ -1128,7 +1128,7 @@ Can an enterprise account on GitHub contain multiple organizations?
 </details>
 
 ---
-How can encrypted secrets be accessed within GitHub Actions workflows?
+Q: How can encrypted secrets be accessed within GitHub Actions workflows?
 <details><summary>Show the answer</summary><p>
 
 - **Using the ${{ secrets.NAME }} syntax**
@@ -1136,7 +1136,7 @@ How can encrypted secrets be accessed within GitHub Actions workflows?
 </details>
 
 ---
-What is a recommended standard for developer workflows regarding code collaboration?
+Q: What is a recommended standard for developer workflows regarding code collaboration?
 <details><summary>Show the answer</summary><p>
 
 - **Implementing a fork-and-pull model for external contributors alongside a branching model for internal collaboration**
@@ -1144,7 +1144,7 @@ What is a recommended standard for developer workflows regarding code collaborat
 </details>
 
 ---
-Where can you find the dependency graph listing all the packages your repository depends on within your GitHub repository?
+Q: Where can you find the dependency graph listing all the packages your repository depends on within your GitHub repository?
 <details><summary>Show the answer</summary><p>
 
 - **In the Insights tab and then the Dependency graph section**
@@ -1152,7 +1152,7 @@ Where can you find the dependency graph listing all the packages your repository
 </details>
 
 ---
-What are the consequences of a user's membership in a GitHub organization or instance?
+Q: What are the consequences of a user's membership in a GitHub organization or instance?
 <details><summary>Show the answer</summary><p>
 
 - **The user gains access to private repositories within the organization based on their assigned permissions**
@@ -1162,7 +1162,7 @@ What are the consequences of a user's membership in a GitHub organization or ins
 </details>
 
 ---
-Which tools can be used to tamper with Git history and erase sensitive data?
+Q: Which tools can be used to tamper with Git history and erase sensitive data?
 <details><summary>Show the answer</summary><p>
 
 - **git filter-repo and BFG Repo-Cleaner**
@@ -1170,7 +1170,7 @@ Which tools can be used to tamper with Git history and erase sensitive data?
 </details>
 
 ---
-How can an administrator find and install the Azure Pipelines GitHub App from the GitHub Marketplace?
+Q: How can an administrator find and install the Azure Pipelines GitHub App from the GitHub Marketplace?
 <details><summary>Show the answer</summary><p>
 
 - **By searching for "Azure Pipelines" in the GitHub Marketplace and following the installation instructions for their repository or organization**
@@ -1178,7 +1178,7 @@ How can an administrator find and install the Azure Pipelines GitHub App from th
 </details>
 
 ---
-What is the simplest way to prevent the creation of public repositories within a GitHub organization?
+Q: What is the simplest way to prevent the creation of public repositories within a GitHub organization?
 <details><summary>Show the answer</summary><p>
 
 - **At the organization level, in "Member Privileges" settings, disallow the creation of public repositories**
@@ -1186,7 +1186,7 @@ What is the simplest way to prevent the creation of public repositories within a
 </details>
 
 ---
-How can GitHub Apps react to specific events, and what are some examples of these events?
+Q: How can GitHub Apps react to specific events, and what are some examples of these events?
 <details><summary>Show the answer</summary><p>
 
 - **GitHub Apps subscribe to events through webhooks, which notify the app of specific actions like pull request openings or issue creations**
@@ -1194,7 +1194,7 @@ How can GitHub Apps react to specific events, and what are some examples of thes
 </details>
 
 ---
-How does GitHub manage identity and authorization for users within organizations?
+Q: How does GitHub manage identity and authorization for users within organizations?
 <details><summary>Show the answer</summary><p>
 
 - **GitHub uses a combination of SAML SSO for identity management and fine-grained access controls for authorization within organizations**
@@ -1202,7 +1202,7 @@ How does GitHub manage identity and authorization for users within organizations
 </details>
 
 ---
-GitHub Actions workflow runs specifically on a self-hosted agent that operates on Linux with an ARM architecture?
+Q: GitHub Actions workflow runs specifically on a self-hosted agent that operates on Linux with an ARM architecture?
 <details><summary>Show the answer</summary><p>
 
 - **By using runs-on: [self-hosted, linux, ARM]**
@@ -1210,7 +1210,7 @@ GitHub Actions workflow runs specifically on a self-hosted agent that operates o
 </details>
 
 ---
-What is a fundamental difference between a GitHub App and a GitHub Action?
+Q: What is a fundamental difference between a GitHub App and a GitHub Action?
 <details><summary>Show the answer</summary><p>
 
 - **GitHub Apps are third-party applications that extend GitHub functionalities, while Actions are used to automate workflows within the GitHub environment**
@@ -1218,7 +1218,7 @@ What is a fundamental difference between a GitHub App and a GitHub Action?
 </details>
 
 ---
-What is the scope of encrypted secrets at the organization level in GitHub Actions?
+Q: What is the scope of encrypted secrets at the organization level in GitHub Actions?
 <details><summary>Show the answer</summary><p>
 
 - **Available to multiple repositories within the organization**
@@ -1226,7 +1226,7 @@ What is the scope of encrypted secrets at the organization level in GitHub Actio
 </details>
 
 ---
-How does Team sync through Active Directory (AD) function for GitHub organizations?
+Q: How does Team sync through Active Directory (AD) function for GitHub organizations?
 <details><summary>Show the answer</summary><p>
 
 - **It automatically synchronizes GitHub team memberships with user groups in Active Directory, reflecting changes in team composition directly from AD**
@@ -1234,7 +1234,7 @@ How does Team sync through Active Directory (AD) function for GitHub organizatio
 </details>
 
 ---
-How can GitHub Actions workflows authenticate to GitHub Packages for publishing or consuming packages?
+Q: How can GitHub Actions workflows authenticate to GitHub Packages for publishing or consuming packages?
 <details><summary>Show the answer</summary><p>
 
 - **By utilizing the GITHUB_TOKEN provided by GitHub Actions for secure authentication**
@@ -1242,7 +1242,7 @@ How can GitHub Actions workflows authenticate to GitHub Packages for publishing 
 </details>
 
 ---
-What is a deploy key in the context of GitHub?
+Q: What is a deploy key in the context of GitHub?
 <details><summary>Show the answer</summary><p>
 
 - **An SSH key that grants access to a single repository on GitHub, used to deploy projects to a server**
@@ -1250,7 +1250,7 @@ What is a deploy key in the context of GitHub?
 </details>
 
 ---
-What are the two roles available at the team level within a GitHub organization?
+Q: What are the two roles available at the team level within a GitHub organization?
 <details><summary>Show the answer</summary><p>
 
 - **Maintainer**
@@ -1258,7 +1258,7 @@ What are the two roles available at the team level within a GitHub organization?
 </details>
 
 ---
-On GitHub Enterprise Server, how can an administrator generate a support bundle to provide to GitHub Support?
+Q: On GitHub Enterprise Server, how can an administrator generate a support bundle to provide to GitHub Support?
 <details><summary>Show the answer</summary><p>
 
 - **By executing ssh -p 122 admin@hostname -- 'ghe-support-bundle -o' > support-bundle.tgz on the server**
@@ -1266,7 +1266,7 @@ On GitHub Enterprise Server, how can an administrator generate a support bundle 
 </details>
 
 ---
-How can you use 3rd party vaults to manage secrets for GitHub Actions?
+Q: How can you use 3rd party vaults to manage secrets for GitHub Actions?
 <details><summary>Show the answer</summary><p>
 
 - **Secrets are stored in the third-party vault, and a decryption step within the workflow accesses them, using a key stored as a GitHub Actions secret**
@@ -1274,7 +1274,7 @@ How can you use 3rd party vaults to manage secrets for GitHub Actions?
 </details>
 
 ---
-Does GitHub Enterprise Server include the GitHub Packages feature?
+Q: Does GitHub Enterprise Server include the GitHub Packages feature?
 <details><summary>Show the answer</summary><p>
 
 - **Yes**
@@ -1282,7 +1282,7 @@ Does GitHub Enterprise Server include the GitHub Packages feature?
 </details>
 
 ---
-When setting up a workflow template, which two files are essential for its creation?
+Q: When setting up a workflow template, which two files are essential for its creation?
 <details><summary>Show the answer</summary><p>
 
 - **A JSON properties file with a ".properties.json" extension (e.g., my-workflow.properties.json)**
@@ -1292,7 +1292,7 @@ When setting up a workflow template, which two files are essential for its creat
 </details>
 
 ---
-Where can organization administrators find statistics of license usage for their organization on GitHub?
+Q: Where can organization administrators find statistics of license usage for their organization on GitHub?
 <details><summary>Show the answer</summary><p>
 
 - **In the organization's settings under the "Billing" section**
@@ -1300,7 +1300,7 @@ Where can organization administrators find statistics of license usage for their
 </details>
 
 ---
-How can an administrator generate support bundles and diagnostics for GitHub Enterprise Server?
+Q: How can an administrator generate support bundles and diagnostics for GitHub Enterprise Server?
 <details><summary>Show the answer</summary><p>
 
 - **Through the site admin dashboard, by navigating to the 'Support' section and selecting 'Generate support bundle'**
@@ -1308,7 +1308,7 @@ How can an administrator generate support bundles and diagnostics for GitHub Ent
 </details>
 
 ---
-What types of issues does GitHub Support cover?
+Q: What types of issues does GitHub Support cover?
 <details><summary>Show the answer</summary><p>
 
 - **Account, Security, and Abuse issues**
@@ -1316,7 +1316,7 @@ What types of issues does GitHub Support cover?
 </details>
 
 ---
-Which role should you assign to a contributor who needs full control over a repository except for access to sensitive or destructive actions?
+Q: Which role should you assign to a contributor who needs full control over a repository except for access to sensitive or destructive actions?
 <details><summary>Show the answer</summary><p>
 
 - **Maintainer, because the admin role would, for instance, allow them to delete the repository**
@@ -1324,7 +1324,7 @@ Which role should you assign to a contributor who needs full control over a repo
 </details>
 
 ---
-Which feature allows users to access pre-made templates when creating a new workflow?
+Q: Which feature allows users to access pre-made templates when creating a new workflow?
 <details><summary>Show the answer</summary><p>
 
 - **Workflow Templates**
@@ -1332,7 +1332,7 @@ Which feature allows users to access pre-made templates when creating a new work
 </details>
 
 ---
-What is the impact of an Enterprise IP allow list on publishing a GitHub Pages site directly from a branch without a custom GitHub Actions workflow?
+Q: What is the impact of an Enterprise IP allow list on publishing a GitHub Pages site directly from a branch without a custom GitHub Actions workflow?
 <details><summary>Show the answer</summary><p>
 
 - **The build process is automatically permitted access to the repository for the GitHub Pages site**
@@ -1340,7 +1340,7 @@ What is the impact of an Enterprise IP allow list on publishing a GitHub Pages s
 </details>
 
 ---
-Can you erase the history of a repository to keep sensitive data secret once it has been committed?
+Q: Can you erase the history of a repository to keep sensitive data secret once it has been committed?
 <details><summary>Show the answer</summary><p>
 
 - **No. While you can overwrite a commit, the sensitive data must be considered unsecure once committed. If it involves a secret/password, it must be renewed**
@@ -1348,7 +1348,7 @@ Can you erase the history of a repository to keep sensitive data secret once it 
 </details>
 
 ---
-How can you automatically assign specific persons as reviewers when a part of the code is modified?
+Q: How can you automatically assign specific persons as reviewers when a part of the code is modified?
 <details><summary>Show the answer</summary><p>
 
 - **By creating and maintaining CODEOWNERS files in the repository, which specify the individuals or teams that should be automatically assigned as reviewers for specific parts of the code**
@@ -1356,7 +1356,7 @@ How can you automatically assign specific persons as reviewers when a part of th
 </details>
 
 ---
-What is the primary method for a user to authenticate to GitHub when part of an organization with SAML SSO enabled?
+Q: What is the primary method for a user to authenticate to GitHub when part of an organization with SAML SSO enabled?
 <details><summary>Show the answer</summary><p>
 
 - **Through the organization's identity provider using SAML SSO**
@@ -1364,7 +1364,7 @@ What is the primary method for a user to authenticate to GitHub when part of an 
 </details>
 
 ---
-How does a user's list of permissions, such as their repository role, team membership, or organization membership, influence their actions within a GitHub organization?
+Q: How does a user's list of permissions, such as their repository role, team membership, or organization membership, influence their actions within a GitHub organization?
 <details><summary>Show the answer</summary><p>
 
 - **It dictates the specific actions a user can perform, ranging from viewing and editing files to managing access rights and settings, based on their assigned roles and memberships**
@@ -1372,7 +1372,7 @@ How does a user's list of permissions, such as their repository role, team membe
 </details>
 
 ---
-What are the consequences of a user’s membership in an instance, an organization, or multiple organizations on GitHub?
+Q: What are the consequences of a user’s membership in an instance, an organization, or multiple organizations on GitHub?
 <details><summary>Show the answer</summary><p>
 
 - **Requirement to adhere to the security policies of each organization, including 2FA if enforced**
@@ -1384,7 +1384,7 @@ What are the consequences of a user’s membership in an instance, an organizati
 </details>
 
 ---
-Which default labels are applied to a self-hosted agent in GitHub Actions?
+Q: Which default labels are applied to a self-hosted agent in GitHub Actions?
 <details><summary>Show the answer</summary><p>
 
 - **CPU architecture: x64, ARM, or ARM64**
@@ -1393,7 +1393,7 @@ Which default labels are applied to a self-hosted agent in GitHub Actions?
 </details>
 
 ---
-What are key components to include in a release strategy for developer workflows?
+Q: What are key components to include in a release strategy for developer workflows?
 <details><summary>Show the answer</summary><p>
 
 - **Scheduled deployment windows for stable releases**
@@ -1405,14 +1405,14 @@ What are key components to include in a release strategy for developer workflows
 </details>
 
 ---
-Which role allows a person to manage issues of a repository without granting any write rights to the code?
+Q: Which role allows a person to manage issues of a repository without granting any write rights to the code?
 <details><summary>Show the answer</summary><p>
 
 - **Triage**
 </details>
 
 ---
-How should an enterprise adjust its policies and organization permissions on GitHub to align with its trust and control position?
+Q: How should an enterprise adjust its policies and organization permissions on GitHub to align with its trust and control position?
 <details><summary>Show the answer</summary><p>
 
 - **Implementing a granular permission model that reflects the company's specific trust levels and control needs, such as using read, write, maintain, and admin roles appropriately**
@@ -1420,7 +1420,7 @@ How should an enterprise adjust its policies and organization permissions on Git
 </details>
 
 ---
-Which of the following statements are true regarding managing encrypted secrets in GitHub Actions?
+Q: Which of the following statements are true regarding managing encrypted secrets in GitHub Actions?
 <details><summary>Show the answer</summary><p>
 
 - **Secrets can be updated but not viewed in plaintext after creation**
@@ -1432,7 +1432,7 @@ Which of the following statements are true regarding managing encrypted secrets 
 </details>
 
 ---
-How can an organization require two-factor authentication (2FA) for its members?
+Q: How can an organization require two-factor authentication (2FA) for its members?
 <details><summary>Show the answer</summary><p>
 
 - **Through the organization's security settings, by enabling the 'Require two-factor authentication' option**
@@ -1440,7 +1440,7 @@ How can an organization require two-factor authentication (2FA) for its members?
 </details>
 
 ---
-What are the different types of Enterprise Support available from GitHub?
+Q: What are the different types of Enterprise Support available from GitHub?
 <details><summary>Show the answer</summary><p>
 
 - **GitHub Enterprise Premium Plus support**
@@ -1449,7 +1449,7 @@ What are the different types of Enterprise Support available from GitHub?
 </details>
 
 ---
-What is a key consideration when writing scripts to manage multiple GitHub organizations and access rights?
+Q: What is a key consideration when writing scripts to manage multiple GitHub organizations and access rights?
 <details><summary>Show the answer</summary><p>
 
 - **Ensuring scripts are adaptable to handle diverse permission models and organizational structures**
@@ -1457,7 +1457,7 @@ What is a key consideration when writing scripts to manage multiple GitHub organ
 </details>
 
 ---
-Can you upload container images to GitHub Packages?
+Q: Can you upload container images to GitHub Packages?
 <details><summary>Show the answer</summary><p>
 
 - **Yes, GitHub Packages supports hosting container images**
@@ -1465,7 +1465,7 @@ Can you upload container images to GitHub Packages?
 </details>
 
 ---
-What is the maximum number of members allowed in a GitHub organization?
+Q: What is the maximum number of members allowed in a GitHub organization?
 <details><summary>Show the answer</summary><p>
 
 - **10000**
@@ -1473,7 +1473,7 @@ What is the maximum number of members allowed in a GitHub organization?
 </details>
 
 ---
-What are the benefits of using GitHub Packages within workflows?
+Q: What are the benefits of using GitHub Packages within workflows?
 <details><summary>Show the answer</summary><p>
 
 - **It integrates seamlessly with GitHub Actions for automating package publishing and consumption**
@@ -1483,14 +1483,14 @@ What are the benefits of using GitHub Packages within workflows?
 </details>
 
 ---
-What is the appropriate repository permission level for contributors who will actively push changes to your repository?
+Q: What is the appropriate repository permission level for contributors who will actively push changes to your repository?
 <details><summary>Show the answer</summary><p>
 
 - **Write**
 </details>
 
 ---
-How can an organization within a GitHub Enterprise account enforce SAML SSO?
+Q: How can an organization within a GitHub Enterprise account enforce SAML SSO?
 <details><summary>Show the answer</summary><p>
 
 - **By navigating to the organization's security settings and selecting 'SAML single sign-on' under Authentication**
@@ -1498,7 +1498,7 @@ How can an organization within a GitHub Enterprise account enforce SAML SSO?
 </details>
 
 ---
-How can you exclude sensitive files from being included in your GitHub repository?
+Q: How can you exclude sensitive files from being included in your GitHub repository?
 <details><summary>Show the answer</summary><p>
 
 - **Building and maintaining .gitignore files to specify the files and directories that should be excluded from version control**
@@ -1506,7 +1506,7 @@ How can you exclude sensitive files from being included in your GitHub repositor
 </details>
 
 ---
-What are the three roles available at the organization level within a GitHub organization?
+Q: What are the three roles available at the organization level within a GitHub organization?
 <details><summary>Show the answer</summary><p>
 
 - **Billing Manager**
@@ -1515,7 +1515,7 @@ What are the three roles available at the organization level within a GitHub org
 </details>
 
 ---
-By default, can all users of an organization see all repositories?
+Q: By default, can all users of an organization see all repositories?
 <details><summary>Show the answer</summary><p>
 
 - **Yes, if the "Read" access is defined as the default role in "base permissions" in the organization's settings**
@@ -1523,7 +1523,7 @@ By default, can all users of an organization see all repositories?
 </details>
 
 ---
-In which folder within a self-hosted agent can you find logs for debugging the runner's behavior?
+Q: In which folder within a self-hosted agent can you find logs for debugging the runner's behavior?
 <details><summary>Show the answer</summary><p>
 
 - **/_diag**
@@ -1531,7 +1531,7 @@ In which folder within a self-hosted agent can you find logs for debugging the r
 </details>
 
 ---
-What best defines Teams within a GitHub organization?
+Q: What best defines Teams within a GitHub organization?
 <details><summary>Show the answer</summary><p>
 
 - **Structured groups within an organization, designed to reflect company or project hierarchies, where members can be given specific access rights to repositories**
@@ -1539,7 +1539,7 @@ What best defines Teams within a GitHub organization?
 </details>
 
 ---
-How can tooling and workflows be effectively recommended to teams within an enterprise?
+Q: How can tooling and workflows be effectively recommended to teams within an enterprise?
 <details><summary>Show the answer</summary><p>
 
 - **By evaluating the team's specific needs, existing processes, and the potential impact of new tools on their workflow**
@@ -1547,7 +1547,7 @@ How can tooling and workflows be effectively recommended to teams within an ente
 </details>
 
 ---
-Which feature enables the synchronization of user identity data between your Identity Provider (IdP) and GitHub?
+Q: Which feature enables the synchronization of user identity data between your Identity Provider (IdP) and GitHub?
 <details><summary>Show the answer</summary><p>
 
 - **SCIM**
@@ -1555,7 +1555,7 @@ Which feature enables the synchronization of user identity data between your Ide
 </details>
 
 ---
-What steps should be taken to enable and enforce SAML SSO for multiple organizations using enterprise accounts?
+Q: What steps should be taken to enable and enforce SAML SSO for multiple organizations using enterprise accounts?
 <details><summary>Show the answer</summary><p>
 
 - **Select a supported identity provider and obtain SAML configuration details for the enterprise**
@@ -1567,7 +1567,7 @@ What steps should be taken to enable and enforce SAML SSO for multiple organizat
 </details>
 
 ---
-What is a key implication of enabling SAML SSO for all organizations in an enterprise account compared to an individual organization?
+Q: What is a key implication of enabling SAML SSO for all organizations in an enterprise account compared to an individual organization?
 <details><summary>Show the answer</summary><p>
 
 - **It standardizes access control across the enterprise, enhancing security but requiring centralized identity management**
@@ -1575,7 +1575,7 @@ What is a key implication of enabling SAML SSO for all organizations in an enter
 </details>
 
 ---
-Where should you store your security policy publicly if you plan to communicate about disclosing vulnerabilities?
+Q: Where should you store your security policy publicly if you plan to communicate about disclosing vulnerabilities?
 <details><summary>Show the answer</summary><p>
 
 - **In the root of your repository in a file named SECURITY.md**
@@ -1583,7 +1583,7 @@ Where should you store your security policy publicly if you plan to communicate 
 </details>
 
 ---
-What is a key difference between GitHub Packages and releases?
+Q: What is a key difference between GitHub Packages and releases?
 <details><summary>Show the answer</summary><p>
 
 - **Releases are used for distributing software versions and associated assets, while GitHub Packages is designed for hosting and managing software packages**
@@ -1591,7 +1591,7 @@ What is a key difference between GitHub Packages and releases?
 </details>
 
 ---
-What are the benefits and risks of using apps and actions from the GitHub Marketplace?
+Q: What are the benefits and risks of using apps and actions from the GitHub Marketplace?
 <details><summary>Show the answer</summary><p>
 
 - **Benefits include improved productivity through pre-built solutions and streamlined processes**
@@ -1603,7 +1603,7 @@ What are the benefits and risks of using apps and actions from the GitHub Market
 </details>
 
 ---
-How can an administrator prevent users from utilizing Actions from the marketplace?
+Q: How can an administrator prevent users from utilizing Actions from the marketplace?
 <details><summary>Show the answer</summary><p>
 
 - **By configuring Policies to restrict usage to local actions only**
@@ -1611,7 +1611,7 @@ How can an administrator prevent users from utilizing Actions from the marketpla
 </details>
 
 ---
-How is audit access to a repository typically managed on GitHub?
+Q: How is audit access to a repository typically managed on GitHub?
 <details><summary>Show the answer</summary><p>
 
 - **By utilizing GitHub's built-in audit logs feature, which tracks and records all actions taken within the repository for review and compliance purposes**
@@ -1619,7 +1619,7 @@ How is audit access to a repository typically managed on GitHub?
 </details>
 
 ---
-How can an organization monitor the consumption of metered products like GitHub Actions minutes or storage for GitHub Packages?
+Q: How can an organization monitor the consumption of metered products like GitHub Actions minutes or storage for GitHub Packages?
 <details><summary>Show the answer</summary><p>
 
 - **By accessing the "Usage reports" section within the organization's billing settings**
@@ -1627,7 +1627,7 @@ How can an organization monitor the consumption of metered products like GitHub 
 </details>
 
 ---
-Which of the following are supported two-factor authentication (2FA) methods on GitHub?
+Q: Which of the following are supported two-factor authentication (2FA) methods on GitHub?
 <details><summary>Show the answer</summary><p>
 
 - **Security keys**
@@ -1637,3 +1637,6 @@ Which of the following are supported two-factor authentication (2FA) methods on 
 - **SMS**
 > SMS is a supported method for 2FA on GitHub, where a text message with a unique code is sent to the user's phone, which they must enter to complete the authentication process
 </details>
+
+---
+Number of questions: 191
