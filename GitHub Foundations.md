@@ -228,7 +228,7 @@ Q: What is the difference between GitHub Projects and GitHub Projects Classic?
 </details>
 
 ---
-Q:What are the benefits of a decentralized version control system (DVCS)?
+Q: What are the benefits of a decentralized version control system (DVCS)?
 <details><summary>Show the answer</summary><p>
 
 - **Faster performance**
@@ -1599,3 +1599,6 @@ Q: How can you save a repository on GitHub for later reference?
 - **By starring the repository**
 > Starring a repository on GitHub is similar to bookmarking a webpage in your browser. It makes it easy to find the repository again later
 </details>
+
+---
+Number of questions: 180
