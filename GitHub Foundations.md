@@ -6,7 +6,7 @@ Candidates for this exam should be entry-level developers or non-technical suppo
 </p>
 
 > [!IMPORTANT]
-> **These are NOT real questions from the exam, but quite close enough to what you can get. The goal is to help you to be prepared and obtain the certification.**
+> **These are NOT real questions from the exam, but quite close enough to what you can get. The goal is to help you prepare and obtain the certification.**
 
 ## Skills measured
 
