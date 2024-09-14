@@ -21,7 +21,7 @@ Candidates for this exam should have subject matter expertise with security conc
 
 ## Questions
 
-When aligning repository branch protection configuration with written security policies, what is a key feature to enable for branches containing critical code?
+Q: When aligning repository branch protection configuration with written security policies, what is a key feature to enable for branches containing critical code?
 <details><summary>Show the answer</summary><p>
 
 - **Require pull request reviews before merging**
@@ -29,7 +29,7 @@ When aligning repository branch protection configuration with written security p
 </details>
 
 ---
-You want to configure who receives secret scanning alerts in your GitHub repository to include a specific team, not just the repository admins. What is the correct approach?
+Q: You want to configure who receives secret scanning alerts in your GitHub repository to include a specific team, not just the repository admins. What is the correct approach?
 <details><summary>Show the answer</summary><p>
 
 - **In the repository settings, navigate to the 'Secret scanning' section and add the team to the list of recipients for secret scanning alerts**
@@ -37,7 +37,7 @@ You want to configure who receives secret scanning alerts in your GitHub reposit
 </details>
 
 ---
-Your organization has decided to adopt custom secret scanning across all its repositories. How can you enable custom secret scanning at the organization level?
+Q: Your organization has decided to adopt custom secret scanning across all its repositories. How can you enable custom secret scanning at the organization level?
 <details><summary>Show the answer</summary><p>
 
 - **In the organization's 'Security & analysis' settings, enable custom secret scanning for all current and future repositories**
@@ -45,7 +45,7 @@ Your organization has decided to adopt custom secret scanning across all its rep
 </details>
 
 ---
-You are drafting a security policy for your GitHub repository. What is an essential element that should be included in this policy?
+Q: You are drafting a security policy for your GitHub repository. What is an essential element that should be included in this policy?
 <details><summary>Show the answer</summary><p>
 
 - **Guidelines on how to respond to and manage security alerts and vulnerabilities**
@@ -53,7 +53,7 @@ You are drafting a security policy for your GitHub repository. What is an essent
 </details>
 
 ---
-You want to exclude certain files from being scanned for secrets in your repository. How can you achieve this?
+Q: You want to exclude certain files from being scanned for secrets in your repository. How can you achieve this?
 <details><summary>Show the answer</summary><p>
 
 - **Navigate to the repository's 'Secret scanning' settings and specify the files to be excluded**
@@ -61,7 +61,7 @@ You want to exclude certain files from being scanned for secrets in your reposit
 </details>
 
 ---
-When following the data flow through code using the show paths experience in GitHub's CodeQL analysis, what can developers gain insight into?
+Q: When following the data flow through code using the show paths experience in GitHub's CodeQL analysis, what can developers gain insight into?
 <details><summary>Show the answer</summary><p>
 
 - **The execution path that data takes through the code, potentially leading to a security vulnerability**
@@ -69,7 +69,7 @@ When following the data flow through code using the show paths experience in Git
 </details>
 
 ---
-What is the correct filename for the Dependabot configuration file?
+Q: What is the correct filename for the Dependabot configuration file?
 <details><summary>Show the answer</summary><p>
 
 - **dependabot.yml**
@@ -77,7 +77,7 @@ What is the correct filename for the Dependabot configuration file?
 </details>
 
 ---
-A software development team is planning to introduce a CodeQL analysis workflow to their GitHub repository. Where can they specify CodeQL queries for use with code scanning?
+Q: A software development team is planning to introduce a CodeQL analysis workflow to their GitHub repository. Where can they specify CodeQL queries for use with code scanning?
 <details><summary>Show the answer</summary><p>
 
 - **In a dedicated CodeQL configuration file within their repository, referenced in the workflow file**
@@ -85,7 +85,7 @@ A software development team is planning to introduce a CodeQL analysis workflow 
 </details>
 
 ---
-Your organization is considering integrating Security Overview with your repositories. What is a primary benefit of implementing Security Overview in your GitHub repositories?
+Q: Your organization is considering integrating Security Overview with your repositories. What is a primary benefit of implementing Security Overview in your GitHub repositories?
 <details><summary>Show the answer</summary><p>
 
 - **It provides a high-level summary of all the security alerts and unresolved vulnerabilities in your repositories**
@@ -93,7 +93,7 @@ Your organization is considering integrating Security Overview with your reposit
 </details>
 
 ---
-You are configuring secret scanning for your organization's private repository. When can you expect secret scanning to run and identify potential exposed secrets?
+Q: You are configuring secret scanning for your organization's private repository. When can you expect secret scanning to run and identify potential exposed secrets?
 <details><summary>Show the answer</summary><p>
 
 - **Secret scanning runs automatically upon every push to the repository and scans the entire commit history**
@@ -101,7 +101,7 @@ You are configuring secret scanning for your organization's private repository. 
 </details>
 
 ---
-A developer is tasked with integrating a third-party CI tool for code scanning into their GitHub project. How does this differ from implementing a CodeQL analysis in a GitHub Actions workflow?
+Q: A developer is tasked with integrating a third-party CI tool for code scanning into their GitHub project. How does this differ from implementing a CodeQL analysis in a GitHub Actions workflow?
 <details><summary>Show the answer</summary><p>
 
 - **The third-party CI tool requires a separate service account for authentication with GitHub**
@@ -109,7 +109,7 @@ A developer is tasked with integrating a third-party CI tool for code scanning i
 </details>
 
 ---
-What is a QL pack in the context of CodeQL analysis?
+Q: What is a QL pack in the context of CodeQL analysis?
 <details><summary>Show the answer</summary><p>
 
 - **A set of CodeQL queries, libraries, and definitions that can be used to analyze codebases in specific languages or frameworks**
@@ -117,7 +117,7 @@ What is a QL pack in the context of CodeQL analysis?
 </details>
 
 ---
-How does code scanning relate to GitHub Actions consumption?
+Q: How does code scanning relate to GitHub Actions consumption?
 <details><summary>Show the answer</summary><p>
 
 - **Code scanning consumes GitHub Actions minutes, impacting the repository's usage quotas depending on the frequency and complexity of scans**
@@ -125,7 +125,7 @@ How does code scanning relate to GitHub Actions consumption?
 </details>
 
 ---
-How should a project manager establish a review cadence with the security team to ensure ongoing security assessments are integrated into the development lifecycle?
+Q: How should a project manager establish a review cadence with the security team to ensure ongoing security assessments are integrated into the development lifecycle?
 <details><summary>Show the answer</summary><p>
 
 - **Set up regular, periodic reviews aligned with the development sprints to evaluate and address security findings**
@@ -133,7 +133,7 @@ How should a project manager establish a review cadence with the security team t
 </details>
 
 ---
-When configuring code scanning within a repository using the default CodeQL workflow, what is a crucial aspect to consider?
+Q: When configuring code scanning within a repository using the default CodeQL workflow, what is a crucial aspect to consider?
 <details><summary>Show the answer</summary><p>
 
 - **Customizing the workflow to match the programming languages used in the repository**
@@ -141,7 +141,7 @@ When configuring code scanning within a repository using the default CodeQL work
 </details>
 
 ---
-When a GitHub Advanced Security alert references a CVE and CWE to describe a vulnerability, how should the development team approach the remediation?
+Q: When a GitHub Advanced Security alert references a CVE and CWE to describe a vulnerability, how should the development team approach the remediation?
 <details><summary>Show the answer</summary><p>
 
 - **Review the CVE for public exploits and the CWE for understanding the underlying weakness, then prioritize remediation based on the risk to their application**
@@ -149,7 +149,7 @@ When a GitHub Advanced Security alert references a CVE and CWE to describe a vul
 </details>
 
 ---
-What stakeholders need to be involved in the security workflows enabled by GHAS, and what are their roles in the workflow?
+Q: What stakeholders need to be involved in the security workflows enabled by GHAS, and what are their roles in the workflow?
 <details><summary>Show the answer</summary><p>
 
 - **System Administrators set up and maintain the necessary infrastructure for running GHAS tools**
@@ -161,7 +161,7 @@ What stakeholders need to be involved in the security workflows enabled by GHAS,
 </details>
 
 ---
-When executing code scanning with the CodeQL CLI, which step is necessary for analyzing the codebase and posting the SARIF results to GitHub?
+Q: When executing code scanning with the CodeQL CLI, which step is necessary for analyzing the codebase and posting the SARIF results to GitHub?
 <details><summary>Show the answer</summary><p>
 
 - **Creating the CodeQL database, running the analysis, and using the gh CLI to upload the SARIF file to GitHub**
@@ -169,7 +169,7 @@ When executing code scanning with the CodeQL CLI, which step is necessary for an
 </details>
 
 ---
-You receive a secret scanning alert in your repository. What factors should you consider when deciding how to respond to the alert?
+Q: You receive a secret scanning alert in your repository. What factors should you consider when deciding how to respond to the alert?
 <details><summary>Show the answer</summary><p>
 
 - **The severity of the exposed secret and the potential impact on your project or organization**
@@ -177,7 +177,7 @@ You receive a secret scanning alert in your repository. What factors should you 
 </details>
 
 ---
-How should a repository's security policy influence the handling of code scanning alerts, particularly regarding merges with unfixed security vulnerabilities?
+Q: How should a repository's security policy influence the handling of code scanning alerts, particularly regarding merges with unfixed security vulnerabilities?
 <details><summary>Show the answer</summary><p>
 
 - **Configure branch protection rules to require the resolution of all security alerts before merging, in alignment with the repository's security policy**
@@ -185,7 +185,7 @@ How should a repository's security policy influence the handling of code scannin
 </details>
 
 ---
-You're reviewing Dependabot security updates in your project's repository. What is the primary benefit of these updates?
+Q: You're reviewing Dependabot security updates in your project's repository. What is the primary benefit of these updates?
 <details><summary>Show the answer</summary><p>
 
 - **They automatically generate pull requests to update dependencies to secure versions**
@@ -193,7 +193,7 @@ You're reviewing Dependabot security updates in your project's repository. What 
 </details>
 
 ---
-What is the decision-making process for closing and dismissing security alerts in GitHub Advanced Security?
+Q: What is the decision-making process for closing and dismissing security alerts in GitHub Advanced Security?
 <details><summary>Show the answer</summary><p>
 
 - **Review the alert's impact, document the rationale for dismissal if applicable, and decide based on data and risk assessment**
@@ -201,7 +201,7 @@ What is the decision-making process for closing and dismissing security alerts i
 </details>
 
 ---
-When configuring a CodeQL workflow, how can a developer specify which programming languages to analyze using a language matrix?
+Q: When configuring a CodeQL workflow, how can a developer specify which programming languages to analyze using a language matrix?
 <details><summary>Show the answer</summary><p>
 
 - **Using a strategy matrix within the workflow file to define the set of languages for CodeQL to analyze**
@@ -209,7 +209,7 @@ When configuring a CodeQL workflow, how can a developer specify which programmin
 </details>
 
 ---
-Your team has recently integrated GitHub secret scanning into your development workflow. How does secret scanning differ from code scanning in this context?
+Q: Your team has recently integrated GitHub secret scanning into your development workflow. How does secret scanning differ from code scanning in this context?
 <details><summary>Show the answer</summary><p>
 
 - **Secret scanning detects secrets, such as tokens and keys, accidentally pushed to repositories, whereas code scanning identifies security vulnerabilities within the codebase**
@@ -217,7 +217,7 @@ Your team has recently integrated GitHub secret scanning into your development w
 </details>
 
 ---
-Which of the following branch protection rules should be configured to comply with a security policy that requires code scanning checks to pass before merging code changes?
+Q: Which of the following branch protection rules should be configured to comply with a security policy that requires code scanning checks to pass before merging code changes?
 <details><summary>Show the answer</summary><p>
 
 - **Include administrators in the rules applied to other users**
@@ -229,7 +229,7 @@ Which of the following branch protection rules should be configured to comply wi
 </details>
 
 ---
-A development team works on a highly active open-source project. Which event should trigger a code scanning workflow to best suit their development pattern?
+Q: A development team works on a highly active open-source project. Which event should trigger a code scanning workflow to best suit their development pattern?
 <details><summary>Show the answer</summary><p>
 
 - **On every pull request to main or development branches and for changes to specific critical files**
@@ -237,7 +237,7 @@ A development team works on a highly active open-source project. Which event sho
 </details>
 
 ---
-What are the roles and responsibilities of development and security teams in a software development workflow concerning GitHub Advanced Security alerts?
+Q: What are the roles and responsibilities of development and security teams in a software development workflow concerning GitHub Advanced Security alerts?
 <details><summary>Show the answer</summary><p>
 
 - **Security teams are responsible for configuring the CodeQL analysis settings**
@@ -249,7 +249,7 @@ What are the roles and responsibilities of development and security teams in a s
 </details>
 
 ---
-A company is using GHAS with GitHub Enterprise Cloud (GHEC). How does GHAS enhance the security posture of the company's software development lifecycle compared to standard GitHub features?
+Q: A company is using GHAS with GitHub Enterprise Cloud (GHEC). How does GHAS enhance the security posture of the company's software development lifecycle compared to standard GitHub features?
 <details><summary>Show the answer</summary><p>
 
 - **By providing secret scanning, code scanning, and Dependabot for a holistic security approach throughout the development lifecycle**
@@ -257,7 +257,7 @@ A company is using GHAS with GitHub Enterprise Cloud (GHEC). How does GHAS enhan
 </details>
 
 ---
-An administrator is setting up GitHub Advanced Security for their company's GitHub Enterprise Server. What is the first step they should take?
+Q: An administrator is setting up GitHub Advanced Security for their company's GitHub Enterprise Server. What is the first step they should take?
 <details><summary>Show the answer</summary><p>
 
 - **Access the GitHub Enterprise Server's site admin dashboard to enable GitHub Advanced Security features**
@@ -265,7 +265,7 @@ An administrator is setting up GitHub Advanced Security for their company's GitH
 </details>
 
 ---
-How does CodeQL handle the analysis of code written in compiled languages compared to interpreted languages?
+Q: How does CodeQL handle the analysis of code written in compiled languages compared to interpreted languages?
 <details><summary>Show the answer</summary><p>
 
 - **CodeQL treats all code as data, analyzing both compiled and interpreted languages from their source code without needing to execute them**
@@ -273,7 +273,7 @@ How does CodeQL handle the analysis of code written in compiled languages compar
 </details>
 
 ---
-In the context of GHAS, how are permissions interpreted throughout the security workflow?
+Q: In the context of GHAS, how are permissions interpreted throughout the security workflow?
 <details><summary>Show the answer</summary><p>
 
 - **Permissions are based on roles, with specific access to security tools and alerts defined by role within the organization or repository**
@@ -281,7 +281,7 @@ In the context of GHAS, how are permissions interpreted throughout the security 
 </details>
 
 ---
-An organization is considering using CodeQL for code scanning in their GitHub repository. What distinguishes CodeQL's setup from that of a third-party analysis tool when enabling code scanning?
+Q: An organization is considering using CodeQL for code scanning in their GitHub repository. What distinguishes CodeQL's setup from that of a third-party analysis tool when enabling code scanning?
 <details><summary>Show the answer</summary><p>
 
 - **CodeQL can be directly configured within a GitHub Actions workflow without needing external services**
@@ -289,7 +289,7 @@ An organization is considering using CodeQL for code scanning in their GitHub re
 </details>
 
 ---
-Your organization is integrating GitHub security tools into the development workflow. How do secret scanning, code scanning, and Dependabot collectively contribute to a more secure software development lifecycle?
+Q: Your organization is integrating GitHub security tools into the development workflow. How do secret scanning, code scanning, and Dependabot collectively contribute to a more secure software development lifecycle?
 <details><summary>Show the answer</summary><p>
 
 - **By detecting exposed secrets, identifying code vulnerabilities, and automatically updating dependencies to avoid security risks**
@@ -297,7 +297,7 @@ Your organization is integrating GitHub security tools into the development work
 </details>
 
 ---
-When receiving a secret scanning alert, which actions should you consider taking to appropriately respond to the alert?
+Q: When receiving a secret scanning alert, which actions should you consider taking to appropriately respond to the alert?
 <details><summary>Show the answer</summary><p>
 
 - **Revoke the exposed secret, if possible, and generate a new secret with proper security measures**
@@ -309,7 +309,7 @@ When receiving a secret scanning alert, which actions should you consider taking
 </details>
 
 ---
-You are a developer and you've just discovered a secret scanning alert for an exposed API key in your repository. What is your immediate role and responsibility?
+Q: You are a developer and you've just discovered a secret scanning alert for an exposed API key in your repository. What is your immediate role and responsibility?
 <details><summary>Show the answer</summary><p>
 
 - **Assess the exposure, revoke the compromised key, and implement a new key securely**
@@ -317,7 +317,7 @@ You are a developer and you've just discovered a secret scanning alert for an ex
 </details>
 
 ---
-When setting up secret scanning for an organization, which roles or user types should have the visibility and responsibility to act on the generated alerts?
+Q: When setting up secret scanning for an organization, which roles or user types should have the visibility and responsibility to act on the generated alerts?
 <details><summary>Show the answer</summary><p>
 
 - **Organization Owners, to maintain an overview of security postures across all repositories**
@@ -327,7 +327,7 @@ When setting up secret scanning for an organization, which roles or user types s
 </details>
 
 ---
-How can a developer view CodeQL code scanning results in their GitHub repository?
+Q: How can a developer view CodeQL code scanning results in their GitHub repository?
 <details><summary>Show the answer</summary><p>
 
 - **Under the repository's "Security" tab, in the "Code scanning alerts" section**
@@ -335,7 +335,7 @@ How can a developer view CodeQL code scanning results in their GitHub repository
 </details>
 
 ---
-After setting up code scanning in your repository, what is a necessary step to use it with a CodeQL analysis workflow?
+Q: After setting up code scanning in your repository, what is a necessary step to use it with a CodeQL analysis workflow?
 <details><summary>Show the answer</summary><p>
 
 - **Choose the CodeQL analysis workflow from the provided options and configure it as needed**
@@ -343,7 +343,7 @@ After setting up code scanning in your repository, what is a necessary step to u
 </details>
 
 ---
-A software development team is looking to understand how CodeQL, as part of their GitHub Advanced Security setup, contributes to identifying security vulnerabilities. What is the primary function of CodeQL in this context?
+Q: A software development team is looking to understand how CodeQL, as part of their GitHub Advanced Security setup, contributes to identifying security vulnerabilities. What is the primary function of CodeQL in this context?
 <details><summary>Show the answer</summary><p>
 
 - **CodeQL scans repositories to identify security vulnerabilities and coding errors through semantic code analysis**
@@ -351,7 +351,7 @@ A software development team is looking to understand how CodeQL, as part of thei
 </details>
 
 ---
-What is the default setting for Dependabot alerts in public repositories on GitHub?
+Q: What is the default setting for Dependabot alerts in public repositories on GitHub?
 <details><summary>Show the answer</summary><p>
 
 - **Enabled only for security vulnerabilities**
@@ -359,7 +359,7 @@ What is the default setting for Dependabot alerts in public repositories on GitH
 </details>
 
 ---
-You receive a Dependabot alert indicating a vulnerability in one of your project's dependencies. What is the first step you should take to address this issue?
+Q: You receive a Dependabot alert indicating a vulnerability in one of your project's dependencies. What is the first step you should take to address this issue?
 <details><summary>Show the answer</summary><p>
 
 - **Review the alert details in the Security tab to understand the vulnerability**
@@ -367,7 +367,7 @@ You receive a Dependabot alert indicating a vulnerability in one of your project
 </details>
 
 ---
-A Dependabot alert has notified you of a vulnerability in a dependency that your project no longer uses. What is the appropriate action to take?
+Q: A Dependabot alert has notified you of a vulnerability in a dependency that your project no longer uses. What is the appropriate action to take?
 <details><summary>Show the answer</summary><p>
 
 - **Remove the unused dependency from your project to eliminate the vulnerability**
@@ -375,7 +375,7 @@ A Dependabot alert has notified you of a vulnerability in a dependency that your
 </details>
 
 ---
-Your project relies on several open-source libraries, and you receive a Dependabot alert. What does this alert typically signify?
+Q: Your project relies on several open-source libraries, and you receive a Dependabot alert. What does this alert typically signify?
 <details><summary>Show the answer</summary><p>
 
 - **Dependabot has identified a vulnerability in one of your project's dependencies and is suggesting an update or fix**
@@ -383,7 +383,7 @@ Your project relies on several open-source libraries, and you receive a Dependab
 </details>
 
 ---
-What are key factors to consider when editing the default template for a GitHub Actions workflow for code scanning in an active, open-source, production repository?
+Q: What are key factors to consider when editing the default template for a GitHub Actions workflow for code scanning in an active, open-source, production repository?
 <details><summary>Show the answer</summary><p>
 
 - **The adjustment of concurrency settings to manage the number of simultaneous scans**
@@ -397,7 +397,7 @@ What are key factors to consider when editing the default template for a GitHub 
 </details>
 
 ---
-In the context of the software development life cycle (SDLC), how does code scanning ideally fit?
+Q: In the context of the software development life cycle (SDLC), how does code scanning ideally fit?
 <details><summary>Show the answer</summary><p>
 
 - **It is integrated throughout the SDLC, from initial development through to deployment and maintenance**
@@ -405,7 +405,7 @@ In the context of the software development life cycle (SDLC), how does code scan
 </details>
 
 ---
-Which of the following best describes the purpose of code scanning in a GitHub repository?
+Q: Which of the following best describes the purpose of code scanning in a GitHub repository?
 <details><summary>Show the answer</summary><p>
 
 - **To identify security vulnerabilities and coding errors by analyzing the codebase**
@@ -413,7 +413,7 @@ Which of the following best describes the purpose of code scanning in a GitHub r
 </details>
 
 ---
-You receive a Dependabot alert about a vulnerable dependency during the development phase. When in the software development lifecycle is it most critical to address this alert?
+Q: You receive a Dependabot alert about a vulnerable dependency during the development phase. When in the software development lifecycle is it most critical to address this alert?
 <details><summary>Show the answer</summary><p>
 
 - **Immediately during the development phase, before the code is merged into the main branch**
@@ -421,7 +421,7 @@ You receive a Dependabot alert about a vulnerable dependency during the developm
 </details>
 
 ---
-You're explaining to a new team member how GitHub identifies vulnerable dependencies in your project. Which component plays a key role in this process?
+Q: You're explaining to a new team member how GitHub identifies vulnerable dependencies in your project. Which component plays a key role in this process?
 <details><summary>Show the answer</summary><p>
 
 - **The dependency graph that maps out all the dependencies and their versions used in the project**
@@ -429,7 +429,7 @@ You're explaining to a new team member how GitHub identifies vulnerable dependen
 </details>
 
 ---
-When setting security policies for a repository, what action can a repository owner take to ensure contributors comply with security best practices?
+Q: When setting security policies for a repository, what action can a repository owner take to ensure contributors comply with security best practices?
 <details><summary>Show the answer</summary><p>
 
 - **Set up branch protection rules that enforce status checks and require pull request reviews**
@@ -437,7 +437,7 @@ When setting security policies for a repository, what action can a repository ow
 </details>
 
 ---
-You want to enable custom secret scanning patterns for a specific repository to match unique project requirements. What is your first step?
+Q: You want to enable custom secret scanning patterns for a specific repository to match unique project requirements. What is your first step?
 <details><summary>Show the answer</summary><p>
 
 - **Navigate to the repository's 'Security & analysis' settings and set up custom secret scanning patterns**
@@ -445,7 +445,7 @@ You want to enable custom secret scanning patterns for a specific repository to 
 </details>
 
 ---
-You are configuring access management for your team in a repository with GHAS enabled. Who should typically have the ability to view security alerts?
+Q: You are configuring access management for your team in a repository with GHAS enabled. Who should typically have the ability to view security alerts?
 <details><summary>Show the answer</summary><p>
 
 - **Only the repository administrators to ensure controlled access to sensitive information**
@@ -453,7 +453,7 @@ You are configuring access management for your team in a repository with GHAS en
 </details>
 
 ---
-What is the first step to enable code scanning using GitHub Actions in a repository?
+Q: What is the first step to enable code scanning using GitHub Actions in a repository?
 <details><summary>Show the answer</summary><p>
 
 - **Navigate to the Security tab of the repository and click on “Set up code scanning”**
@@ -461,7 +461,7 @@ What is the first step to enable code scanning using GitHub Actions in a reposit
 </details>
 
 ---
-How can GitHub Advanced Security features be enabled for an entire organization on GitHub.com?
+Q: How can GitHub Advanced Security features be enabled for an entire organization on GitHub.com?
 <details><summary>Show the answer</summary><p>
 
 - **Through the organization's settings page, where an owner or admin can enable GitHub Advanced Security for all repositories**
@@ -469,7 +469,7 @@ How can GitHub Advanced Security features be enabled for an entire organization 
 </details>
 
 ---
-What is the best approach for using security policies to guide contributors towards securing their repositories?
+Q: What is the best approach for using security policies to guide contributors towards securing their repositories?
 <details><summary>Show the answer</summary><p>
 
 - **Develop and publish a comprehensive security policy in the repository's README file, instructing contributors on secure coding practices and how to handle security alerts**
@@ -477,7 +477,7 @@ What is the best approach for using security policies to guide contributors towa
 </details>
 
 ---
-Who can view Dependabot alerts in a GitHub repository?
+Q: Who can view Dependabot alerts in a GitHub repository?
 <details><summary>Show the answer</summary><p>
 
 - **Users with 'Write' or higher permissions**
@@ -485,7 +485,7 @@ Who can view Dependabot alerts in a GitHub repository?
 </details>
 
 ---
-A developer is troubleshooting a failing CodeQL code scanning workflow in their GitHub repository. Which approach is most effective for resolving issues related to a custom configuration?
+Q: A developer is troubleshooting a failing CodeQL code scanning workflow in their GitHub repository. Which approach is most effective for resolving issues related to a custom configuration?
 <details><summary>Show the answer</summary><p>
 
 - **Modify the CodeQL workflow file to reference a corrected or updated CodeQL configuration file that addresses the identified issues**
@@ -493,7 +493,7 @@ A developer is troubleshooting a failing CodeQL code scanning workflow in their 
 </details>
 
 ---
-Which API endpoints are used for GHAS features like secret scanning, code scanning, and Dependabot?
+Q: Which API endpoints are used for GHAS features like secret scanning, code scanning, and Dependabot?
 <details><summary>Show the answer</summary><p>
 
 - **GET /repos/{owner}/{repo}/code-scanning/alerts for code scanning alerts**
@@ -505,7 +505,7 @@ Which API endpoints are used for GHAS features like secret scanning, code scanni
 </details>
 
 ---
-A company's security administrator wants to enable code scanning using a third-party analysis tool in their GitHub repository. What is the first step they should take?
+Q: A company's security administrator wants to enable code scanning using a third-party analysis tool in their GitHub repository. What is the first step they should take?
 <details><summary>Show the answer</summary><p>
 
 - **Set up a GitHub Actions workflow that includes steps to run the third-party analysis tool and report findings back to GitHub**
@@ -513,7 +513,7 @@ A company's security administrator wants to enable code scanning using a third-p
 </details>
 
 ---
-Which role is required to enable Dependabot alerts in a private repository?
+Q: Which role is required to enable Dependabot alerts in a private repository?
 <details><summary>Show the answer</summary><p>
 
 - **The repository administrator**
@@ -521,7 +521,7 @@ Which role is required to enable Dependabot alerts in a private repository?
 </details>
 
 ---
-Where can you locate API endpoints for GHAS features like secret scanning, code scanning, and Dependabot?
+Q: Where can you locate API endpoints for GHAS features like secret scanning, code scanning, and Dependabot?
 <details><summary>Show the answer</summary><p>
 
 - **Within the GitHub public documentation under the API reference section**
@@ -529,7 +529,7 @@ Where can you locate API endpoints for GHAS features like secret scanning, code 
 </details>
 
 ---
-You receive a Dependabot alert regarding a vulnerable dependency in your project's manifest file. What is your first course of action?
+Q: You receive a Dependabot alert regarding a vulnerable dependency in your project's manifest file. What is your first course of action?
 <details><summary>Show the answer</summary><p>
 
 - **Review the alert details, assess the severity, and check the suggested fix or updated version in the alert**
@@ -537,7 +537,7 @@ You receive a Dependabot alert regarding a vulnerable dependency in your project
 </details>
 
 ---
-When setting security policies for an organization using GitHub Advanced Security (GHAS), which of the following is the first step?
+Q: When setting security policies for an organization using GitHub Advanced Security (GHAS), which of the following is the first step?
 <details><summary>Show the answer</summary><p>
 
 - **Review and understand the organization's current security posture and requirements**
@@ -545,7 +545,7 @@ When setting security policies for an organization using GitHub Advanced Securit
 </details>
 
 ---
-How can a developer reference a CodeQL query from a public repository within their code scanning workflow?
+Q: How can a developer reference a CodeQL query from a public repository within their code scanning workflow?
 <details><summary>Show the answer</summary><p>
 
 - **By specifying the URL of the public repository in the uses field of their CodeQL workflow file**
@@ -553,7 +553,7 @@ How can a developer reference a CodeQL query from a public repository within the
 </details>
 
 ---
-When you enable the dependency graph feature in your GitHub repository, how does GitHub generate the dependency graph?
+Q: When you enable the dependency graph feature in your GitHub repository, how does GitHub generate the dependency graph?
 <details><summary>Show the answer</summary><p>
 
 - **GitHub analyzes the repository's manifest and lock files across all branches to identify and list all dependencies**
@@ -561,7 +561,7 @@ When you enable the dependency graph feature in your GitHub repository, how does
 </details>
 
 ---
-Which stages in the software development lifecycle should Dependabot alerts be actively monitored and addressed?
+Q: Which stages in the software development lifecycle should Dependabot alerts be actively monitored and addressed?
 <details><summary>Show the answer</summary><p>
 
 - **During project planning sessions to anticipate potential dependency issues**
@@ -573,7 +573,7 @@ Which stages in the software development lifecycle should Dependabot alerts be a
 </details>
 
 ---
-How can GitHub Advanced Security features be enabled for an organization on GitHub.com?
+Q: How can GitHub Advanced Security features be enabled for an organization on GitHub.com?
 <details><summary>Show the answer</summary><p>
 
 - **Through the organization's settings, where an owner or billing manager can enable features for all repositories**
@@ -581,7 +581,7 @@ How can GitHub Advanced Security features be enabled for an organization on GitH
 </details>
 
 ---
-What are key considerations when aligning repository branch protection configuration with written security policies?
+Q: What are key considerations when aligning repository branch protection configuration with written security policies?
 <details><summary>Show the answer</summary><p>
 
 - **Document branch protection settings in the repository's security policy for transparency and compliance**
@@ -593,7 +593,7 @@ What are key considerations when aligning repository branch protection configura
 </details>
 
 ---
-A company wants to implement a tool that scans their repositories for vulnerabilities in code patterns and configurations. Which GitHub feature should the administrator enable?
+Q: A company wants to implement a tool that scans their repositories for vulnerabilities in code patterns and configurations. Which GitHub feature should the administrator enable?
 <details><summary>Show the answer</summary><p>
 
 - **Code scanning**
@@ -601,7 +601,7 @@ A company wants to implement a tool that scans their repositories for vulnerabil
 </details>
 
 ---
-What are the implications of ignoring an alert from GitHub Advanced Security about a security vulnerability?
+Q: What are the implications of ignoring an alert from GitHub Advanced Security about a security vulnerability?
 <details><summary>Show the answer</summary><p>
 
 - **The vulnerability may be exploited, leading to potential data breaches or other security incidents**
@@ -609,7 +609,7 @@ What are the implications of ignoring an alert from GitHub Advanced Security abo
 </details>
 
 ---
-How does Dependabot generate security updates?
+Q: How does Dependabot generate security updates?
 <details><summary>Show the answer</summary><p>
 
 - **By automatically opening pull requests to update dependencies to a more secure version upon detecting vulnerabilities**
@@ -617,7 +617,7 @@ How does Dependabot generate security updates?
 </details>
 
 ---
-What is the primary purpose of defining a SARIF category in GitHub Advanced Security?
+Q: What is the primary purpose of defining a SARIF category in GitHub Advanced Security?
 <details><summary>Show the answer</summary><p>
 
 - **To categorize alerts by severity level (e.g., high, medium, low)**
@@ -625,7 +625,7 @@ What is the primary purpose of defining a SARIF category in GitHub Advanced Secu
 </details>
 
 ---
-An organization wants to enhance their security posture by ensuring that secrets are not exposed in their public repositories. Which feature should they prioritize enabling?
+Q: An organization wants to enhance their security posture by ensuring that secrets are not exposed in their public repositories. Which feature should they prioritize enabling?
 <details><summary>Show the answer</summary><p>
 
 - **Secret scanning**
@@ -633,7 +633,7 @@ An organization wants to enhance their security posture by ensuring that secrets
 </details>
 
 ---
-The administrator of a tech company wants to enable Dependabot alerts for all repositories within their organization. What is the first step they should take?
+Q: The administrator of a tech company wants to enable Dependabot alerts for all repositories within their organization. What is the first step they should take?
 <details><summary>Show the answer</summary><p>
 
 - **Navigate to the organization's security and analysis settings to enable Dependabot alerts**
@@ -641,7 +641,7 @@ The administrator of a tech company wants to enable Dependabot alerts for all re
 </details>
 
 ---
-What are Dependabot alerts?
+Q: What are Dependabot alerts?
 <details><summary>Show the answer</summary><p>
 
 - **Automated warnings generated when vulnerabilities are found in dependencies listed in a project's dependency graph**
@@ -649,7 +649,7 @@ What are Dependabot alerts?
 </details>
 
 ---
-Where can CodeQL queries be specified for use in a code scanning workflow?
+Q: Where can CodeQL queries be specified for use in a code scanning workflow?
 <details><summary>Show the answer</summary><p>
 
 - **In a CodeQL configuration file within the repository**
@@ -657,7 +657,7 @@ Where can CodeQL queries be specified for use in a code scanning workflow?
 </details>
 
 ---
-An organization's administrator wants to enable Dependabot alerts for all private repositories within their organization. What permission level is required to perform this action?
+Q: An organization's administrator wants to enable Dependabot alerts for all private repositories within their organization. What permission level is required to perform this action?
 <details><summary>Show the answer</summary><p>
 
 - **Organization owner**
@@ -665,7 +665,7 @@ An organization's administrator wants to enable Dependabot alerts for all privat
 </details>
 
 ---
-What is the primary purpose of setting a security policy for a repository?
+Q: What is the primary purpose of setting a security policy for a repository?
 <details><summary>Show the answer</summary><p>
 
 - **To guide contributors on how to securely contribute and report vulnerabilities**
@@ -673,7 +673,7 @@ What is the primary purpose of setting a security policy for a repository?
 </details>
 
 ---
-In the context of a GitHub repository, which of the following actions are recommended when defining a security policy?
+Q: In the context of a GitHub repository, which of the following actions are recommended when defining a security policy?
 <details><summary>Show the answer</summary><p>
 
 - **Documenting how to report a security vulnerability**
@@ -685,7 +685,7 @@ In the context of a GitHub repository, which of the following actions are recomm
 </details>
 
 ---
-How should a project manager establish a review cadence with the security team to ensure ongoing security assessments are integrated into the development lifecycle?
+Q: How should a project manager establish a review cadence with the security team to ensure ongoing security assessments are integrated into the development lifecycle?
 <details><summary>Show the answer</summary><p>
 
 - **Establish regular, periodic security reviews aligned with development sprints**
@@ -693,7 +693,7 @@ How should a project manager establish a review cadence with the security team t
 </details>
 
 ---
-When a GitHub Advanced Security alert is generated based on a Common Vulnerabilities and Exposures (CVE) identification, what should be the initial step in addressing the alert?
+Q: When a GitHub Advanced Security alert is generated based on a Common Vulnerabilities and Exposures (CVE) identification, what should be the initial step in addressing the alert?
 <details><summary>Show the answer</summary><p>
 
 - **Review the CVE details to understand the vulnerability's scope and impact**
@@ -701,7 +701,7 @@ When a GitHub Advanced Security alert is generated based on a Common Vulnerabili
 </details>
 
 ---
-How does enabling code scanning relate to GitHub Actions consumption for a project hosted on GitHub?
+Q: How does enabling code scanning relate to GitHub Actions consumption for a project hosted on GitHub?
 <details><summary>Show the answer</summary><p>
 
 - **Code scanning contributes to the project's GitHub Actions consumption, depending on the frequency and complexity of scans**
@@ -709,7 +709,7 @@ How does enabling code scanning relate to GitHub Actions consumption for a proje
 </details>
 
 ---
-A development team uses a branching strategy where new features are developed in feature branches before being merged into the main branch via pull requests. Which event should trigger code scanning to best suit this development pattern?
+Q: A development team uses a branching strategy where new features are developed in feature branches before being merged into the main branch via pull requests. Which event should trigger code scanning to best suit this development pattern?
 <details><summary>Show the answer</summary><p>
 
 - **On pull request events targeting the main branch**
@@ -717,7 +717,7 @@ A development team uses a branching strategy where new features are developed in
 </details>
 
 ---
-How can a developer view CodeQL code scanning results within their GitHub repository?
+Q: How can a developer view CodeQL code scanning results within their GitHub repository?
 <details><summary>Show the answer</summary><p>
 
 - **Under the repository's "Security" tab, in the "Code scanning alerts" section**
@@ -725,7 +725,7 @@ How can a developer view CodeQL code scanning results within their GitHub reposi
 </details>
 
 ---
-Which of the following steps are necessary to enable code scanning using GitHub Actions in a repository?
+Q: Which of the following steps are necessary to enable code scanning using GitHub Actions in a repository?
 <details><summary>Show the answer</summary><p>
 
 - **Navigate to the Security tab and click on "Set up code scanning"**
@@ -733,7 +733,7 @@ Which of the following steps are necessary to enable code scanning using GitHub 
 </details>
 
 ---
-Where can you find the API endpoints for GitHub Advanced Security features like secret scanning, code scanning, and Dependabot?
+Q: Where can you find the API endpoints for GitHub Advanced Security features like secret scanning, code scanning, and Dependabot?
 <details><summary>Show the answer</summary><p>
 
 - **In the GitHub public API documentation, under the security section**
@@ -741,7 +741,7 @@ Where can you find the API endpoints for GitHub Advanced Security features like 
 </details>
 
 ---
-An organization wants to configure secret scanning alerts so that both repository administrators and a specific security team receive notifications. How should they proceed?
+Q: An organization wants to configure secret scanning alerts so that both repository administrators and a specific security team receive notifications. How should they proceed?
 <details><summary>Show the answer</summary><p>
 
 - **Add the security team to the repository with the appropriate permissions and configure notification settings**
@@ -749,7 +749,7 @@ An organization wants to configure secret scanning alerts so that both repositor
 </details>
 
 ---
-When enabling code scanning in a GitHub repository, what is a key difference between using CodeQL and a third-party analysis tool?
+Q: When enabling code scanning in a GitHub repository, what is a key difference between using CodeQL and a third-party analysis tool?
 <details><summary>Show the answer</summary><p>
 
 - **CodeQL analysis can be directly integrated into GitHub Actions workflows, whereas third-party tools require manual SARIF file uploads**
@@ -757,7 +757,7 @@ When enabling code scanning in a GitHub repository, what is a key difference bet
 </details>
 
 ---
-A developer at a tech company receives a Dependabot alert about a vulnerable dependency in their project's manifest file. What is the first step they should take to address the alert?
+Q: A developer at a tech company receives a Dependabot alert about a vulnerable dependency in their project's manifest file. What is the first step they should take to address the alert?
 <details><summary>Show the answer</summary><p>
 
 - **Review the alert details and assess the vulnerability**
@@ -765,7 +765,7 @@ A developer at a tech company receives a Dependabot alert about a vulnerable dep
 </details>
 
 ---
-What action should be taken in response to a code scanning alert that conflicts with the repository’s security policy regarding merge actions?
+Q: What action should be taken in response to a code scanning alert that conflicts with the repository’s security policy regarding merge actions?
 <details><summary>Show the answer</summary><p>
 
 - **Evaluate the alert against the security policy and configure branch protection rules to block merges with unfixed security vulnerabilities if aligned with the policy**
@@ -773,7 +773,7 @@ What action should be taken in response to a code scanning alert that conflicts 
 </details>
 
 ---
-What is a necessary custom build step in a CodeQL workflow for a project that uses compiled languages?
+Q: What is a necessary custom build step in a CodeQL workflow for a project that uses compiled languages?
 <details><summary>Show the answer</summary><p>
 
 - **Adding a step to compile the code before the CodeQL analysis runs**
@@ -781,7 +781,7 @@ What is a necessary custom build step in a CodeQL workflow for a project that us
 </details>
 
 ---
-An organization has recently enabled GitHub Advanced Security. The administrator wants to ensure that developers can view but not dismiss code scanning alerts. What access level should they assign to developers?
+Q: An organization has recently enabled GitHub Advanced Security. The administrator wants to ensure that developers can view but not dismiss code scanning alerts. What access level should they assign to developers?
 <details><summary>Show the answer</summary><p>
 
 - **Read access to the repository with alert viewing permissions configured**
@@ -789,7 +789,7 @@ An organization has recently enabled GitHub Advanced Security. The administrator
 </details>
 
 ---
-When setting up code scanning in a GitHub repository using CodeQL, which of the following programming languages are supported?
+Q: When setting up code scanning in a GitHub repository using CodeQL, which of the following programming languages are supported?
 <details><summary>Show the answer</summary><p>
 
 - **JavaScript/TypeScript**
@@ -801,7 +801,7 @@ When setting up code scanning in a GitHub repository using CodeQL, which of the 
 </details>
 
 ---
-What is a critical consideration when deciding to close or dismiss a security alert in GitHub Advanced Security?
+Q: What is a critical consideration when deciding to close or dismiss a security alert in GitHub Advanced Security?
 <details><summary>Show the answer</summary><p>
 
 - **The potential impact of the vulnerability and the existence of a fix or workaround**
@@ -809,7 +809,7 @@ What is a critical consideration when deciding to close or dismiss a security al
 </details>
 
 ---
-A developer at a startup receives a Dependabot alert for a vulnerable dependency in their project's main branch. What is the first step they should take to address the alert?
+Q: A developer at a startup receives a Dependabot alert for a vulnerable dependency in their project's main branch. What is the first step they should take to address the alert?
 <details><summary>Show the answer</summary><p>
 
 - **Review the alert details in the Security tab to understand the vulnerability**
@@ -817,7 +817,7 @@ A developer at a startup receives a Dependabot alert for a vulnerable dependency
 </details>
 
 ---
-When determining if a code scanning alert needs to be dismissed, what is a valid reason for doing so?
+Q: When determining if a code scanning alert needs to be dismissed, what is a valid reason for doing so?
 <details><summary>Show the answer</summary><p>
 
 - **The alert is related to a piece of code that is about to be deprecated**
@@ -825,7 +825,7 @@ When determining if a code scanning alert needs to be dismissed, what is a valid
 </details>
 
 ---
-When setting security policies for an organization and its repositories, what actions should be taken?
+Q: When setting security policies for an organization and its repositories, what actions should be taken?
 <details><summary>Show the answer</summary><p>
 
 - **Regularly review and update the security policies and tools based on evolving security practices and threats**
@@ -837,7 +837,7 @@ When setting security policies for an organization and its repositories, what ac
 </details>
 
 ---
-Where is the Security Overview feature available within GitHub Advanced Security?
+Q: Where is the Security Overview feature available within GitHub Advanced Security?
 <details><summary>Show the answer</summary><p>
 
 - **It is only available for private repositories with GitHub Advanced Security enabled**
@@ -845,7 +845,7 @@ Where is the Security Overview feature available within GitHub Advanced Security
 </details>
 
 ---
-An organization is considering integrating GitHub Advanced Security (GHAS) with their GitHub Enterprise Cloud (GHEC) instance. What security feature becomes automatically available for their open source projects upon this integration?
+Q: An organization is considering integrating GitHub Advanced Security (GHAS) with their GitHub Enterprise Cloud (GHEC) instance. What security feature becomes automatically available for their open source projects upon this integration?
 <details><summary>Show the answer</summary><p>
 
 - **Advanced secret scanning**
@@ -853,7 +853,7 @@ An organization is considering integrating GitHub Advanced Security (GHAS) with 
 </details>
 
 ---
-What file is used to declare the security policy of a repository?
+Q: What file is used to declare the security policy of a repository?
 <details><summary>Show the answer</summary><p>
 
 - **SECURITY.md**
@@ -861,7 +861,7 @@ What file is used to declare the security policy of a repository?
 </details>
 
 ---
-An organization's administrator is setting up custom secret scanning across all repositories. What access level is required to perform this action?
+Q: An organization's administrator is setting up custom secret scanning across all repositories. What access level is required to perform this action?
 <details><summary>Show the answer</summary><p>
 
 - **Organization owner access to configure secret scanning at the organizational level**
@@ -869,7 +869,7 @@ An organization's administrator is setting up custom secret scanning across all 
 </details>
 
 ---
-In optimizing CodeQL analysis runtimes, which strategies should developers consider?
+Q: In optimizing CodeQL analysis runtimes, which strategies should developers consider?
 <details><summary>Show the answer</summary><p>
 
 - **Specifying a narrower set of paths to analyze, focusing on critical parts of the codebase**
@@ -881,7 +881,7 @@ In optimizing CodeQL analysis runtimes, which strategies should developers consi
 </details>
 
 ---
-What are essential considerations when optimizing CodeQL analysis runtimes?
+Q: What are essential considerations when optimizing CodeQL analysis runtimes?
 <details><summary>Show the answer</summary><p>
 
 - **Schedule CodeQL runs during off-peak hours to reduce the impact on GitHub Actions usage limits**
@@ -893,7 +893,7 @@ What are essential considerations when optimizing CodeQL analysis runtimes?
 </details>
 
 ---
-When configuring secret scanning for a repository or organization, which of the following actions are appropriate to ensure comprehensive coverage and response to alerts?
+Q: When configuring secret scanning for a repository or organization, which of the following actions are appropriate to ensure comprehensive coverage and response to alerts?
 <details><summary>Show the answer</summary><p>
 
 - **Enabling notifications for all relevant stakeholders, including security teams and repository administrators**
@@ -905,7 +905,7 @@ When configuring secret scanning for a repository or organization, which of the 
 </details>
 
 ---
-How are permissions typically managed in a GitHub Advanced Security workflow?
+Q: How are permissions typically managed in a GitHub Advanced Security workflow?
 <details><summary>Show the answer</summary><p>
 
 - **Permissions are assigned based on the principle of least privilege, aligning roles with specific workflow requirements**
@@ -913,7 +913,7 @@ How are permissions typically managed in a GitHub Advanced Security workflow?
 </details>
 
 ---
-How does secret scanning availability differ between public and private repositories on GitHub?
+Q: How does secret scanning availability differ between public and private repositories on GitHub?
 <details><summary>Show the answer</summary><p>
 
 - **Secret scanning is automatically enabled for public repositories, but must be manually enabled for private repositories**
@@ -921,7 +921,7 @@ How does secret scanning availability differ between public and private reposito
 </details>
 
 ---
-A company's repository has Dependabot enabled, and a pull request is automatically created to update a vulnerable dependency. What action should the repository administrator take to ensure the security update is safe to merge?
+Q: A company's repository has Dependabot enabled, and a pull request is automatically created to update a vulnerable dependency. What action should the repository administrator take to ensure the security update is safe to merge?
 <details><summary>Show the answer</summary><p>
 
 - **Test the changes introduced by the pull request in a staging environment before merging**
@@ -929,7 +929,7 @@ A company's repository has Dependabot enabled, and a pull request is automatical
 </details>
 
 ---
-A software company is assessing the risk in their codebase. What defines a vulnerability within this context?
+Q: A software company is assessing the risk in their codebase. What defines a vulnerability within this context?
 <details><summary>Show the answer</summary><p>
 
 - **A weakness in the system that can be exploited to gain unauthorized access or cause damage**
@@ -937,7 +937,7 @@ A software company is assessing the risk in their codebase. What defines a vulne
 </details>
 
 ---
-How can a repository administrator customize the default GitHub Actions workflow template for CodeQL analysis to fit an active, open-source, production repository?
+Q: How can a repository administrator customize the default GitHub Actions workflow template for CodeQL analysis to fit an active, open-source, production repository?
 <details><summary>Show the answer</summary><p>
 
 - **By modifying the workflow file to include triggers on push events to the main branch and on pull request events**
@@ -945,7 +945,7 @@ How can a repository administrator customize the default GitHub Actions workflow
 </details>
 
 ---
-How can you configure GITHUB_TOKEN to automate security workflows with specific rights in a GitHub Actions workflow?
+Q: How can you configure GITHUB_TOKEN to automate security workflows with specific rights in a GitHub Actions workflow?
 <details><summary>Show the answer</summary><p>
 
 - **By adding a permissions section in the workflow YAML file specifying the required rights, such as issues: write**
@@ -953,7 +953,7 @@ How can you configure GITHUB_TOKEN to automate security workflows with specific 
 </details>
 
 ---
-Who are key stakeholders involved in the security workflows enabled by GitHub Advanced Security, and what are their roles?
+Q: Who are key stakeholders involved in the security workflows enabled by GitHub Advanced Security, and what are their roles?
 <details><summary>Show the answer</summary><p>
 
 - **Repository Owners configure security settings and tools like CodeQL within the repository**
@@ -965,7 +965,7 @@ Who are key stakeholders involved in the security workflows enabled by GitHub Ad
 </details>
 
 ---
-After receiving a Dependabot alert for a vulnerable dependency, a developer decides to update the dependency to a non-vulnerable version. What is the recommended method to ensure the update does not break the application?
+Q: After receiving a Dependabot alert for a vulnerable dependency, a developer decides to update the dependency to a non-vulnerable version. What is the recommended method to ensure the update does not break the application?
 <details><summary>Show the answer</summary><p>
 
 - **Create a branch, update the dependency, and submit a pull request**
@@ -973,7 +973,7 @@ After receiving a Dependabot alert for a vulnerable dependency, a developer deci
 </details>
 
 ---
-An organization wants to ensure that all developers can view but not dismiss security alerts in their repositories. Which access management setting should they configure?
+Q: An organization wants to ensure that all developers can view but not dismiss security alerts in their repositories. Which access management setting should they configure?
 <details><summary>Show the answer</summary><p>
 
 - **Read access for developers on the repository and configure alert viewing permissions**
@@ -981,7 +981,7 @@ An organization wants to ensure that all developers can view but not dismiss sec
 </details>
 
 ---
-A developer wants to enable custom secret scanning patterns for a specific repository. What is the first step?
+Q: A developer wants to enable custom secret scanning patterns for a specific repository. What is the first step?
 <details><summary>Show the answer</summary><p>
 
 - **Navigate to the repository's security settings and enable custom secret scanning**
@@ -989,7 +989,7 @@ A developer wants to enable custom secret scanning patterns for a specific repos
 </details>
 
 ---
-When in the software development lifecycle should an organization configure Dependabot to monitor for vulnerabilities?
+Q: When in the software development lifecycle should an organization configure Dependabot to monitor for vulnerabilities?
 <details><summary>Show the answer</summary><p>
 
 - **During the planning phase to ensure all dependencies are secure from the start**
@@ -997,7 +997,7 @@ When in the software development lifecycle should an organization configure Depe
 </details>
 
 ---
-An organization is planning to integrate CodeQL analysis into their development workflow. Which approach allows for a direct integration within GitHub without needing external services?
+Q: An organization is planning to integrate CodeQL analysis into their development workflow. Which approach allows for a direct integration within GitHub without needing external services?
 <details><summary>Show the answer</summary><p>
 
 - **Setting up CodeQL analysis using GitHub Actions in the repository's workflows**
@@ -1005,7 +1005,7 @@ An organization is planning to integrate CodeQL analysis into their development 
 </details>
 
 ---
-When setting up code scanning with a CodeQL analysis workflow, what is an essential step in the process?
+Q: When setting up code scanning with a CodeQL analysis workflow, what is an essential step in the process?
 <details><summary>Show the answer</summary><p>
 
 - **Customizing the CodeQL workflow to match the project's language and build configuration**
@@ -1013,7 +1013,7 @@ When setting up code scanning with a CodeQL analysis workflow, what is an essent
 </details>
 
 ---
-A development team at a tech startup wants to enhance their project's security by scanning their code for vulnerabilities. Which GitHub feature allows them to automatically scan their codebase for security issues?
+Q: A development team at a tech startup wants to enhance their project's security by scanning their code for vulnerabilities. Which GitHub feature allows them to automatically scan their codebase for security issues?
 <details><summary>Show the answer</summary><p>
 
 - **GitHub Code Scanning**
@@ -1021,7 +1021,7 @@ A development team at a tech startup wants to enhance their project's security b
 </details>
 
 ---
-A developer is integrating GitHub Actions into their workflow for the first time. They want to ensure that any dependencies introduced are automatically checked for vulnerabilities. Which GitHub feature should they utilize?
+Q: A developer is integrating GitHub Actions into their workflow for the first time. They want to ensure that any dependencies introduced are automatically checked for vulnerabilities. Which GitHub feature should they utilize?
 <details><summary>Show the answer</summary><p>
 
 - **Dependabot alerts**
@@ -1029,7 +1029,7 @@ A developer is integrating GitHub Actions into their workflow for the first time
 </details>
 
 ---
-What is a key difference between scheduled and event-triggered code scanning workflows in a GitHub Actions configuration?
+Q: What is a key difference between scheduled and event-triggered code scanning workflows in a GitHub Actions configuration?
 <details><summary>Show the answer</summary><p>
 
 - **Scheduled workflows run at predetermined times, whereas event-triggered workflows run in response to specific actions in the repository**
@@ -1037,7 +1037,7 @@ What is a key difference between scheduled and event-triggered code scanning wor
 </details>
 
 ---
-When responding to a secret scanning alert, which of the following actions are appropriate?
+Q: When responding to a secret scanning alert, which of the following actions are appropriate?
 <details><summary>Show the answer</summary><p>
 
 - **Review the alert to understand the potential impact of the exposed secret**
@@ -1051,7 +1051,7 @@ When responding to a secret scanning alert, which of the following actions are a
 </details>
 
 ---
-Which screen in GitHub provides a comprehensive overview of all security issues within an organization's repositories?
+Q: Which screen in GitHub provides a comprehensive overview of all security issues within an organization's repositories?
 <details><summary>Show the answer</summary><p>
 
 - **The Security Overview screen**
@@ -1059,7 +1059,7 @@ Which screen in GitHub provides a comprehensive overview of all security issues 
 </details>
 
 ---
-A company's development team receives an alert for a vulnerable dependency in their project. The alert originated from GitHub's dependency graph. Which sources might have contributed to the identification of this vulnerability?
+Q: A company's development team receives an alert for a vulnerable dependency in their project. The alert originated from GitHub's dependency graph. Which sources might have contributed to the identification of this vulnerability?
 <details><summary>Show the answer</summary><p>
 
 - **GitHub Advisory Database and WhiteSource**
@@ -1067,7 +1067,7 @@ A company's development team receives an alert for a vulnerable dependency in th
 </details>
 
 ---
-A new developer at a tech company is tasked with assessing the project's dependencies for security vulnerabilities. They learn about GitHub's dependency graph feature. What is the primary purpose of the dependency graph?
+Q: A new developer at a tech company is tasked with assessing the project's dependencies for security vulnerabilities. They learn about GitHub's dependency graph feature. What is the primary purpose of the dependency graph?
 <details><summary>Show the answer</summary><p>
 
 - **To visualize and track the libraries and packages the project depends on, along with their versions**
@@ -1075,7 +1075,7 @@ A new developer at a tech company is tasked with assessing the project's depende
 </details>
 
 ---
-What are the two valid ways of running CodeQL analysis on GitHub?
+Q: What are the two valid ways of running CodeQL analysis on GitHub?
 <details><summary>Show the answer</summary><p>
 
 - **Run the CodeQL CLI directly in an external CI system and upload the results to GitHub**
@@ -1085,7 +1085,7 @@ What are the two valid ways of running CodeQL analysis on GitHub?
 </details>
 
 ---
-How can an administrator exclude certain files from being scanned for secrets in their repository?
+Q: How can an administrator exclude certain files from being scanned for secrets in their repository?
 <details><summary>Show the answer</summary><p>
 
 - **Use the repository's settings to configure secret scanning exclusions**
@@ -1093,7 +1093,7 @@ How can an administrator exclude certain files from being scanned for secrets in
 </details>
 
 ---
-Where should the security policy for a GitHub repository be declared?
+Q: Where should the security policy for a GitHub repository be declared?
 <details><summary>Show the answer</summary><p>
 
 - **In the SECURITY.md file located in the repository's root directory**
@@ -1101,7 +1101,7 @@ Where should the security policy for a GitHub repository be declared?
 </details>
 
 ---
-When setting up CodeQL analysis for a project, a developer decides to utilize the default CodeQL query suites. What characterizes these default query suites?
+Q: When setting up CodeQL analysis for a project, a developer decides to utilize the default CodeQL query suites. What characterizes these default query suites?
 <details><summary>Show the answer</summary><p>
 
 - **Comprehensive sets of queries that target a wide range of common security issues and coding errors specific to the language of the codebase**
@@ -1109,7 +1109,7 @@ When setting up CodeQL analysis for a project, a developer decides to utilize th
 </details>
 
 ---
-How can a user upload 3rd party SARIF results to GitHub?
+Q: How can a user upload 3rd party SARIF results to GitHub?
 <details><summary>Show the answer</summary><p>
 
 - **Use the GitHub API to upload SARIF files to the code scanning alerts endpoint for the repository**
@@ -1117,7 +1117,7 @@ How can a user upload 3rd party SARIF results to GitHub?
 </details>
 
 ---
-An administrator at a software development company wants to enable secret scanning for their organization's private repositories. What is the first step they should take?
+Q: An administrator at a software development company wants to enable secret scanning for their organization's private repositories. What is the first step they should take?
 <details><summary>Show the answer</summary><p>
 
 - **Navigate to the organization's security settings and enable secret scanning**
@@ -1125,7 +1125,7 @@ An administrator at a software development company wants to enable secret scanni
 </details>
 
 ---
-When does secret scanning occur in a GitHub repository?
+Q: When does secret scanning occur in a GitHub repository?
 <details><summary>Show the answer</summary><p>
 
 - **Continuously, scanning every push to the repository**
@@ -1133,7 +1133,7 @@ When does secret scanning occur in a GitHub repository?
 </details>
 
 ---
-How can stakeholders ensure their repository's branch protection configuration aligns with written security policies?
+Q: How can stakeholders ensure their repository's branch protection configuration aligns with written security policies?
 <details><summary>Show the answer</summary><p>
 
 - **By configuring branch protection rules in accordance with security policies and regularly reviewing these settings**
@@ -1141,7 +1141,7 @@ How can stakeholders ensure their repository's branch protection configuration a
 </details>
 
 ---
-Which user role is required to see secret scanning alerts in a GitHub repository?
+Q: Which user role is required to see secret scanning alerts in a GitHub repository?
 <details><summary>Show the answer</summary><p>
 
 - **Users with write access or higher to the repository**
@@ -1149,7 +1149,7 @@ Which user role is required to see secret scanning alerts in a GitHub repository
 </details>
 
 ---
-What are the roles and responsibilities of development and security teams in a software development workflow concerning GitHub Advanced Security alerts?
+Q: What are the roles and responsibilities of development and security teams in a software development workflow concerning GitHub Advanced Security alerts?
 <details><summary>Show the answer</summary><p>
 
 - **Development teams implement fixes based on alerts, while security teams provide oversight, guidance, and prioritize alerts**
@@ -1157,7 +1157,7 @@ What are the roles and responsibilities of development and security teams in a s
 </details>
 
 ---
-What is the primary goal of GitHub's Dependabot?
+Q: What is the primary goal of GitHub's Dependabot?
 <details><summary>Show the answer</summary><p>
 
 - **Dependabot keeps your dependencies up to date by alerting you of security vulnerabilities and automatically opening pull requests to upgrade to secure versions or the latest release**
@@ -1165,7 +1165,7 @@ What is the primary goal of GitHub's Dependabot?
 </details>
 
 ---
-When integrating code scanning with a third-party CI system to analyze your codebase, which of the following is required to ensure compatibility with GitHub's code scanning feature?
+Q: When integrating code scanning with a third-party CI system to analyze your codebase, which of the following is required to ensure compatibility with GitHub's code scanning feature?
 <details><summary>Show the answer</summary><p>
 
 - **You don't specifically need a GitHub tool; any static analysis tool that can produce results in SARIF format will work**
@@ -1173,7 +1173,7 @@ When integrating code scanning with a third-party CI system to analyze your code
 </details>
 
 ---
-Is it possible to run code scanning in an external CI system and then upload the results to GitHub without using GitHub Actions?
+Q: Is it possible to run code scanning in an external CI system and then upload the results to GitHub without using GitHub Actions?
 <details><summary>Show the answer</summary><p>
 
 - **True**
@@ -1181,7 +1181,7 @@ Is it possible to run code scanning in an external CI system and then upload the
 </details>
 
 ---
-What should be done after updating a dependency in response to a Dependabot alert?
+Q: What should be done after updating a dependency in response to a Dependabot alert?
 <details><summary>Show the answer</summary><p>
 
 - **Test the changes to ensure that the update does not break existing functionalities**
@@ -1189,7 +1189,7 @@ What should be done after updating a dependency in response to a Dependabot aler
 </details>
 
 ---
-Which of the following package managers are supported by GitHub's Dependency graph and Dependabot for tracking and updating dependencies?
+Q: Which of the following package managers are supported by GitHub's Dependency graph and Dependabot for tracking and updating dependencies?
 <details><summary>Show the answer</summary><p>
 
 - **PIP (Python)**
@@ -1199,7 +1199,7 @@ Which of the following package managers are supported by GitHub's Dependency gra
 </details>
 
 ---
-Which statements are true regarding running CodeQL analysis on codebases with multiple programming languages?
+Q: Which statements are true regarding running CodeQL analysis on codebases with multiple programming languages?
 <details><summary>Show the answer</summary><p>
 
 - **CodeQL uses a different extractor for each programming language**
@@ -1209,7 +1209,7 @@ Which statements are true regarding running CodeQL analysis on codebases with mu
 </details>
 
 ---
-What is the name of the feature that enables automated code scanning for vulnerabilities on GitHub?
+Q: What is the name of the feature that enables automated code scanning for vulnerabilities on GitHub?
 <details><summary>Show the answer</summary><p>
 
 - **CodeQL**
@@ -1217,7 +1217,7 @@ What is the name of the feature that enables automated code scanning for vulnera
 </details>
 
 ---
-When a GitHub Advanced Security alert identifies a vulnerability with a Common Vulnerabilities and Exposures (CVE) identifier in your repository, what is the most immediate step for remediation?
+Q: When a GitHub Advanced Security alert identifies a vulnerability with a Common Vulnerabilities and Exposures (CVE) identifier in your repository, what is the most immediate step for remediation?
 <details><summary>Show the answer</summary><p>
 
 - **Update or patch the affected dependency to the version that resolves the vulnerability as recommended by the alert**
@@ -1225,7 +1225,7 @@ When a GitHub Advanced Security alert identifies a vulnerability with a Common V
 </details>
 
 ---
-What are the differences in the CodeQL database creation process for compiled and interpreted languages?
+Q: What are the differences in the CodeQL database creation process for compiled and interpreted languages?
 <details><summary>Show the answer</summary><p>
 
 - **For interpreted languages, the extractor runs directly on the source code**
@@ -1235,7 +1235,7 @@ What are the differences in the CodeQL database creation process for compiled an
 </details>
 
 ---
-Which GitHub Action is specifically designed for uploading SARIF files to integrate code scanning results into GitHub?
+Q: Which GitHub Action is specifically designed for uploading SARIF files to integrate code scanning results into GitHub?
 <details><summary>Show the answer</summary><p>
 
 - **github/codeql-action/upload-sarif@v1**
@@ -1243,7 +1243,7 @@ Which GitHub Action is specifically designed for uploading SARIF files to integr
 </details>
 
 ---
-In GitHub, which access levels or roles are necessary for users to view and manage security alerts in a repository?
+Q: In GitHub, which access levels or roles are necessary for users to view and manage security alerts in a repository?
 <details><summary>Show the answer</summary><p>
 
 - **Admin access to the repository for managing and dismissing alerts**
@@ -1253,7 +1253,7 @@ In GitHub, which access levels or roles are necessary for users to view and mana
 </details>
 
 ---
-How can you exclude certain files from being scanned for secrets in GitHub Advanced Security?
+Q: How can you exclude certain files from being scanned for secrets in GitHub Advanced Security?
 <details><summary>Show the answer</summary><p>
 
 - **Through the repository's settings, under the "Code security and analysis" section, by specifying paths to exclude**
@@ -1261,7 +1261,7 @@ How can you exclude certain files from being scanned for secrets in GitHub Advan
 </details>
 
 ---
-How can you set a default security policy for all repositories in the 'my-org' GitHub Organization?
+Q: How can you set a default security policy for all repositories in the 'my-org' GitHub Organization?
 <details><summary>Show the answer</summary><p>
 
 - **By creating a SECURITY.md file in the my-org/.github repository**
@@ -1269,7 +1269,7 @@ How can you set a default security policy for all repositories in the 'my-org' G
 </details>
 
 ---
-How can you enable GitHub Advanced Security features for all repositories in an organization on GitHub Enterprise Cloud?
+Q: How can you enable GitHub Advanced Security features for all repositories in an organization on GitHub Enterprise Cloud?
 <details><summary>Show the answer</summary><p>
 
 - **In the Code security and analysis section of the organization settings**
@@ -1277,7 +1277,7 @@ How can you enable GitHub Advanced Security features for all repositories in an 
 </details>
 
 ---
-Where can you locate the API endpoint for secret scanning in GitHub Advanced Security?
+Q: Where can you locate the API endpoint for secret scanning in GitHub Advanced Security?
 <details><summary>Show the answer</summary><p>
 
 - **GET /orgs/{org}/secret-scanning/alerts**
@@ -1285,7 +1285,7 @@ Where can you locate the API endpoint for secret scanning in GitHub Advanced Sec
 </details>
 
 ---
-What distinguishes dismissing a code scanning alert from deleting it in GitHub's code scanning tool?
+Q: What distinguishes dismissing a code scanning alert from deleting it in GitHub's code scanning tool?
 <details><summary>Show the answer</summary><p>
 
 - **Dismissing an alert records the reason for closure and moves the alert to the "Closed" list, whereas deleting an alert removes it permanently without the option to review or reopen it**
@@ -1293,7 +1293,7 @@ What distinguishes dismissing a code scanning alert from deleting it in GitHub's
 </details>
 
 ---
-How should a repository's branch protection configuration be aligned with written security policies?
+Q: How should a repository's branch protection configuration be aligned with written security policies?
 <details><summary>Show the answer</summary><p>
 
 - **By setting branch protection rules that enforce code review and status checks before merging, in accordance with the security policies**
@@ -1301,7 +1301,7 @@ How should a repository's branch protection configuration be aligned with writte
 </details>
 
 ---
-How is secret scanning availability contrasted for public and private repositories?
+Q: How is secret scanning availability contrasted for public and private repositories?
 <details><summary>Show the answer</summary><p>
 
 - **Available by default for both public and private repositories with GitHub Advanced Security**
@@ -1309,7 +1309,7 @@ How is secret scanning availability contrasted for public and private repositori
 </details>
 
 ---
-What are the main security features available with GitHub Advanced Security?
+Q: What are the main security features available with GitHub Advanced Security?
 <details><summary>Show the answer</summary><p>
 
 - **Dependabot**
@@ -1321,7 +1321,7 @@ What are the main security features available with GitHub Advanced Security?
 </details>
 
 ---
-What should a developer do when they discover a security alert in their repository?
+Q: What should a developer do when they discover a security alert in their repository?
 <details><summary>Show the answer</summary><p>
 
 - **Immediately act on the alert by investigating its implications and applying the recommended remediation steps**
@@ -1329,7 +1329,7 @@ What should a developer do when they discover a security alert in their reposito
 </details>
 
 ---
-A company's security team needs to manage security alerts across all repositories in their GitHub Enterprise account. Which permission level is required for the team to effectively perform this role?
+Q: A company's security team needs to manage security alerts across all repositories in their GitHub Enterprise account. Which permission level is required for the team to effectively perform this role?
 <details><summary>Show the answer</summary><p>
 
 - **Organization owner with security manager role**
@@ -1337,7 +1337,7 @@ A company's security team needs to manage security alerts across all repositorie
 </details>
 
 ---
-Where can you specify the CodeQL queries to run in a GitHub Actions workflow?
+Q: Where can you specify the CodeQL queries to run in a GitHub Actions workflow?
 <details><summary>Show the answer</summary><p>
 
 - **In the queries input parameter of the github/codeql-action/init action**
@@ -1347,7 +1347,7 @@ Where can you specify the CodeQL queries to run in a GitHub Actions workflow?
 </details>
 
 ---
-What does GitHub's Dependency graph specifically scan within a repository?
+Q: What does GitHub's Dependency graph specifically scan within a repository?
 <details><summary>Show the answer</summary><p>
 
 - **Dependency and package files such as package.json, package.config, pom.xml, etc., to identify project dependencies**
@@ -1355,7 +1355,7 @@ What does GitHub's Dependency graph specifically scan within a repository?
 </details>
 
 ---
-For an active development project that employs feature branching, which triggering event would be most appropriate to configure for running code scanning workflows?
+Q: For an active development project that employs feature branching, which triggering event would be most appropriate to configure for running code scanning workflows?
 <details><summary>Show the answer</summary><p>
 
 - **On pull request creation targeting the main branch, especially for changes in specific critical files**
@@ -1363,7 +1363,7 @@ For an active development project that employs feature branching, which triggeri
 </details>
 
 ---
-How does code scanning typically integrate into the software development life cycle (SDLC)?
+Q: How does code scanning typically integrate into the software development life cycle (SDLC)?
 <details><summary>Show the answer</summary><p>
 
 - **Throughout the development phases, including at commit, pull request, and pre-deployment stages**
@@ -1371,7 +1371,7 @@ How does code scanning typically integrate into the software development life cy
 </details>
 
 ---
-Through which channels can Dependabot notifications be received?
+Q: Through which channels can Dependabot notifications be received?
 <details><summary>Show the answer</summary><p>
 
 - **By email**
@@ -1383,7 +1383,7 @@ Through which channels can Dependabot notifications be received?
 </details>
 
 ---
-Which of the following are types of CodeQL packs?
+Q: Which of the following are types of CodeQL packs?
 <details><summary>Show the answer</summary><p>
 
 - **Query packs**
@@ -1395,7 +1395,7 @@ Which of the following are types of CodeQL packs?
 </details>
 
 ---
-How do you enable custom secret scanning for an organization?
+Q: How do you enable custom secret scanning for an organization?
 <details><summary>Show the answer</summary><p>
 
 - **In the organization's security settings, enable custom secret scanning and define custom patterns**
@@ -1403,7 +1403,7 @@ How do you enable custom secret scanning for an organization?
 </details>
 
 ---
-What are the key steps to enable secret scanning for an organization?
+Q: What are the key steps to enable secret scanning for an organization?
 <details><summary>Show the answer</summary><p>
 
 - **Navigate to the organization's security settings and enable secret scanning for all repositories**
@@ -1415,7 +1415,7 @@ What are the key steps to enable secret scanning for an organization?
 </details>
 
 ---
-How can you enable GitHub Advanced Security features on GitHub Enterprise Server?
+Q: How can you enable GitHub Advanced Security features on GitHub Enterprise Server?
 <details><summary>Show the answer</summary><p>
 
 - **In the Security tab of the Site admin management console**
@@ -1425,7 +1425,7 @@ How can you enable GitHub Advanced Security features on GitHub Enterprise Server
 </details>
 
 ---
-What feature provides a safe space for code maintainers to discuss how to best address errors and vulnerabilities found in the codebase?
+Q: What feature provides a safe space for code maintainers to discuss how to best address errors and vulnerabilities found in the codebase?
 <details><summary>Show the answer</summary><p>
 
 - **Security advisories**
@@ -1433,7 +1433,7 @@ What feature provides a safe space for code maintainers to discuss how to best a
 </details>
 
 ---
-When integrating CodeQL analysis into a GitHub Actions workflow, how can the scan be triggered?
+Q: When integrating CodeQL analysis into a GitHub Actions workflow, how can the scan be triggered?
 <details><summary>Show the answer</summary><p>
 
 - **Code scanning can be triggered on a configurable schedule or on pull requests**
@@ -1441,7 +1441,7 @@ When integrating CodeQL analysis into a GitHub Actions workflow, how can the sca
 </details>
 
 ---
-What is the decision-making process for closing and dismissing security alerts in GitHub Advanced Security?
+Q: What is the decision-making process for closing and dismissing security alerts in GitHub Advanced Security?
 <details><summary>Show the answer</summary><p>
 
 - **Documenting the reason for dismissal and making a decision based on data, ensuring that each alert is properly evaluated**
@@ -1449,7 +1449,7 @@ What is the decision-making process for closing and dismissing security alerts i
 </details>
 
 ---
-Why might an organization that recently started using CodeQL analysis for all pull requests and on an hourly schedule be experiencing higher GitHub Actions bills?
+Q: Why might an organization that recently started using CodeQL analysis for all pull requests and on an hourly schedule be experiencing higher GitHub Actions bills?
 <details><summary>Show the answer</summary><p>
 
 - **Code scanning uses GitHub Actions, and the organization is being billed for the additional usage**
@@ -1457,7 +1457,7 @@ Why might an organization that recently started using CodeQL analysis for all pu
 </details>
 
 ---
-Which file format is used to integrate results from a 3rd party scanning tool into GitHub's code scanning feature?
+Q: Which file format is used to integrate results from a 3rd party scanning tool into GitHub's code scanning feature?
 <details><summary>Show the answer</summary><p>
 
 - **The SARIF format (Static Analysis Results Interchange Format)**
@@ -1465,7 +1465,7 @@ Which file format is used to integrate results from a 3rd party scanning tool in
 </details>
 
 ---
-Who can access Dependabot alerts by default in a GitHub repository, and how can access be extended to other users or teams?
+Q: Who can access Dependabot alerts by default in a GitHub repository, and how can access be extended to other users or teams?
 <details><summary>Show the answer</summary><p>
 
 - **By default, only repository owners and administrators can access Dependabot alerts. However, they can grant access to other users or teams by adding them in the "Access to alerts" section**
@@ -1473,7 +1473,7 @@ Who can access Dependabot alerts by default in a GitHub repository, and how can 
 </details>
 
 ---
-What does CWE stand for?
+Q: What does CWE stand for?
 <details><summary>Show the answer</summary><p>
 
 - **Common Weakness Enumeration**
@@ -1481,7 +1481,7 @@ What does CWE stand for?
 </details>
 
 ---
-Which file is used to configure Dependabot's behavior, including scan intervals and version control preferences in a GitHub repository?
+Q: Which file is used to configure Dependabot's behavior, including scan intervals and version control preferences in a GitHub repository?
 <details><summary>Show the answer</summary><p>
 
 - **dependabot.yml**
@@ -1489,7 +1489,7 @@ Which file is used to configure Dependabot's behavior, including scan intervals 
 </details>
 
 ---
-What is the primary focus area of GitHub's dependency management feature?
+Q: What is the primary focus area of GitHub's dependency management feature?
 <details><summary>Show the answer</summary><p>
 
 - **Supply chain**
@@ -1497,7 +1497,7 @@ What is the primary focus area of GitHub's dependency management feature?
 </details>
 
 ---
-What is the primary purpose of CodeQL queries?
+Q: What is the primary purpose of CodeQL queries?
 <details><summary>Show the answer</summary><p>
 
 - **CodeQL queries can be run against a CodeQL database to identify patterns that may indicate coding errors or security vulnerabilities**
@@ -1505,7 +1505,7 @@ What is the primary purpose of CodeQL queries?
 </details>
 
 ---
-How should an organization set a review cadence with security teams for addressing vulnerabilities?
+Q: How should an organization set a review cadence with security teams for addressing vulnerabilities?
 <details><summary>Show the answer</summary><p>
 
 - **By establishing a predefined schedule, such as weekly or bi-weekly, to review and discuss new vulnerabilities and security alerts with the security team**
@@ -1513,7 +1513,7 @@ How should an organization set a review cadence with security teams for addressi
 </details>
 
 ---
-Which of the following statements are true about code scanning?
+Q: Which of the following statements are true about code scanning?
 <details><summary>Show the answer</summary><p>
 
 - **Code scanning helps find insecure code patterns which can be missed by manual code review**
@@ -1523,7 +1523,7 @@ Which of the following statements are true about code scanning?
 </details>
 
 ---
-How are vulnerable dependencies identified in a project using GitHub Advanced Security?
+Q: How are vulnerable dependencies identified in a project using GitHub Advanced Security?
 <details><summary>Show the answer</summary><p>
 
 - **By analyzing the project's manifest files and comparing them with databases of known vulnerabilities**
@@ -1531,7 +1531,7 @@ How are vulnerable dependencies identified in a project using GitHub Advanced Se
 </details>
 
 ---
-What does CVSS stand for?
+Q: What does CVSS stand for?
 <details><summary>Show the answer</summary><p>
 
 - **Common Vulnerability Scoring System**
@@ -1539,7 +1539,7 @@ What does CVSS stand for?
 </details>
 
 ---
-What does the term "shifting left" refer to in the context of software development?
+Q: What does the term "shifting left" refer to in the context of software development?
 <details><summary>Show the answer</summary><p>
 
 - **Incorporating security principles early in the software development lifecycle**
@@ -1547,7 +1547,7 @@ What does the term "shifting left" refer to in the context of software developme
 </details>
 
 ---
-Which types of dependencies are checked by GitHub's Dependency graph?
+Q: Which types of dependencies are checked by GitHub's Dependency graph?
 <details><summary>Show the answer</summary><p>
 
 - **The direct dependencies explicitly defined in a manifest or lock file**
@@ -1559,7 +1559,7 @@ Which types of dependencies are checked by GitHub's Dependency graph?
 </details>
 
 ---
-How can security policies be used to instruct all contributors on securing their repositories?
+Q: How can security policies be used to instruct all contributors on securing their repositories?
 <details><summary>Show the answer</summary><p>
 
 - **By implementing a SECURITY.md file in the repository that outlines security policies, best practices, and procedures for handling vulnerabilities**
@@ -1567,7 +1567,7 @@ How can security policies be used to instruct all contributors on securing their
 </details>
 
 ---
-Which sequence correctly represents the steps of the CodeQL analysis workflow?
+Q: Which sequence correctly represents the steps of the CodeQL analysis workflow?
 <details><summary>Show the answer</summary><p>
 
 - **Creating a CodeQL database -> Running CodeQL queries -> Interpreting the results**
@@ -1575,7 +1575,7 @@ Which sequence correctly represents the steps of the CodeQL analysis workflow?
 </details>
 
 ---
-Which primary areas does GitHub Advanced Security focus on protecting within your organization?
+Q: Which primary areas does GitHub Advanced Security focus on protecting within your organization?
 <details><summary>Show the answer</summary><p>
 
 - **Supply chain**
@@ -1587,7 +1587,7 @@ Which primary areas does GitHub Advanced Security focus on protecting within you
 </details>
 
 ---
-What is the primary function of GitHub's Dependency graph?
+Q: What is the primary function of GitHub's Dependency graph?
 <details><summary>Show the answer</summary><p>
 
 - **To analyze repository files for dependencies, including direct and indirect dependencies defined in manifest or lock files**
@@ -1595,7 +1595,7 @@ What is the primary function of GitHub's Dependency graph?
 </details>
 
 ---
-How can you configure your GitHub repository to run CodeQL analysis on a schedule?
+Q: How can you configure your GitHub repository to run CodeQL analysis on a schedule?
 <details><summary>Show the answer</summary><p>
 
 - **By creating a GitHub Actions workflow with a schedule trigger, leveraging actions from the github/codeql-action repository**
@@ -1605,7 +1605,7 @@ How can you configure your GitHub repository to run CodeQL analysis on a schedul
 </details>
 
 ---
-How can you configure code scanning within a repository using the default CodeQL workflow?
+Q: How can you configure code scanning within a repository using the default CodeQL workflow?
 <details><summary>Show the answer</summary><p>
 
 - **By selecting the "Set up code scanning" option under the Security tab in the repository settings, which automatically generates the default CodeQL workflow file**
@@ -1613,7 +1613,7 @@ How can you configure code scanning within a repository using the default CodeQL
 </details>
 
 ---
-Which types of programming languages does CodeQL scanning support?
+Q: Which types of programming languages does CodeQL scanning support?
 <details><summary>Show the answer</summary><p>
 
 - **Both compiled and interpreted languages**
@@ -1621,7 +1621,7 @@ Which types of programming languages does CodeQL scanning support?
 </details>
 
 ---
-How can you enable Dependabot security updates on all repositories within an organization?
+Q: How can you enable Dependabot security updates on all repositories within an organization?
 <details><summary>Show the answer</summary><p>
 
 - **Go to the organization's Code security and analysis settings and enable Dependabot Security Updates for all repositories at once**
@@ -1629,7 +1629,7 @@ How can you enable Dependabot security updates on all repositories within an org
 </details>
 
 ---
-Can you use CodeQL analysis with third party CI systems?
+Q: Can you use CodeQL analysis with third party CI systems?
 <details><summary>Show the answer</summary><p>
 
 - **Yes, you just need to use the CodeQL CLI**
@@ -1637,7 +1637,7 @@ Can you use CodeQL analysis with third party CI systems?
 </details>
 
 ---
-How do you configure the recipients of a secret scanning alert for a repository?
+Q: How do you configure the recipients of a secret scanning alert for a repository?
 <details><summary>Show the answer</summary><p>
 
 - **Through the repository’s webhook settings to send notifications to external systems**
@@ -1645,7 +1645,7 @@ How do you configure the recipients of a secret scanning alert for a repository?
 </details>
 
 ---
-In the context of CodeQL code analysis, what does the term "extraction" refer to?
+Q: In the context of CodeQL code analysis, what does the term "extraction" refer to?
 <details><summary>Show the answer</summary><p>
 
 - **Extraction is the process of creating a relational representation of each source file in the codebase**
@@ -1653,7 +1653,7 @@ In the context of CodeQL code analysis, what does the term "extraction" refer to
 </details>
 
 ---
-How can you upload SARIF results to GitHub when using GitHub Actions as your CI system and a third-party tool for code scanning?
+Q: How can you upload SARIF results to GitHub when using GitHub Actions as your CI system and a third-party tool for code scanning?
 <details><summary>Show the answer</summary><p>
 
 - **By using the github/codeql-action/upload-sarif GitHub Action**
@@ -1661,7 +1661,7 @@ How can you upload SARIF results to GitHub when using GitHub Actions as your CI 
 </details>
 
 ---
-How can a vulnerability from a Dependabot alert be remedied directly from the Security tab in a GitHub repository?
+Q: How can a vulnerability from a Dependabot alert be remedied directly from the Security tab in a GitHub repository?
 <details><summary>Show the answer</summary><p>
 
 - **By updating the dependency to a secure version as recommended by Dependabot**
@@ -1669,7 +1669,7 @@ How can a vulnerability from a Dependabot alert be remedied directly from the Se
 </details>
 
 ---
-What should be considered when responding to a secret scanning alert?
+Q: What should be considered when responding to a secret scanning alert?
 <details><summary>Show the answer</summary><p>
 
 - **The potential impact of the exposed secret and steps to mitigate any risks**
@@ -1677,7 +1677,7 @@ What should be considered when responding to a secret scanning alert?
 </details>
 
 ---
-Which file format is used to integrate results from a 3rd party scanning tool into GitHub's code scanning features?
+Q: Which file format is used to integrate results from a 3rd party scanning tool into GitHub's code scanning features?
 <details><summary>Show the answer</summary><p>
 
 - **The SARIF format (Static Analysis Results Interchange Format)**
@@ -1685,7 +1685,7 @@ Which file format is used to integrate results from a 3rd party scanning tool in
 </details>
 
 ---
-Your team is considering the implementation of GHAS features for your open-source project hosted on GitHub. What feature comes automatically enabled for your open-source project?
+Q: Your team is considering the implementation of GHAS features for your open-source project hosted on GitHub. What feature comes automatically enabled for your open-source project?
 <details><summary>Show the answer</summary><p>
 
 - **Secret scanning for detecting exposed secrets within the project's codebase**
@@ -1693,7 +1693,7 @@ Your team is considering the implementation of GHAS features for your open-sourc
 </details>
 
 ---
-Which user role is required to view secret scanning alerts in a GitHub repository?
+Q: Which user role is required to view secret scanning alerts in a GitHub repository?
 <details><summary>Show the answer</summary><p>
 
 - **Repository administrator**
@@ -1701,9 +1701,12 @@ Which user role is required to view secret scanning alerts in a GitHub repositor
 </details>
 
 ---
-As a security manager, you need to ensure that secret scanning is enabled for all private repositories in your organization. Which action should you take?
+Q: As a security manager, you need to ensure that secret scanning is enabled for all private repositories in your organization. Which action should you take?
 <details><summary>Show the answer</summary><p>
 
 - **Access the organization's settings and enable secret scanning at the organization level to apply it to all existing and future repositories**
 > Enabling secret scanning at the organization level ensures that all current and future repositories under the organization have secret scanning activated
 </details>
+
+---
+Number of questions: 197
