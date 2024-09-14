@@ -17,7 +17,7 @@ Candidates for this exam should have subject matter expertise with continuous in
 
 ## Questions
 
-In a GitHub Actions workflow, how can you efficiently reduce duplication of code when the same steps are used across multiple jobs?
+Q: In a GitHub Actions workflow, how can you efficiently reduce duplication of code when the same steps are used across multiple jobs?
 <details><summary>Show the answer</summary><p>
 
 - **Implement a custom action and reference it in each job where the steps are required**
@@ -25,7 +25,7 @@ In a GitHub Actions workflow, how can you efficiently reduce duplication of code
 </details>
 
 ---
-When setting up a GitHub Actions workflow, how can you ensure that a job is only executed if a previous job in the workflow has failed?
+Q: When setting up a GitHub Actions workflow, how can you ensure that a job is only executed if a previous job in the workflow has failed?
 <details><summary>Show the answer</summary><p>
 
 - **Use the if: failure() condition combined with the needs keyword, like needs: [previous_job] and if: failure() in the job definition**
@@ -33,7 +33,7 @@ When setting up a GitHub Actions workflow, how can you ensure that a job is only
 </details>
 
 ---
-How should an appropriate distribution model for a GitHub Action be selected?
+Q: How should an appropriate distribution model for a GitHub Action be selected?
 <details><summary>Show the answer</summary><p>
 
 - **Based on the intended audience and usage scope, choosing between public, private, or marketplace distribution**
@@ -41,7 +41,7 @@ How should an appropriate distribution model for a GitHub Action be selected?
 </details>
 
 ---
-When developing a custom Docker-based GitHub Action, what is the recommended method for passing input parameters from the workflow to the Docker container?
+Q: When developing a custom Docker-based GitHub Action, what is the recommended method for passing input parameters from the workflow to the Docker container?
 <details><summary>Show the answer</summary><p>
 
 - **Define input parameters in the action's metadata file (action.yml) and access them as environment variables inside the Docker container**
@@ -49,7 +49,7 @@ When developing a custom Docker-based GitHub Action, what is the recommended met
 </details>
 
 ---
-In GitHub Actions, how can you ensure that a specific job in a workflow only runs if changes were made to files in either of two different directories?
+Q: In GitHub Actions, how can you ensure that a specific job in a workflow only runs if changes were made to files in either of two different directories?
 <details><summary>Show the answer</summary><p>
 
 - **Create a preliminary job to check for changes in the specified directories and use its output in the if condition of the dependent jobs**
@@ -59,7 +59,7 @@ In GitHub Actions, how can you ensure that a specific job in a workflow only run
 </details>
 
 ---
-What is the best practice for updating self-hosted runners?
+Q: What is the best practice for updating self-hosted runners?
 <details><summary>Show the answer</summary><p>
 
 - **Implementing a regular update schedule to ensure runners have the latest features and security patches**
@@ -67,7 +67,7 @@ What is the best practice for updating self-hosted runners?
 </details>
 
 ---
-What is a key consideration when creating a release strategy for a GitHub Action?
+Q: What is a key consideration when creating a release strategy for a GitHub Action?
 <details><summary>Show the answer</summary><p>
 
 - **Implement versioning to track changes, facilitate backward compatibility, and manage releases effectively**
@@ -75,7 +75,7 @@ What is a key consideration when creating a release strategy for a GitHub Action
 </details>
 
 ---
-In a GitHub Actions workflow, how can you share data generated in one job with subsequent jobs in the same workflow?
+Q: In a GitHub Actions workflow, how can you share data generated in one job with subsequent jobs in the same workflow?
 <details><summary>Show the answer</summary><p>
 
 - **Use the upload-artifact and download-artifact actions to pass data between jobs**
@@ -83,7 +83,7 @@ In a GitHub Actions workflow, how can you share data generated in one job with s
 </details>
 
 ---
-When authoring a custom GitHub Action to be used across multiple projects within an organization, what is the best practice for handling updates to the action to minimize disruptions in those projects?
+Q: When authoring a custom GitHub Action to be used across multiple projects within an organization, what is the best practice for handling updates to the action to minimize disruptions in those projects?
 <details><summary>Show the answer</summary><p>
 
 - **Release new versions of the action using version tags, and instruct projects to use specific versions rather than the latest commit on the main branch**
@@ -91,7 +91,7 @@ When authoring a custom GitHub Action to be used across multiple projects within
 </details>
 
 ---
-In GitHub Actions, what is the correct approach to ensure that a workflow is triggered by a push event only when specific files or directories change?
+Q: In GitHub Actions, what is the correct approach to ensure that a workflow is triggered by a push event only when specific files or directories change?
 <details><summary>Show the answer</summary><p>
 
 - **Use the on: push: paths: ['specific-path/*'] syntax to trigger the workflow only when changes occur in files or directories under 'specific-path'**
@@ -99,7 +99,7 @@ In GitHub Actions, what is the correct approach to ensure that a workflow is tri
 </details>
 
 ---
-In GitHub Actions, how can you ensure that a job in a workflow only runs on a specific day of the week, for instance, every Friday?
+Q: In GitHub Actions, how can you ensure that a job in a workflow only runs on a specific day of the week, for instance, every Friday?
 <details><summary>Show the answer</summary><p>
 
 - **Use the on: schedule syntax with a cron expression in the workflow file, such as on: schedule: - cron: '0 0 * * 5'**
@@ -107,7 +107,7 @@ In GitHub Actions, how can you ensure that a job in a workflow only runs on a sp
 </details>
 
 ---
-In GitHub Actions, what is the best practice for managing and sharing commonly used environment variables across multiple jobs within a workflow?
+Q: In GitHub Actions, what is the best practice for managing and sharing commonly used environment variables across multiple jobs within a workflow?
 <details><summary>Show the answer</summary><p>
 
 - **Use the env keyword at the workflow level to set common environment variables for all jobs**
@@ -115,7 +115,7 @@ In GitHub Actions, what is the best practice for managing and sharing commonly u
 </details>
 
 ---
-Which of the following is a best practice for managing and leveraging reusable components in an enterprise setting?
+Q: Which of the following is a best practice for managing and leveraging reusable components in an enterprise setting?
 <details><summary>Show the answer</summary><p>
 
 - **Utilize a dedicated repository for storage and establish clear naming conventions for files and folders**
@@ -123,7 +123,7 @@ Which of the following is a best practice for managing and leveraging reusable c
 </details>
 
 ---
-In a GitHub Actions workflow, how can you configure a job to reuse artifacts generated by a previous job in the same workflow?
+Q: In a GitHub Actions workflow, how can you configure a job to reuse artifacts generated by a previous job in the same workflow?
 <details><summary>Show the answer</summary><p>
 
 - **Implement the uses: actions/download-artifact@v2 step within the job, specifying the name of the artifact produced by the previous job**
@@ -131,7 +131,7 @@ In a GitHub Actions workflow, how can you configure a job to reuse artifacts gen
 </details>
 
 ---
-In a GitHub Actions workflow that is triggered by pull requests affecting any file, how can you configure a job to run only if a specific file has been modified and a preceding job has completed successfully?
+Q: In a GitHub Actions workflow that is triggered by pull requests affecting any file, how can you configure a job to run only if a specific file has been modified and a preceding job has completed successfully?
 <details><summary>Show the answer</summary><p>
 
 - **Combine the if condition and jobs.<job_id>.if attribute to check the success of a previous job and use a script step with git diff to verify if a specific file was modified**
@@ -139,7 +139,7 @@ In a GitHub Actions workflow that is triggered by pull requests affecting any fi
 </details>
 
 ---
-When authoring and maintaining workflows in GitHub Actions, which statement is correct regarding the use of jobs.<job_id>.strategy in a workflow file?
+Q: When authoring and maintaining workflows in GitHub Actions, which statement is correct regarding the use of jobs.<job_id>.strategy in a workflow file?
 <details><summary>Show the answer</summary><p>
 
 - **Within strategy, the matrix keyword can be used to run tests across multiple versions of a language or operating system**
@@ -147,7 +147,7 @@ When authoring and maintaining workflows in GitHub Actions, which statement is c
 </details>
 
 ---
-What is a best practice for distributing custom actions in GitHub Actions?
+Q: What is a best practice for distributing custom actions in GitHub Actions?
 <details><summary>Show the answer</summary><p>
 
 - **Ensure the action is well-documented, including clear instructions on usage, inputs, and outputs**
@@ -155,7 +155,7 @@ What is a best practice for distributing custom actions in GitHub Actions?
 </details>
 
 ---
-How are encrypted secrets accessed within GitHub Actions and workflows?
+Q: How are encrypted secrets accessed within GitHub Actions and workflows?
 <details><summary>Show the answer</summary><p>
 
 - **By using the secrets context in the workflow file to reference the secrets**
@@ -163,7 +163,7 @@ How are encrypted secrets accessed within GitHub Actions and workflows?
 </details>
 
 ---
-What is a crucial aspect of monitoring self-hosted runners in an enterprise environment?
+Q: What is a crucial aspect of monitoring self-hosted runners in an enterprise environment?
 <details><summary>Show the answer</summary><p>
 
 - **Regularly checking the status and performance metrics of runners to ensure they operate optimally**
@@ -171,7 +171,7 @@ What is a crucial aspect of monitoring self-hosted runners in an enterprise envi
 </details>
 
 ---
-In GitHub Actions, how would you correctly configure a workflow to cache dependencies for a Node.js application to improve build times?
+Q: In GitHub Actions, how would you correctly configure a workflow to cache dependencies for a Node.js application to improve build times?
 <details><summary>Show the answer</summary><p>
 
 - **Include a step with uses: actions/cache@v2 and configure the path to node_modules, along with an appropriate key based on the package-lock.json file**
@@ -179,7 +179,7 @@ In GitHub Actions, how would you correctly configure a workflow to cache depende
 </details>
 
 ---
-Which statement accurately describes the difference between GitHub-hosted and self-hosted runners?
+Q: Which statement accurately describes the difference between GitHub-hosted and self-hosted runners?
 <details><summary>Show the answer</summary><p>
 
 - **GitHub-hosted runners are fully managed by GitHub, offering convenience but less control over the environment**
@@ -187,7 +187,7 @@ Which statement accurately describes the difference between GitHub-hosted and se
 </details>
 
 ---
-When creating a custom GitHub Action in a public repository, what is the best practice for ensuring the action's code adheres to consistent coding standards and best practices?
+Q: When creating a custom GitHub Action in a public repository, what is the best practice for ensuring the action's code adheres to consistent coding standards and best practices?
 <details><summary>Show the answer</summary><p>
 
 - **Implement a linter in the action's development workflow to automatically check code submissions for adherence to defined coding standards**
@@ -195,7 +195,7 @@ When creating a custom GitHub Action in a public repository, what is the best pr
 </details>
 
 ---
-In the context of consuming workflows in GitHub Actions, how can you trigger a workflow in one repository as a result of an event in a separate repository?
+Q: In the context of consuming workflows in GitHub Actions, how can you trigger a workflow in one repository as a result of an event in a separate repository?
 <details><summary>Show the answer</summary><p>
 
 - **Use the on: repository_dispatch event in the consuming repository, and send a repository dispatch event from the source repository**
@@ -203,7 +203,7 @@ In the context of consuming workflows in GitHub Actions, how can you trigger a w
 </details>
 
 ---
-In GitHub Actions, how should you correctly configure a workflow to trigger only on pull requests targeting the main branch?
+Q: In GitHub Actions, how should you correctly configure a workflow to trigger only on pull requests targeting the main branch?
 <details><summary>Show the answer</summary><p>
 
 - **Use on: pull_request: branches: [main] to specify that the workflow should only run for pull requests targeting the main branch**
@@ -211,7 +211,7 @@ In GitHub Actions, how should you correctly configure a workflow to trigger only
 </details>
 
 ---
-What is an essential step when publishing an action to the GitHub Marketplace?
+Q: What is an essential step when publishing an action to the GitHub Marketplace?
 <details><summary>Show the answer</summary><p>
 
 - **Ensure the action's repository is public and includes a README file with detailed usage instructions**
@@ -219,7 +219,7 @@ What is an essential step when publishing an action to the GitHub Marketplace?
 </details>
 
 ---
-When managing repository-level encrypted secrets, what is an important practice?
+Q: When managing repository-level encrypted secrets, what is an important practice?
 <details><summary>Show the answer</summary><p>
 
 - **Secrets should be scoped to specific environments or branches, limiting access where necessary**
@@ -227,7 +227,7 @@ When managing repository-level encrypted secrets, what is an important practice?
 </details>
 
 ---
-Which of the following are effective troubleshooting steps for self-hosted runners? (Choose 2)
+Q: Which of the following are effective troubleshooting steps for self-hosted runners? (Choose 2)
 <details><summary>Show the answer</summary><p>
 
 - **Reviewing logs for error messages or warnings**
@@ -237,7 +237,7 @@ Which of the following are effective troubleshooting steps for self-hosted runne
 </details>
 
 ---
-In GitHub Actions, how would you configure a workflow to automatically cancel previous runs of the same workflow on the same branch when a new run is triggered?
+Q: In GitHub Actions, how would you configure a workflow to automatically cancel previous runs of the same workflow on the same branch when a new run is triggered?
 <details><summary>Show the answer</summary><p>
 
 - **Use the concurrency keyword with a unique group name that includes the branch name to automatically cancel overlapping runs**
@@ -245,7 +245,7 @@ In GitHub Actions, how would you configure a workflow to automatically cancel pr
 </details>
 
 ---
-In the context of consuming workflows in GitHub Actions, which of the following is a correct method to specify a dependency between jobs?
+Q: In the context of consuming workflows in GitHub Actions, which of the following is a correct method to specify a dependency between jobs?
 <details><summary>Show the answer</summary><p>
 
 - **Use the needs keyword in the job that depends on the completion of another job**
@@ -253,7 +253,7 @@ In the context of consuming workflows in GitHub Actions, which of the following 
 </details>
 
 ---
-When authoring a JavaScript-based custom GitHub Action, what is the recommended approach to manage third-party dependencies that the action requires?
+Q: When authoring a JavaScript-based custom GitHub Action, what is the recommended approach to manage third-party dependencies that the action requires?
 <details><summary>Show the answer</summary><p>
 
 - **Bundle the dependencies with a tool like Webpack, and commit the bundled file along with your action code to the repository**
@@ -261,7 +261,7 @@ When authoring a JavaScript-based custom GitHub Action, what is the recommended 
 </details>
 
 ---
-When developing a custom GitHub Action that interacts with external APIs, what is the best strategy to manage and rotate API keys or tokens to enhance security?
+Q: When developing a custom GitHub Action that interacts with external APIs, what is the best strategy to manage and rotate API keys or tokens to enhance security?
 <details><summary>Show the answer</summary><p>
 
 - **Store the API keys or tokens as encrypted secrets in the GitHub repository and reference them in the action's code**
@@ -269,7 +269,7 @@ When developing a custom GitHub Action that interacts with external APIs, what i
 </details>
 
 ---
-In the context of GitHub Actions, what is the correct use of environment keyword in a workflow file?
+Q: In the context of GitHub Actions, what is the correct use of environment keyword in a workflow file?
 <details><summary>Show the answer</summary><p>
 
 - **environment is utilized to specify the deployment environment, such as production, staging, or development, and can enforce additional rules like manual approvals**
@@ -277,7 +277,7 @@ In the context of GitHub Actions, what is the correct use of environment keyword
 </details>
 
 ---
-For a custom GitHub Action you are developing, which method is most appropriate for debugging issues that occur during the action's execution in a workflow?
+Q: For a custom GitHub Action you are developing, which method is most appropriate for debugging issues that occur during the action's execution in a workflow?
 <details><summary>Show the answer</summary><p>
 
 - **Utilize console.log statements in the action's code and review the output in the GitHub Actions workflow logs**
@@ -285,7 +285,7 @@ For a custom GitHub Action you are developing, which method is most appropriate 
 </details>
 
 ---
-How can you trigger a GitHub Actions workflow in Repository B whenever a new release is published in Repository A, assuming both repositories are within the same organization?
+Q: How can you trigger a GitHub Actions workflow in Repository B whenever a new release is published in Repository A, assuming both repositories are within the same organization?
 <details><summary>Show the answer</summary><p>
 
 - **Use the repository_dispatch event in Repository B, and trigger it using a webhook from Repository A upon release**
@@ -293,7 +293,7 @@ How can you trigger a GitHub Actions workflow in Repository B whenever a new rel
 </details>
 
 ---
-What is the most effective approach for distributing actions within an enterprise?
+Q: What is the most effective approach for distributing actions within an enterprise?
 <details><summary>Show the answer</summary><p>
 
 - **Create a centralized shared repository and utilize GitHub's internal networking features for distribution**
@@ -301,7 +301,7 @@ What is the most effective approach for distributing actions within an enterpris
 </details>
 
 ---
-In the context of creating a custom GitHub Action, what is the best approach to handle sensitive information, such as API keys or credentials, required by the action?
+Q: In the context of creating a custom GitHub Action, what is the best approach to handle sensitive information, such as API keys or credentials, required by the action?
 <details><summary>Show the answer</summary><p>
 
 - **Advise users to store sensitive information as encrypted secrets in their GitHub repository and pass them as environment variables to the action**
@@ -309,7 +309,7 @@ In the context of creating a custom GitHub Action, what is the best approach to 
 </details>
 
 ---
-How should an organization configure use policies for GitHub Actions to ensure compliance and efficiency?
+Q: How should an organization configure use policies for GitHub Actions to ensure compliance and efficiency?
 <details><summary>Show the answer</summary><p>
 
 - **Define clear guidelines on usage, security, and maintenance, and enforce them through automated checks and balances**
@@ -317,7 +317,7 @@ How should an organization configure use policies for GitHub Actions to ensure c
 </details>
 
 ---
-Which of the following are best practices for managing encrypted secrets in GitHub Actions?
+Q: Which of the following are best practices for managing encrypted secrets in GitHub Actions?
 <details><summary>Show the answer</summary><p>
 
 - **Regularly rotate secrets to minimize the risk of exposure**
@@ -329,7 +329,7 @@ Which of the following are best practices for managing encrypted secrets in GitH
 </details>
 
 ---
-In GitHub Actions, how can you selectively run jobs within a workflow based on the type of event that triggered the workflow?
+Q: In GitHub Actions, how can you selectively run jobs within a workflow based on the type of event that triggered the workflow?
 <details><summary>Show the answer</summary><p>
 
 - **Employ the if: github.event_name == 'event_type' condition at the start of each job to specify when the job should run based on the event type**
@@ -337,7 +337,7 @@ In GitHub Actions, how can you selectively run jobs within a workflow based on t
 </details>
 
 ---
-In GitHub Actions, how can you configure a workflow to trigger only on pull requests that are opened or reopened, and additionally only when changes are made to files in a specific directory?
+Q: In GitHub Actions, how can you configure a workflow to trigger only on pull requests that are opened or reopened, and additionally only when changes are made to files in a specific directory?
 <details><summary>Show the answer</summary><p>
 
 - **Use the on: pull_request trigger with a types field specifying opened and reopened, combined with a paths filter including the specific directory**
@@ -345,7 +345,7 @@ In GitHub Actions, how can you configure a workflow to trigger only on pull requ
 </details>
 
 ---
-In the process of authoring a custom GitHub Action, what is the recommended approach to ensure that the action is compatible with both Linux and Windows runners?
+Q: In the process of authoring a custom GitHub Action, what is the recommended approach to ensure that the action is compatible with both Linux and Windows runners?
 <details><summary>Show the answer</summary><p>
 
 - **Develop the action using JavaScript, which is cross-platform and supported by the GitHub Actions runner environment on both Linux and Windows**
@@ -353,7 +353,7 @@ In the process of authoring a custom GitHub Action, what is the recommended appr
 </details>
 
 ---
-You are reviewing a GitHub Actions workflow and encounter an action defined in the workflow file. How can you identify the type of action used (e.g., JavaScript, Docker container, or composite)?
+Q: You are reviewing a GitHub Actions workflow and encounter an action defined in the workflow file. How can you identify the type of action used (e.g., JavaScript, Docker container, or composite)?
 <details><summary>Show the answer</summary><p>
 
 - **By checking the runs section in the action's action.yml or action.yaml file**
@@ -361,7 +361,7 @@ You are reviewing a GitHub Actions workflow and encounter an action defined in t
 </details>
 
 ---
-In GitHub Actions, you want to consume a workflow from another repository and trigger it whenever a new issue is opened in your repository. How can you achieve this?
+Q: In GitHub Actions, you want to consume a workflow from another repository and trigger it whenever a new issue is opened in your repository. How can you achieve this?
 <details><summary>Show the answer</summary><p>
 
 - **Set up a webhook in the source repository that listens for new issue events in your repository and triggers the workflow**
@@ -369,7 +369,7 @@ In GitHub Actions, you want to consume a workflow from another repository and tr
 </details>
 
 ---
-What is an essential step when configuring self-hosted runners for enterprise use?
+Q: What is an essential step when configuring self-hosted runners for enterprise use?
 <details><summary>Show the answer</summary><p>
 
 - **Configure network settings, including proxies and IP allow lists, to ensure secure and efficient operation within the enterprise environment**
@@ -377,7 +377,7 @@ What is an essential step when configuring self-hosted runners for enterprise us
 </details>
 
 ---
-In GitHub Actions, how can you set up a workflow to trigger at a specific time only if there have been changes in a particular branch since the last successful run of the workflow?
+Q: In GitHub Actions, how can you set up a workflow to trigger at a specific time only if there have been changes in a particular branch since the last successful run of the workflow?
 <details><summary>Show the answer</summary><p>
 
 - **Configure the workflow with the on: schedule trigger and a cron expression, then use a script step to check for changes in the branch since the last run**
@@ -385,7 +385,7 @@ In GitHub Actions, how can you set up a workflow to trigger at a specific time o
 </details>
 
 ---
-In GitHub Actions, how do you correctly configure a workflow to only execute a job when a previous job has failed?
+Q: In GitHub Actions, how do you correctly configure a workflow to only execute a job when a previous job has failed?
 <details><summary>Show the answer</summary><p>
 
 - **Use the needs keyword with if: failure() condition, like needs: job1 and if: failure() in the job definition**
@@ -393,7 +393,7 @@ In GitHub Actions, how do you correctly configure a workflow to only execute a j
 </details>
 
 ---
-Which of the following are benefits of reusing templates for actions and workflows in GitHub Actions? (Choose 2)
+Q: Which of the following are benefits of reusing templates for actions and workflows in GitHub Actions? (Choose 2)
 <details><summary>Show the answer</summary><p>
 
 - **Ensures consistency and best practices across multiple projects**
@@ -403,7 +403,7 @@ Which of the following are benefits of reusing templates for actions and workflo
 </details>
 
 ---
-In GitHub Actions, how can you ensure that a specific job in a workflow only runs after two other jobs have successfully completed?
+Q: In GitHub Actions, how can you ensure that a specific job in a workflow only runs after two other jobs have successfully completed?
 <details><summary>Show the answer</summary><p>
 
 - **Implement the needs: [job1, job2] keyword in the job definition to establish a dependency on job1 and job2**
@@ -411,7 +411,7 @@ In GitHub Actions, how can you ensure that a specific job in a workflow only run
 </details>
 
 ---
-In GitHub Actions, how can you dynamically generate a matrix for a job to run against multiple configurations, using data from an external JSON file hosted in the same repository?
+Q: In GitHub Actions, how can you dynamically generate a matrix for a job to run against multiple configurations, using data from an external JSON file hosted in the same repository?
 <details><summary>Show the answer</summary><p>
 
 - **Implement a custom action that reads the JSON file and outputs the matrix configuration, then use this output in the job's matrix setting**
@@ -419,7 +419,7 @@ In GitHub Actions, how can you dynamically generate a matrix for a job to run ag
 </details>
 
 ---
-When consuming workflows in GitHub Actions, how can you ensure that a workflow is triggered only when a new release is published in another repository within the same organization?
+Q: When consuming workflows in GitHub Actions, how can you ensure that a workflow is triggered only when a new release is published in another repository within the same organization?
 <details><summary>Show the answer</summary><p>
 
 - **Configure a repository_dispatch event in the source repository and trigger it manually when a new release is published**
@@ -427,7 +427,7 @@ When consuming workflows in GitHub Actions, how can you ensure that a workflow i
 </details>
 
 ---
-When developing a composite run steps action in GitHub Actions, what is the recommended way to include external scripts or code files that the action depends on?
+Q: When developing a composite run steps action in GitHub Actions, what is the recommended way to include external scripts or code files that the action depends on?
 <details><summary>Show the answer</summary><p>
 
 - **Include the external scripts or code files in the same repository as the action and reference them using relative paths in the runs.steps entries**
@@ -435,7 +435,7 @@ When developing a composite run steps action in GitHub Actions, what is the reco
 </details>
 
 ---
-In GitHub Actions, what is the correct method to reuse workflows stored in a public repository in your organization's private repository?
+Q: In GitHub Actions, what is the correct method to reuse workflows stored in a public repository in your organization's private repository?
 <details><summary>Show the answer</summary><p>
 
 - **Reference the public workflow using the uses keyword with the repository's URL and path to the workflow file**
@@ -443,7 +443,7 @@ In GitHub Actions, what is the correct method to reuse workflows stored in a pub
 </details>
 
 ---
-In GitHub Actions, what is the recommended approach to manage and use secrets (like API keys or passwords) in a workflow that needs to access an external service?
+Q: In GitHub Actions, what is the recommended approach to manage and use secrets (like API keys or passwords) in a workflow that needs to access an external service?
 <details><summary>Show the answer</summary><p>
 
 - **Use GitHub's encrypted secrets feature to store and access secrets in the workflow**
@@ -451,7 +451,7 @@ In GitHub Actions, what is the recommended approach to manage and use secrets (l
 </details>
 
 ---
-What accurately defines the scope of encrypted secrets in GitHub Actions?
+Q: What accurately defines the scope of encrypted secrets in GitHub Actions?
 <details><summary>Show the answer</summary><p>
 
 - **Encrypted secrets can be defined at the repository or organization level, with access limited to specific workflows**
@@ -459,7 +459,7 @@ What accurately defines the scope of encrypted secrets in GitHub Actions?
 </details>
 
 ---
-When authoring a custom GitHub Action, what is the best practice for managing and versioning the action to ensure stability and ease of maintenance for users?
+Q: When authoring a custom GitHub Action, what is the best practice for managing and versioning the action to ensure stability and ease of maintenance for users?
 <details><summary>Show the answer</summary><p>
 
 - **Create specific releases or tags for stable versions of the action, and advise users to reference these in their workflows**
@@ -467,7 +467,7 @@ When authoring a custom GitHub Action, what is the best practice for managing an
 </details>
 
 ---
-In GitHub Actions, how can you set up a workflow to run on both push and pullrequest events, but ensure specific jobs are executed only for pullrequest events?
+Q: In GitHub Actions, how can you set up a workflow to run on both push and pullrequest events, but ensure specific jobs are executed only for pullrequest events?
 <details><summary>Show the answer</summary><p>
 
 - **Configure the workflow with on: [push, pull_request] and use if: github.event_name == 'pull_request' conditionals on specific jobs**
@@ -475,7 +475,7 @@ In GitHub Actions, how can you set up a workflow to run on both push and pullreq
 </details>
 
 ---
-When configuring IP allow lists for GitHub-hosted and self-hosted runners, what is the primary effect?
+Q: When configuring IP allow lists for GitHub-hosted and self-hosted runners, what is the primary effect?
 <details><summary>Show the answer</summary><p>
 
 - **It restricts which IP addresses can interact with your runners, enhancing security**
@@ -483,7 +483,7 @@ When configuring IP allow lists for GitHub-hosted and self-hosted runners, what 
 </details>
 
 ---
-You have two separate repositories in GitHub, Repository A and Repository B. You want to consume and trigger a workflow from Repository A whenever a new pull request is opened in Repository B. What is the most appropriate way to achieve this integration between repositories?
+Q: You have two separate repositories in GitHub, Repository A and Repository B. You want to consume and trigger a workflow from Repository A whenever a new pull request is opened in Repository B. What is the most appropriate way to achieve this integration between repositories?
 <details><summary>Show the answer</summary><p>
 
 - **Implement the on: repository_dispatch event in Repository A's workflow and manually dispatch an event from Repository B when a new pull request is opened**
@@ -491,7 +491,7 @@ You have two separate repositories in GitHub, Repository A and Repository B. You
 </details>
 
 ---
-In GitHub Actions, how can you utilize artifacts generated in one workflow in a separate, subsequent workflow within the same repository?
+Q: In GitHub Actions, how can you utilize artifacts generated in one workflow in a separate, subsequent workflow within the same repository?
 <details><summary>Show the answer</summary><p>
 
 - **Implement the actions/download-artifact@v2 action in the subsequent workflow, referencing the specific artifact by name**
@@ -499,7 +499,7 @@ In GitHub Actions, how can you utilize artifacts generated in one workflow in a 
 </details>
 
 ---
-In the development of a custom GitHub Action, how should you handle and report errors that occur during the action's execution to ensure users of the action can effectively debug issues?
+Q: In the development of a custom GitHub Action, how should you handle and report errors that occur during the action's execution to ensure users of the action can effectively debug issues?
 <details><summary>Show the answer</summary><p>
 
 - **Implement custom error handling in the action's code that catches and logs detailed error messages, using GitHub's logging commands for enhanced visibility**
@@ -507,7 +507,7 @@ In the development of a custom GitHub Action, how should you handle and report e
 </details>
 
 ---
-In a GitHub Actions workflow, how should you securely manage sensitive information like API keys or database credentials?
+Q: In a GitHub Actions workflow, how should you securely manage sensitive information like API keys or database credentials?
 <details><summary>Show the answer</summary><p>
 
 - **Use GitHub Secrets and reference them in the workflow file using the ${{ secrets.SECRET_NAME }} syntax**
@@ -515,7 +515,7 @@ In a GitHub Actions workflow, how should you securely manage sensitive informati
 </details>
 
 ---
-In GitHub Actions, how can you effectively debug a failing job within a workflow?
+Q: In GitHub Actions, how can you effectively debug a failing job within a workflow?
 <details><summary>Show the answer</summary><p>
 
 - **Insert echo commands in the workflow file to print out variable values and command outputs at various stages**
@@ -523,7 +523,7 @@ In GitHub Actions, how can you effectively debug a failing job within a workflow
 </details>
 
 ---
-For a custom GitHub Action that requires periodic updates and maintenance, what is the best strategy to inform users about upcoming changes or deprecations that might affect their workflows?
+Q: For a custom GitHub Action that requires periodic updates and maintenance, what is the best strategy to inform users about upcoming changes or deprecations that might affect their workflows?
 <details><summary>Show the answer</summary><p>
 
 - **Update the README file of the action's repository with details about the changes and deprecations**
@@ -533,7 +533,7 @@ For a custom GitHub Action that requires periodic updates and maintenance, what 
 </details>
 
 ---
-How can you correctly call a reusable workflow in GitHub Actions?
+Q: How can you correctly call a reusable workflow in GitHub Actions?
 <details><summary>Show the answer</summary><p>
 
 - **By specifying the workflow's file path in the uses keyword under a job**
@@ -541,7 +541,7 @@ How can you correctly call a reusable workflow in GitHub Actions?
 </details>
 
 ---
-What is the primary benefit of being able to move self-hosted runners into and between groups?
+Q: What is the primary benefit of being able to move self-hosted runners into and between groups?
 <details><summary>Show the answer</summary><p>
 
 - **It allows for flexible resource management and adapts to changing project needs or organizational structures**
@@ -549,7 +549,7 @@ What is the primary benefit of being able to move self-hosted runners into and b
 </details>
 
 ---
-What is a key step when publishing to GitHub Packages using a GitHub Actions workflow?
+Q: What is a key step when publishing to GitHub Packages using a GitHub Actions workflow?
 <details><summary>Show the answer</summary><p>
 
 - **Configure the workflow to authenticate with GitHub Packages and push the package using the appropriate command**
@@ -557,7 +557,7 @@ What is a key step when publishing to GitHub Packages using a GitHub Actions wor
 </details>
 
 ---
-How are database and service containers utilized in a GitHub Actions workflow?
+Q: How are database and service containers utilized in a GitHub Actions workflow?
 <details><summary>Show the answer</summary><p>
 
 - **By defining services in the workflow file, allowing jobs to use the containers as part of the runtime environment**
@@ -565,7 +565,7 @@ How are database and service containers utilized in a GitHub Actions workflow?
 </details>
 
 ---
-What is crucial for the correct syntax of jobs in a GitHub Actions workflow file?
+Q: What is crucial for the correct syntax of jobs in a GitHub Actions workflow file?
 <details><summary>Show the answer</summary><p>
 
 - **Jobs should be defined under the jobs key with proper indentation to ensure the structure is correctly interpreted**
@@ -573,7 +573,7 @@ What is crucial for the correct syntax of jobs in a GitHub Actions workflow file
 </details>
 
 ---
-You are setting up a CI/CD pipeline for a project that requires a specific operating system. How should you select an appropriate runner?
+Q: You are setting up a CI/CD pipeline for a project that requires a specific operating system. How should you select an appropriate runner?
 <details><summary>Show the answer</summary><p>
 
 - **Choose a GitHub-hosted runner that supports the required operating system**
@@ -581,7 +581,7 @@ You are setting up a CI/CD pipeline for a project that requires a specific opera
 </details>
 
 ---
-How can you use an organization's templated workflow in a repository?
+Q: How can you use an organization's templated workflow in a repository?
 <details><summary>Show the answer</summary><p>
 
 - **By selecting the template from the repository's Actions tab and then customizing it as needed**
@@ -589,7 +589,7 @@ How can you use an organization's templated workflow in a repository?
 </details>
 
 ---
-You are managing secrets for a specific repository in your organization. What should you consider when creating repository-level encrypted secrets?
+Q: You are managing secrets for a specific repository in your organization. What should you consider when creating repository-level encrypted secrets?
 <details><summary>Show the answer</summary><p>
 
 - **Repository-level secrets are best for sensitive data specific to one repository and are not accessible by other repositories**
@@ -597,7 +597,7 @@ You are managing secrets for a specific repository in your organization. What sh
 </details>
 
 ---
-Which of the following are true regarding the components and integration of actions, workflows, jobs, steps, runs, and the marketplace in GitHub Actions?
+Q: Which of the following are true regarding the components and integration of actions, workflows, jobs, steps, runs, and the marketplace in GitHub Actions?
 <details><summary>Show the answer</summary><p>
 
 - **Conditional keywords can be used in steps to control their execution based on certain conditions**
@@ -609,7 +609,7 @@ Which of the following are true regarding the components and integration of acti
 </details>
 
 ---
-Your enterprise requires a secure and efficient method to distribute GitHub Actions across multiple teams. What is the best approach?
+Q: Your enterprise requires a secure and efficient method to distribute GitHub Actions across multiple teams. What is the best approach?
 <details><summary>Show the answer</summary><p>
 
 - **Create a centralized shared repository for actions and enforce access controls**
@@ -617,7 +617,7 @@ Your enterprise requires a secure and efficient method to distribute GitHub Acti
 </details>
 
 ---
-When designing a custom GitHub Action to facilitate code reviews by automatically assigning reviewers based on the type of changes made, what method should be used to determine the most appropriate reviewers for each pull request?
+Q: When designing a custom GitHub Action to facilitate code reviews by automatically assigning reviewers based on the type of changes made, what method should be used to determine the most appropriate reviewers for each pull request?
 <details><summary>Show the answer</summary><p>
 
 - **Use a configuration file in the repository that maps specific types of changes to relevant reviewers, allowing for easy updates and customization**
@@ -625,7 +625,7 @@ When designing a custom GitHub Action to facilitate code reviews by automaticall
 </details>
 
 ---
-You want to ensure that specific GitHub Actions are only used by authorized personnel within your organization. What's an effective way to achieve this?
+Q: You want to ensure that specific GitHub Actions are only used by authorized personnel within your organization. What's an effective way to achieve this?
 <details><summary>Show the answer</summary><p>
 
 - **Implement role-based access controls and integrate with the organization's identity management system**
@@ -633,7 +633,7 @@ You want to ensure that specific GitHub Actions are only used by authorized pers
 </details>
 
 ---
-What is the role of CodeQL when used as a step in a GitHub Actions workflow?
+Q: What is the role of CodeQL when used as a step in a GitHub Actions workflow?
 <details><summary>Show the answer</summary><p>
 
 - **To automatically analyze the codebase for vulnerabilities and code quality issues**
@@ -641,7 +641,7 @@ What is the role of CodeQL when used as a step in a GitHub Actions workflow?
 </details>
 
 ---
-Your team frequently creates new repositories and wants to standardize the CI/CD process.
+Q: Your team frequently creates new repositories and wants to standardize the CI/CD process.
 What's the most effective way to achieve this with GitHub Actions?
 <details><summary>Show the answer</summary><p>
 
@@ -650,7 +650,7 @@ What's the most effective way to achieve this with GitHub Actions?
 </details>
 
 ---
-When implementing a GitHub Actions workflow, how can you conditionally skip a job unless a manual trigger is activated, such as a comment in a pull request?
+Q: When implementing a GitHub Actions workflow, how can you conditionally skip a job unless a manual trigger is activated, such as a comment in a pull request?
 <details><summary>Show the answer</summary><p>
 
 - **Use the on: issue_comment trigger combined with a job-level if condition checking the comment content**
@@ -658,7 +658,7 @@ When implementing a GitHub Actions workflow, how can you conditionally skip a jo
 </details>
 
 ---
-How can you enable step debug logging in a GitHub Actions workflow?
+Q: How can you enable step debug logging in a GitHub Actions workflow?
 <details><summary>Show the answer</summary><p>
 
 - **By setting the ACTIONS_STEP_DEBUG secret to true in the repository settings**
@@ -666,7 +666,7 @@ How can you enable step debug logging in a GitHub Actions workflow?
 </details>
 
 ---
-You are setting up encrypted secrets for your projects. How does the scope of encrypted secrets differ between organization-level and repository-level in GitHub Actions?
+Q: You are setting up encrypted secrets for your projects. How does the scope of encrypted secrets differ between organization-level and repository-level in GitHub Actions?
 <details><summary>Show the answer</summary><p>
 
 - **Organization-level secrets can be made available to multiple repositories, while repository-level secrets are accessible only to the repository they are set in**
@@ -674,7 +674,7 @@ You are setting up encrypted secrets for your projects. How does the scope of en
 </details>
 
 ---
-What is the recommended way to pass data between jobs in a GitHub Actions workflow?
+Q: What is the recommended way to pass data between jobs in a GitHub Actions workflow?
 <details><summary>Show the answer</summary><p>
 
 - **Use artifacts to share data between jobs, ensuring the output from one job is available to subsequent jobs**
@@ -682,7 +682,7 @@ What is the recommended way to pass data between jobs in a GitHub Actions workfl
 </details>
 
 ---
-As a GitHub organization administrator, you want to make a secret available to multiple repositories. What is the correct approach?
+Q: As a GitHub organization administrator, you want to make a secret available to multiple repositories. What is the correct approach?
 <details><summary>Show the answer</summary><p>
 
 - **Create an organization-level secret and select the repositories that should have access to it**
@@ -690,7 +690,7 @@ As a GitHub organization administrator, you want to make a secret available to m
 </details>
 
 ---
-What is the correct syntax for defining custom environment variables in a step of a GitHub Actions workflow?
+Q: What is the correct syntax for defining custom environment variables in a step of a GitHub Actions workflow?
 <details><summary>Show the answer</summary><p>
 
 ```
@@ -704,7 +704,7 @@ steps:
 </details>
 
 ---
-What is the purpose of using conditional keywords in steps within a GitHub Actions workflow?
+Q: What is the purpose of using conditional keywords in steps within a GitHub Actions workflow?
 <details><summary>Show the answer</summary><p>
 
 - **To run steps only if certain conditions are met, adding flexibility and control to the workflow**
@@ -712,7 +712,7 @@ What is the purpose of using conditional keywords in steps within a GitHub Actio
 </details>
 
 ---
-What are indicators that a GitHub Action is trustworthy?
+Q: What are indicators that a GitHub Action is trustworthy?
 <details><summary>Show the answer</summary><p>
 
 - **The action is published by a known organization, has a significant number of stars, and thorough documentation**
@@ -720,7 +720,7 @@ What are indicators that a GitHub Action is trustworthy?
 </details>
 
 ---
-When creating a custom GitHub Action that integrates with third-party services, what approach should be adopted to handle service outages or downtime to ensure minimal impact on workflow execution?
+Q: When creating a custom GitHub Action that integrates with third-party services, what approach should be adopted to handle service outages or downtime to ensure minimal impact on workflow execution?
 <details><summary>Show the answer</summary><p>
 
 - **Provide users with the option to skip steps dependent on the third-party service during outages, through input parameters in the action**
@@ -730,7 +730,7 @@ When creating a custom GitHub Action that integrates with third-party services, 
 </details>
 
 ---
-How can workflow artifacts be removed from GitHub after they are no longer needed?
+Q: How can workflow artifacts be removed from GitHub after they are no longer needed?
 <details><summary>Show the answer</summary><p>
 
 - **Artifacts can be configured to automatically expire after a certain number of days**
@@ -738,7 +738,7 @@ How can workflow artifacts be removed from GitHub after they are no longer neede
 </details>
 
 ---
-What is an essential aspect of defining the syntax for jobs in a GitHub Actions workflow file?
+Q: What is an essential aspect of defining the syntax for jobs in a GitHub Actions workflow file?
 <details><summary>Show the answer</summary><p>
 
 - **Jobs should be defined with correct indentation and encapsulated within the jobs keyword**
@@ -746,7 +746,7 @@ What is an essential aspect of defining the syntax for jobs in a GitHub Actions 
 </details>
 
 ---
-When creating a custom GitHub Action that is expected to evolve and scale over time, how should version control and release management be handled to ensure backward compatibility and minimize disruption for users?
+Q: When creating a custom GitHub Action that is expected to evolve and scale over time, how should version control and release management be handled to ensure backward compatibility and minimize disruption for users?
 <details><summary>Show the answer</summary><p>
 
 - **Implement semantic versioning for the action, using tags to mark stable release versions, and instruct users to reference specific versions**
@@ -754,7 +754,7 @@ When creating a custom GitHub Action that is expected to evolve and scale over t
 </details>
 
 ---
-You are drafting organizational use policies for GitHub Actions. Which of the following should be included in your policies?
+Q: You are drafting organizational use policies for GitHub Actions. Which of the following should be included in your policies?
 <details><summary>Show the answer</summary><p>
 
 - **Implement monitoring and auditing mechanisms to track the usage and performance of actions**
@@ -766,7 +766,7 @@ You are drafting organizational use policies for GitHub Actions. Which of the fo
 </details>
 
 ---
-In the development of a custom GitHub Action, what is the most effective way to handle different runtime environments (e.g., production, staging, development) within the action's logic?
+Q: In the development of a custom GitHub Action, what is the most effective way to handle different runtime environments (e.g., production, staging, development) within the action's logic?
 <details><summary>Show the answer</summary><p>
 
 - **Include environment-specific parameters as inputs in the action's action.yml file, allowing users to specify the environment during workflow configuration**
@@ -776,7 +776,7 @@ In the development of a custom GitHub Action, what is the most effective way to 
 </details>
 
 ---
-How are dependent jobs implemented in a GitHub Actions workflow?
+Q: How are dependent jobs implemented in a GitHub Actions workflow?
 <details><summary>Show the answer</summary><p>
 
 - **By using the needs keyword to specify job dependencies, ensuring that jobs run in the correct order**
@@ -784,7 +784,7 @@ How are dependent jobs implemented in a GitHub Actions workflow?
 </details>
 
 ---
-In the process of creating a custom GitHub Action, what is the best practice for ensuring that the action remains maintainable and easy to update as GitHub Actions evolves and new features are released?
+Q: In the process of creating a custom GitHub Action, what is the best practice for ensuring that the action remains maintainable and easy to update as GitHub Actions evolves and new features are released?
 <details><summary>Show the answer</summary><p>
 
 - **Subscribe to GitHub's changelog and update the action only when necessary to maintain compatibility with the GitHub Actions platform**
@@ -794,7 +794,7 @@ In the process of creating a custom GitHub Action, what is the best practice for
 </details>
 
 ---
-When developing a custom GitHub Action for code analysis and linting, how can you best ensure that the action remains up-to-date with the latest coding standards and practices in a rapidly evolving programming language ecosystem?
+Q: When developing a custom GitHub Action for code analysis and linting, how can you best ensure that the action remains up-to-date with the latest coding standards and practices in a rapidly evolving programming language ecosystem?
 <details><summary>Show the answer</summary><p>
 
 - **Integrate the action with a popular, actively maintained linting tool or library, automatically updating to the latest version on each run**
@@ -804,7 +804,7 @@ When developing a custom GitHub Action for code analysis and linting, how can yo
 </details>
 
 ---
-You are managing a set of self-hosted runners for your enterprise on GitHub Actions. How can you effectively manage access and organize these runners?
+Q: You are managing a set of self-hosted runners for your enterprise on GitHub Actions. How can you effectively manage access and organize these runners?
 <details><summary>Show the answer</summary><p>
 
 - **Create groups for runners and assign runners to groups based on usage or department needs**
@@ -812,7 +812,7 @@ You are managing a set of self-hosted runners for your enterprise on GitHub Acti
 </details>
 
 ---
-Which event configuration correctly triggers a workflow in GitHub Actions?
+Q: Which event configuration correctly triggers a workflow in GitHub Actions?
 <details><summary>Show the answer</summary><p>
 
 - **Using the on keyword in the workflow file to specify the type of event, such as push, pull_request, or schedule**
@@ -820,7 +820,7 @@ Which event configuration correctly triggers a workflow in GitHub Actions?
 </details>
 
 ---
-In an enterprise setting, how should a GitHub Actions workflow be configured to ensure that sensitive data, such as production database credentials, is securely managed and accessed only by authorized workflows?
+Q: In an enterprise setting, how should a GitHub Actions workflow be configured to ensure that sensitive data, such as production database credentials, is securely managed and accessed only by authorized workflows?
 <details><summary>Show the answer</summary><p>
 
 - **Store sensitive data as encrypted secrets in GitHub and restrict access to these secrets using GitHub's environment protection rules**
@@ -828,7 +828,7 @@ In an enterprise setting, how should a GitHub Actions workflow be configured to 
 </details>
 
 ---
-In an enterprise environment, what is the best practice for monitoring and analyzing the usage and performance of GitHub Actions across multiple repositories and teams?
+Q: In an enterprise environment, what is the best practice for monitoring and analyzing the usage and performance of GitHub Actions across multiple repositories and teams?
 <details><summary>Show the answer</summary><p>
 
 - **Implement a centralized logging and monitoring system that aggregates data from all GitHub Actions workflows**
@@ -836,7 +836,7 @@ In an enterprise environment, what is the best practice for monitoring and analy
 </details>
 
 ---
-Which of the following statements are correct regarding the use of environment variables in GitHub Actions workflows?
+Q: Which of the following statements are correct regarding the use of environment variables in GitHub Actions workflows?
 <details><summary>Show the answer</summary><p>
 
 - **Custom environment variables can be set at the workflow, job, or step level using the env keyword**
@@ -848,7 +848,7 @@ Which of the following statements are correct regarding the use of environment v
 </details>
 
 ---
-When developing a custom GitHub Action for automating dependency updates in a multi-language project environment, what is the most efficient approach to handle updates across different programming languages and package managers?
+Q: When developing a custom GitHub Action for automating dependency updates in a multi-language project environment, what is the most efficient approach to handle updates across different programming languages and package managers?
 <details><summary>Show the answer</summary><p>
 
 - **Implement a modular action with plug-ins or scripts for each language and package manager, allowing the action to be extended as needed**
@@ -856,7 +856,7 @@ When developing a custom GitHub Action for automating dependency updates in a mu
 </details>
 
 ---
-What can you understand by reading a GitHub Actions workflow configuration file?
+Q: What can you understand by reading a GitHub Actions workflow configuration file?
 <details><summary>Show the answer</summary><p>
 
 - **The specific steps and actions that the workflow will execute, along with the events that trigger it**
@@ -864,7 +864,7 @@ What can you understand by reading a GitHub Actions workflow configuration file?
 </details>
 
 ---
-What is a best practice for maintaining self-hosted runners in GitHub Actions?
+Q: What is a best practice for maintaining self-hosted runners in GitHub Actions?
 <details><summary>Show the answer</summary><p>
 
 - **Regularly update the runners' software and monitor their performance and logs**
@@ -872,7 +872,7 @@ What is a best practice for maintaining self-hosted runners in GitHub Actions?
 </details>
 
 ---
-How can a script be incorporated into a GitHub Actions workflow?
+Q: How can a script be incorporated into a GitHub Actions workflow?
 <details><summary>Show the answer</summary><p>
 
 - **By using the run keyword in a step to execute shell commands or scripts**
@@ -880,7 +880,7 @@ How can a script be incorporated into a GitHub Actions workflow?
 </details>
 
 ---
-Which aspect is least likely to contribute to the trustworthiness of an action listed on the GitHub Marketplace?
+Q: Which aspect is least likely to contribute to the trustworthiness of an action listed on the GitHub Marketplace?
 <details><summary>Show the answer</summary><p>
 
 - **The action is published by an individual with no prior contributions to open source**
@@ -888,7 +888,7 @@ Which aspect is least likely to contribute to the trustworthiness of an action l
 </details>
 
 ---
-In creating a custom GitHub Action to enforce coding standards across multiple projects within an organization, what strategy should be employed to allow for project-specific customizations while maintaining a common set of standards?
+Q: In creating a custom GitHub Action to enforce coding standards across multiple projects within an organization, what strategy should be employed to allow for project-specific customizations while maintaining a common set of standards?
 <details><summary>Show the answer</summary><p>
 
 - **Create a base action with common standards and allow projects to extend or override these standards through a configuration file in each project's repository**
@@ -896,7 +896,7 @@ In creating a custom GitHub Action to enforce coding standards across multiple p
 </details>
 
 ---
-Your organization wants to ensure that only specific teams have access to certain self-hosted runners. How can you manage access effectively?
+Q: Your organization wants to ensure that only specific teams have access to certain self-hosted runners. How can you manage access effectively?
 <details><summary>Show the answer</summary><p>
 
 - **Use GitHub's runner management interface to set access permissions for each runner group**
@@ -904,7 +904,7 @@ Your organization wants to ensure that only specific teams have access to certai
 </details>
 
 ---
-What is a primary method for diagnosing a failed GitHub Actions workflow run?
+Q: What is a primary method for diagnosing a failed GitHub Actions workflow run?
 <details><summary>Show the answer</summary><p>
 
 - **Checking the workflow run history and logs to identify error messages and the steps where the failure occurred**
@@ -912,7 +912,7 @@ What is a primary method for diagnosing a failed GitHub Actions workflow run?
 </details>
 
 ---
-When developing a custom GitHub Action that involves complex computational tasks, what is the best approach to optimize performance and reduce execution time?
+Q: When developing a custom GitHub Action that involves complex computational tasks, what is the best approach to optimize performance and reduce execution time?
 <details><summary>Show the answer</summary><p>
 
 - **Implement caching mechanisms in the action to store and reuse computational results where possible**
@@ -922,7 +922,7 @@ When developing a custom GitHub Action that involves complex computational tasks
 </details>
 
 ---
-In developing a custom GitHub Action to integrate with a project management tool for automated task creation, how should the action be designed to customize task attributes based on different types of events in a GitHub repository?
+Q: In developing a custom GitHub Action to integrate with a project management tool for automated task creation, how should the action be designed to customize task attributes based on different types of events in a GitHub repository?
 <details><summary>Show the answer</summary><p>
 
 - **Allow users to define mappings between GitHub events and task attributes in a configuration file within their repository**
@@ -930,7 +930,7 @@ In developing a custom GitHub Action to integrate with a project management tool
 </details>
 
 ---
-Which configuration allows a workflow to be triggered by multiple events in GitHub Actions?
+Q: Which configuration allows a workflow to be triggered by multiple events in GitHub Actions?
 <details><summary>Show the answer</summary><p>
 
 - **Use the on keyword to specify a list of events, like push, pull_request, and schedule**
@@ -938,7 +938,7 @@ Which configuration allows a workflow to be triggered by multiple events in GitH
 </details>
 
 ---
-Where can you locate a workflow file in a GitHub repository?
+Q: Where can you locate a workflow file in a GitHub repository?
 <details><summary>Show the answer</summary><p>
 
 - **In the .github/workflows directory at the root of the repository**
@@ -946,7 +946,7 @@ Where can you locate a workflow file in a GitHub repository?
 </details>
 
 ---
-Which of the following are components of a GitHub Actions workflow?
+Q: Which of the following are components of a GitHub Actions workflow?
 <details><summary>Show the answer</summary><p>
 
 - **Steps, which represent individual tasks like running a script or an action**
@@ -958,7 +958,7 @@ Which of the following are components of a GitHub Actions workflow?
 </details>
 
 ---
-For a custom GitHub Action designed to deploy applications to multiple cloud platforms, what is the most effective method to manage and configure platform-specific deployment settings?
+Q: For a custom GitHub Action designed to deploy applications to multiple cloud platforms, what is the most effective method to manage and configure platform-specific deployment settings?
 <details><summary>Show the answer</summary><p>
 
 - **Require users to store platform-specific settings as encrypted secrets in their GitHub repository and reference these in the action**
@@ -968,7 +968,7 @@ For a custom GitHub Action designed to deploy applications to multiple cloud pla
 </details>
 
 ---
-How can you identify the event that triggered a GitHub Actions workflow?
+Q: How can you identify the event that triggered a GitHub Actions workflow?
 <details><summary>Show the answer</summary><p>
 
 - **By checking the GITHUB_EVENT_NAME environment variable in the workflow run logs**
@@ -976,7 +976,7 @@ How can you identify the event that triggered a GitHub Actions workflow?
 </details>
 
 ---
-In the process of building a custom GitHub Action that integrates with a bug tracking system to automatically create issues based on code commits, what approach should be taken to efficiently categorize and prioritize these issues?
+Q: In the process of building a custom GitHub Action that integrates with a bug tracking system to automatically create issues based on code commits, what approach should be taken to efficiently categorize and prioritize these issues?
 <details><summary>Show the answer</summary><p>
 
 - **Use keywords in commit messages to determine the priority and category of issues, and configure the action to parse these keywords**
@@ -984,7 +984,7 @@ In the process of building a custom GitHub Action that integrates with a bug tra
 </details>
 
 ---
-In developing a custom GitHub Action that generates and publishes reports, how should the action be designed to handle large report files to ensure efficient performance and resource usage?
+Q: In developing a custom GitHub Action that generates and publishes reports, how should the action be designed to handle large report files to ensure efficient performance and resource usage?
 <details><summary>Show the answer</summary><p>
 
 - **Store the report files externally and provide download links in the action's output**
@@ -994,7 +994,7 @@ In developing a custom GitHub Action that generates and publishes reports, how s
 </details>
 
 ---
-How do you ensure a workflow uses a specific version of a GitHub Action?
+Q: How do you ensure a workflow uses a specific version of a GitHub Action?
 <details><summary>Show the answer</summary><p>
 
 - **By referencing the action in the workflow file with a version tag or commit SHA after the action's name (e.g., actions/checkout@v2)**
@@ -1002,7 +1002,7 @@ How do you ensure a workflow uses a specific version of a GitHub Action?
 </details>
 
 ---
-How can you access encrypted secrets within a GitHub Actions workflow?
+Q: How can you access encrypted secrets within a GitHub Actions workflow?
 <details><summary>Show the answer</summary><p>
 
 - **Use the secrets context to access the secrets within your workflow file**
@@ -1010,7 +1010,7 @@ How can you access encrypted secrets within a GitHub Actions workflow?
 </details>
 
 ---
-If you're navigating a GitHub repository for the first time, where would you typically find the GitHub Actions workflow files?
+Q: If you're navigating a GitHub repository for the first time, where would you typically find the GitHub Actions workflow files?
 <details><summary>Show the answer</summary><p>
 
 - **In the .github/workflows directory at the root of the repository**
@@ -1018,7 +1018,7 @@ If you're navigating a GitHub repository for the first time, where would you typ
 </details>
 
 ---
-When authoring and maintaining workflows in GitHub Actions, which of the following statements is accurate?
+Q: When authoring and maintaining workflows in GitHub Actions, which of the following statements is accurate?
 <details><summary>Show the answer</summary><p>
 
 - **Workflows are defined in YAML files and should be placed in the .github/workflows directory of the repository**
@@ -1026,7 +1026,7 @@ When authoring and maintaining workflows in GitHub Actions, which of the followi
 </details>
 
 ---
-What is the difference between disabling and deleting a workflow in GitHub Actions?
+Q: What is the difference between disabling and deleting a workflow in GitHub Actions?
 <details><summary>Show the answer</summary><p>
 
 - **Disabling a workflow stops it from being triggered but retains the workflow file in the repository, while deleting a workflow removes the file entirely**
@@ -1034,7 +1034,7 @@ What is the difference between disabling and deleting a workflow in GitHub Actio
 </details>
 
 ---
-Where can you access the logs of a GitHub Actions workflow run from the GitHub user interface?
+Q: Where can you access the logs of a GitHub Actions workflow run from the GitHub user interface?
 <details><summary>Show the answer</summary><p>
 
 - **In the 'Actions' tab of the repository, by selecting the specific workflow run**
@@ -1042,7 +1042,7 @@ Where can you access the logs of a GitHub Actions workflow run from the GitHub u
 </details>
 
 ---
-When authoring a custom GitHub Action that integrates with an external API, how should you handle potential API rate limits to prevent disruptions in user workflows?
+Q: When authoring a custom GitHub Action that integrates with an external API, how should you handle potential API rate limits to prevent disruptions in user workflows?
 <details><summary>Show the answer</summary><p>
 
 - **Provide an option for users to input their own API keys, allowing them to manage their rate limits independently**
@@ -1052,7 +1052,7 @@ When authoring a custom GitHub Action that integrates with an external API, how 
 </details>
 
 ---
-As a DevOps engineer, you're tasked with managing reusable components for your organization's workflows.
+Q: As a DevOps engineer, you're tasked with managing reusable components for your organization's workflows.
 What approach should you take?
 <details><summary>Show the answer</summary><p>
 
@@ -1061,7 +1061,7 @@ What approach should you take?
 </details>
 
 ---
-What is the role of implementing workflow commands as a run step in a GitHub Actions workflow?
+Q: What is the role of implementing workflow commands as a run step in a GitHub Actions workflow?
 <details><summary>Show the answer</summary><p>
 
 - **To communicate with the runner, setting environment variables or altering the workflow behavior**
@@ -1069,7 +1069,7 @@ What is the role of implementing workflow commands as a run step in a GitHub Act
 </details>
 
 ---
-How can caching be configured to speed up workflow execution in GitHub Actions?
+Q: How can caching be configured to speed up workflow execution in GitHub Actions?
 <details><summary>Show the answer</summary><p>
 
 - **Use the cache action to store and retrieve dependencies, reducing installation time in subsequent runs**
@@ -1077,7 +1077,7 @@ How can caching be configured to speed up workflow execution in GitHub Actions?
 </details>
 
 ---
-Your organization has stringent security requirements. What would be the effect of configuring IP allow lists on GitHub-hosted and self-hosted runners?
+Q: Your organization has stringent security requirements. What would be the effect of configuring IP allow lists on GitHub-hosted and self-hosted runners?
 <details><summary>Show the answer</summary><p>
 
 - **It restricts network access, allowing only traffic from specified IP addresses to interact with the runners**
@@ -1085,7 +1085,7 @@ Your organization has stringent security requirements. What would be the effect 
 </details>
 
 ---
-When designing a custom GitHub Action to automatically update documentation based on code changes, what is the best approach to ensure that the documentation remains synchronized with the codebase across different branches?
+Q: When designing a custom GitHub Action to automatically update documentation based on code changes, what is the best approach to ensure that the documentation remains synchronized with the codebase across different branches?
 <details><summary>Show the answer</summary><p>
 
 - **Trigger the action on every push event across all branches, ensuring documentation updates occur in parallel with code changes**
@@ -1095,7 +1095,7 @@ When designing a custom GitHub Action to automatically update documentation base
 </details>
 
 ---
-For a GitHub Action that requires frequent updates due to changes in external dependencies, what strategy should be employed to test and validate the action's functionality before releasing updates to ensure minimal impact on users?
+Q: For a GitHub Action that requires frequent updates due to changes in external dependencies, what strategy should be employed to test and validate the action's functionality before releasing updates to ensure minimal impact on users?
 <details><summary>Show the answer</summary><p>
 
 - **Set up an automated testing suite that runs tests against a variety of scenarios whenever changes are made, using GitHub Actions' own CI/CD capabilities**
@@ -1103,7 +1103,7 @@ For a GitHub Action that requires frequent updates due to changes in external de
 </details>
 
 ---
-How can you download workflow artifacts from the GitHub Actions user interface?
+Q: How can you download workflow artifacts from the GitHub Actions user interface?
 <details><summary>Show the answer</summary><p>
 
 - **Navigate to the Actions tab, select the specific workflow run, and download the artifacts from the Artifacts section at the bottom of the page**
@@ -1111,7 +1111,7 @@ How can you download workflow artifacts from the GitHub Actions user interface?
 </details>
 
 ---
-In which scenario is it appropriate to use the GITHUB_TOKEN secret in a GitHub Actions workflow?
+Q: In which scenario is it appropriate to use the GITHUB_TOKEN secret in a GitHub Actions workflow?
 <details><summary>Show the answer</summary><p>
 
 - **When the workflow needs to interact with the GitHub API to perform actions like committing code, creating releases, or managing issues and pull requests**
@@ -1119,7 +1119,7 @@ In which scenario is it appropriate to use the GITHUB_TOKEN secret in a GitHub A
 </details>
 
 ---
-Which option correctly configures a GitHub Actions workflow to run for multiple events?
+Q: Which option correctly configures a GitHub Actions workflow to run for multiple events?
 <details><summary>Show the answer</summary><p>
 
 - **Use the on keyword in the workflow file to list multiple events like push, pull_request, and schedule**
@@ -1127,7 +1127,7 @@ Which option correctly configures a GitHub Actions workflow to run for multiple 
 </details>
 
 ---
-What is a crucial step when configuring a workflow to publish an image to the GitHub Container Registry?
+Q: What is a crucial step when configuring a workflow to publish an image to the GitHub Container Registry?
 <details><summary>Show the answer</summary><p>
 
 - **Authenticating with the GitHub Container Registry and pushing the image using appropriate commands within a workflow run**
@@ -1135,7 +1135,7 @@ What is a crucial step when configuring a workflow to publish an image to the Gi
 </details>
 
 ---
-In a GitHub Actions workflow, how should you handle exit codes from a script to ensure correct workflow behavior?
+Q: In a GitHub Actions workflow, how should you handle exit codes from a script to ensure correct workflow behavior?
 <details><summary>Show the answer</summary><p>
 
 - **Use the if conditional in the workflow file to check for specific exit codes and handle them accordingly**
@@ -1143,7 +1143,7 @@ In a GitHub Actions workflow, how should you handle exit codes from a script to 
 </details>
 
 ---
-When assessing the trustworthiness of a GitHub Action, what should you look for?
+Q: When assessing the trustworthiness of a GitHub Action, what should you look for?
 <details><summary>Show the answer</summary><p>
 
 - **The action has positive reviews, is maintained actively, and the source code is publicly available for review**
@@ -1151,7 +1151,7 @@ When assessing the trustworthiness of a GitHub Action, what should you look for?
 </details>
 
 ---
-Your team needs to execute a series of shell commands as part of your CI/CD pipeline to set up the environment before deploying your application. Which type of action should you use in your GitHub Actions workflow to accomplish this task?
+Q: Your team needs to execute a series of shell commands as part of your CI/CD pipeline to set up the environment before deploying your application. Which type of action should you use in your GitHub Actions workflow to accomplish this task?
 <details><summary>Show the answer</summary><p>
 
 - **A run step that directly executes the shell commands in the runner's environment**
@@ -1159,7 +1159,7 @@ Your team needs to execute a series of shell commands as part of your CI/CD pipe
 </details>
 
 ---
-What is a necessary step when configuring a GitHub Actions workflow to deploy a release to a cloud provider?
+Q: What is a necessary step when configuring a GitHub Actions workflow to deploy a release to a cloud provider?
 <details><summary>Show the answer</summary><p>
 
 - **Configure the workflow to authenticate with the cloud provider and use the provider's deployment tools or CLI within the workflow steps**
@@ -1167,7 +1167,7 @@ What is a necessary step when configuring a GitHub Actions workflow to deploy a 
 </details>
 
 ---
-Which of the following are valid steps to troubleshoot a JavaScript action in a GitHub Actions workflow?
+Q: Which of the following are valid steps to troubleshoot a JavaScript action in a GitHub Actions workflow?
 <details><summary>Show the answer</summary><p>
 
 - **Review the workflow logs for any error messages or indications of where the process is failing**
@@ -1179,7 +1179,7 @@ Which of the following are valid steps to troubleshoot a JavaScript action in a 
 </details>
 
 ---
-It's possible to distribute actions and workflows to multiple repositories within an enterprise by storing them in a centralized .github repository and referencing them as needed
+Q: It's possible to distribute actions and workflows to multiple repositories within an enterprise by storing them in a centralized .github repository and referencing them as needed
 <details><summary>Show the answer</summary><p>
 
 - **True**
@@ -1187,7 +1187,7 @@ It's possible to distribute actions and workflows to multiple repositories withi
 </details>
 
 ---
-You are creating a new GitHub Action. What is the necessary file and directory structure you should set up?
+Q: You are creating a new GitHub Action. What is the necessary file and directory structure you should set up?
 <details><summary>Show the answer</summary><p>
 
 - **A directory at the root of the repository containing a Dockerfile or a JavaScript file, and an action.yml file**
@@ -1195,7 +1195,7 @@ You are creating a new GitHub Action. What is the necessary file and directory s
 </details>
 
 ---
-What is essential for correctly defining the syntax of jobs in a GitHub Actions workflow file?
+Q: What is essential for correctly defining the syntax of jobs in a GitHub Actions workflow file?
 <details><summary>Show the answer</summary><p>
 
 - **Jobs should be defined under the jobs key, with proper indentation and structure to ensure correct parsing and execution**
@@ -1203,7 +1203,7 @@ What is essential for correctly defining the syntax of jobs in a GitHub Actions 
 </details>
 
 ---
-A GitHub Actions workflow consistently fails at a step utilizing a JavaScript action with an error message indicating an issue with the node version. What is the most appropriate way to address this issue?
+Q: A GitHub Actions workflow consistently fails at a step utilizing a JavaScript action with an error message indicating an issue with the node version. What is the most appropriate way to address this issue?
 <details><summary>Show the answer</summary><p>
 
 - **Add a step to update the node version in the runner environment before executing the JavaScript action**
@@ -1211,7 +1211,7 @@ A GitHub Actions workflow consistently fails at a step utilizing a JavaScript ac
 </details>
 
 ---
-How can a workflow status badge be added to a repository's README file?
+Q: How can a workflow status badge be added to a repository's README file?
 <details><summary>Show the answer</summary><p>
 
 - **Use the markdown code provided in the Actions tab of the repository to embed the status badge**
@@ -1219,7 +1219,7 @@ How can a workflow status badge be added to a repository's README file?
 </details>
 
 ---
-You're maintaining a repository and decide that a particular workflow is not needed for the next two months, but it might be useful later. What action would you take?
+Q: You're maintaining a repository and decide that a particular workflow is not needed for the next two months, but it might be useful later. What action would you take?
 <details><summary>Show the answer</summary><p>
 
 - **Disable the workflow to temporarily stop it from being triggered**
@@ -1227,7 +1227,7 @@ You're maintaining a repository and decide that a particular workflow is not nee
 </details>
 
 ---
-You've finalized a new GitHub Action that automates code quality checks. How can you publish this action to the GitHub Marketplace?
+Q: You've finalized a new GitHub Action that automates code quality checks. How can you publish this action to the GitHub Marketplace?
 <details><summary>Show the answer</summary><p>
 
 - **Create a public repository for the action, release it using tags, and then publish it through the marketplace section in your repository settings**
@@ -1235,7 +1235,7 @@ You've finalized a new GitHub Action that automates code quality checks. How can
 </details>
 
 ---
-What is the purpose of using conditional keywords in steps within a GitHub Actions workflow?
+Q: What is the purpose of using conditional keywords in steps within a GitHub Actions workflow?
 <details><summary>Show the answer</summary><p>
 
 - **To control the execution of specific steps based on the outcome of previous steps or the context of the workflow run**
@@ -1243,7 +1243,7 @@ What is the purpose of using conditional keywords in steps within a GitHub Actio
 </details>
 
 ---
-Your team has developed a GitHub Action that contains sensitive business logic specific to your organization's internal processes. You want to ensure that this action is not accessible outside of your organization. Which distribution model should you select for this action?
+Q: Your team has developed a GitHub Action that contains sensitive business logic specific to your organization's internal processes. You want to ensure that this action is not accessible outside of your organization. Which distribution model should you select for this action?
 <details><summary>Show the answer</summary><p>
 
 - **Store the action in a private repository within your organization and manage access through repository permissions**
@@ -1251,7 +1251,7 @@ Your team has developed a GitHub Action that contains sensitive business logic s
 </details>
 
 ---
-What is a key difference between GitHub-hosted and self-hosted runners in GitHub Actions?
+Q: What is a key difference between GitHub-hosted and self-hosted runners in GitHub Actions?
 <details><summary>Show the answer</summary><p>
 
 - **GitHub-hosted runners provide a predefined environment, while self-hosted runners offer more control and customization options**
@@ -1259,7 +1259,7 @@ What is a key difference between GitHub-hosted and self-hosted runners in GitHub
 </details>
 
 ---
-How can data be passed between jobs in a GitHub Actions workflow?
+Q: How can data be passed between jobs in a GitHub Actions workflow?
 <details><summary>Show the answer</summary><p>
 
 - **By using artifacts to share data between jobs in a workflow**
@@ -1267,7 +1267,7 @@ How can data be passed between jobs in a GitHub Actions workflow?
 </details>
 
 ---
-As a GitHub Actions administrator, which of the following practices should be included in your organizational use policies for GitHub Actions?
+Q: As a GitHub Actions administrator, which of the following practices should be included in your organizational use policies for GitHub Actions?
 <details><summary>Show the answer</summary><p>
 
 - **Regularly audit and review actions to ensure compliance with security standards and organizational policies**
@@ -1279,7 +1279,7 @@ As a GitHub Actions administrator, which of the following practices should be in
 </details>
 
 ---
-Your team wants to standardize CI/CD processes across multiple projects. How can workflow and action templates be reused effectively?
+Q: Your team wants to standardize CI/CD processes across multiple projects. How can workflow and action templates be reused effectively?
 <details><summary>Show the answer</summary><p>
 
 - **Use a centralized .github repository to store workflow templates and reference them in individual project repositories**
@@ -1287,7 +1287,7 @@ Your team wants to standardize CI/CD processes across multiple projects. How can
 </details>
 
 ---
-How can you identify a GitHub Action’s type, inputs, and outputs?
+Q: How can you identify a GitHub Action’s type, inputs, and outputs?
 <details><summary>Show the answer</summary><p>
 
 - **By reading the action's action.yml file, which defines the action's interface including its type, required inputs, and outputs**
@@ -1295,7 +1295,7 @@ How can you identify a GitHub Action’s type, inputs, and outputs?
 </details>
 
 ---
-Which of the following are advanced configurations in GitHub Actions workflows?
+Q: Which of the following are advanced configurations in GitHub Actions workflows?
 <details><summary>Show the answer</summary><p>
 
 - **Removing workflow artifacts after a certain period to manage storage and maintain cleanliness**
@@ -1307,7 +1307,7 @@ Which of the following are advanced configurations in GitHub Actions workflows?
 </details>
 
 ---
-A workflow run has failed, and you need to diagnose the issue. Which of the following is the first step you should take?
+Q: A workflow run has failed, and you need to diagnose the issue. Which of the following is the first step you should take?
 <details><summary>Show the answer</summary><p>
 
 - **Review the logs of the failed run in the Actions tab of the GitHub repository**
@@ -1315,7 +1315,7 @@ A workflow run has failed, and you need to diagnose the issue. Which of the foll
 </details>
 
 ---
-What is crucial to include in the action.yml file when defining a new GitHub Action?
+Q: What is crucial to include in the action.yml file when defining a new GitHub Action?
 <details><summary>Show the answer</summary><p>
 
 - **The name, description, inputs, outputs, and runs steps for the action**
@@ -1323,7 +1323,7 @@ What is crucial to include in the action.yml file when defining a new GitHub Act
 </details>
 
 ---
-You need to reorganize your self-hosted runners due to changes in project allocations. How can you move a runner from one group to another?
+Q: You need to reorganize your self-hosted runners due to changes in project allocations. How can you move a runner from one group to another?
 <details><summary>Show the answer</summary><p>
 
 - **Use GitHub's runner management interface to reassign the runner to a different group**
@@ -1331,7 +1331,7 @@ You need to reorganize your self-hosted runners due to changes in project alloca
 </details>
 
 ---
-What is the primary purpose of using CodeQL in a GitHub Actions workflow?
+Q: What is the primary purpose of using CodeQL in a GitHub Actions workflow?
 <details><summary>Show the answer</summary><p>
 
 - **To automatically analyze the codebase for vulnerabilities and code quality issues as part of the CI/CD process**
@@ -1339,7 +1339,7 @@ What is the primary purpose of using CodeQL in a GitHub Actions workflow?
 </details>
 
 ---
-A developer notices that a specific action in their workflow is consistently failing. Upon inspecting the workflow configuration file, they find that the action is supposed to trigger every time a pull request is labeled 'urgent'. However, the action fails to trigger even when the label is correctly applied.
+Q: A developer notices that a specific action in their workflow is consistently failing. Upon inspecting the workflow configuration file, they find that the action is supposed to trigger every time a pull request is labeled 'urgent'. However, the action fails to trigger even when the label is correctly applied.
 What is the most likely reason for this issue?
 <details><summary>Show the answer</summary><p>
 
@@ -1348,7 +1348,7 @@ What is the most likely reason for this issue?
 </details>
 
 ---
-Your enterprise requires a systematic approach to distributing GitHub Actions across various teams. What is the most effective strategy?
+Q: Your enterprise requires a systematic approach to distributing GitHub Actions across various teams. What is the most effective strategy?
 <details><summary>Show the answer</summary><p>
 
 - **Develop a private, centralized repository for actions and manage access using GitHub's built-in permission system**
@@ -1356,7 +1356,7 @@ Your enterprise requires a systematic approach to distributing GitHub Actions ac
 </details>
 
 ---
-You've developed a custom GitHub Action for automating deployments. Your action is likely to be beneficial to other projects outside your organization. How should you distribute your action?
+Q: You've developed a custom GitHub Action for automating deployments. Your action is likely to be beneficial to other projects outside your organization. How should you distribute your action?
 <details><summary>Show the answer</summary><p>
 
 - **Publish the action to the GitHub Marketplace to make it publicly available**
@@ -1364,7 +1364,7 @@ You've developed a custom GitHub Action for automating deployments. Your action 
 </details>
 
 ---
-What is the primary benefit of configuring caching for workflow dependencies in GitHub Actions?
+Q: What is the primary benefit of configuring caching for workflow dependencies in GitHub Actions?
 <details><summary>Show the answer</summary><p>
 
 - **To speed up workflow execution by reusing previously downloaded or built dependencies**
@@ -1372,7 +1372,7 @@ What is the primary benefit of configuring caching for workflow dependencies in 
 </details>
 
 ---
-A GitHub Actions workflow fails during a step that executes a JavaScript action. The logs indicate a problem with a missing package. What is the most appropriate action to resolve this issue?
+Q: A GitHub Actions workflow fails during a step that executes a JavaScript action. The logs indicate a problem with a missing package. What is the most appropriate action to resolve this issue?
 <details><summary>Show the answer</summary><p>
 
 - **Modify the JavaScript action to include a step for installing the missing package**
@@ -1380,7 +1380,7 @@ A GitHub Actions workflow fails during a step that executes a JavaScript action.
 </details>
 
 ---
-When troubleshooting a Docker container action in a GitHub Actions workflow, you notice that the action fails to start. Which of the following steps should you take first?
+Q: When troubleshooting a Docker container action in a GitHub Actions workflow, you notice that the action fails to start. Which of the following steps should you take first?
 <details><summary>Show the answer</summary><p>
 
 - **Check the Dockerfile for any syntax errors or missing dependencies**
@@ -1388,7 +1388,7 @@ When troubleshooting a Docker container action in a GitHub Actions workflow, you
 </details>
 
 ---
-You've just fixed a bug in your application and the CI workflow has run successfully, generating test reports as artifacts. How would you download these artifacts from the GitHub user interface?
+Q: You've just fixed a bug in your application and the CI workflow has run successfully, generating test reports as artifacts. How would you download these artifacts from the GitHub user interface?
 <details><summary>Show the answer</summary><p>
 
 - **Navigate to the Actions tab, select the specific workflow run, and find the Artifacts section to download the reports**
@@ -1396,7 +1396,7 @@ You've just fixed a bug in your application and the CI workflow has run successf
 </details>
 
 ---
-What is a best practice for managing encrypted secrets at the repository level in GitHub Actions?
+Q: What is a best practice for managing encrypted secrets at the repository level in GitHub Actions?
 <details><summary>Show the answer</summary><p>
 
 - **Use the repository settings to add encrypted secrets that are specific to the repository**
@@ -1404,7 +1404,7 @@ What is a best practice for managing encrypted secrets at the repository level i
 </details>
 
 ---
-Your organization has a standard workflow template for CI/CD that you want to use in your new project. How do you apply this template to your project's repository?
+Q: Your organization has a standard workflow template for CI/CD that you want to use in your new project. How do you apply this template to your project's repository?
 <details><summary>Show the answer</summary><p>
 
 - **Select the templated workflow from your repository's Actions tab and customize it if necessary**
@@ -1412,7 +1412,7 @@ Your organization has a standard workflow template for CI/CD that you want to us
 </details>
 
 ---
-You are planning to release a series of updates for your GitHub Action. What approach should you take to create an effective release strategy?
+Q: You are planning to release a series of updates for your GitHub Action. What approach should you take to create an effective release strategy?
 <details><summary>Show the answer</summary><p>
 
 - **Use semantic versioning to tag releases, providing clear information about the nature of each update**
@@ -1420,7 +1420,7 @@ You are planning to release a series of updates for your GitHub Action. What app
 </details>
 
 ---
-Where should sensitive information, such as access tokens and passwords, be stored when configuring GitHub Actions workflows?
+Q: Where should sensitive information, such as access tokens and passwords, be stored when configuring GitHub Actions workflows?
 <details><summary>Show the answer</summary><p>
 
 - **As encrypted secrets, which can be accessed in the workflow via the secrets context**
@@ -1428,7 +1428,7 @@ Where should sensitive information, such as access tokens and passwords, be stor
 </details>
 
 ---
-When setting up a CI/CD pipeline, how should you select the appropriate runners to support your workloads?
+Q: When setting up a CI/CD pipeline, how should you select the appropriate runners to support your workloads?
 <details><summary>Show the answer</summary><p>
 
 - **Choose runners based on the workload requirements, such as the necessary operating system or specific hardware needs**
@@ -1436,7 +1436,7 @@ When setting up a CI/CD pipeline, how should you select the appropriate runners 
 </details>
 
 ---
-How are encrypted secrets accessed within GitHub Actions workflows?
+Q: How are encrypted secrets accessed within GitHub Actions workflows?
 <details><summary>Show the answer</summary><p>
 
 - **By using the secrets context in the workflow file to reference the secrets by name**
@@ -1444,7 +1444,7 @@ How are encrypted secrets accessed within GitHub Actions workflows?
 </details>
 
 ---
-You are tasked with creating a new custom GitHub Action for your organization's workflow. What metadata and syntax are essential to define in the action's configuration file for it to function correctly?
+Q: You are tasked with creating a new custom GitHub Action for your organization's workflow. What metadata and syntax are essential to define in the action's configuration file for it to function correctly?
 <details><summary>Show the answer</summary><p>
 
 - **An action.yml or action.yaml file containing the metadata and inputs, outputs, and runs sections**
@@ -1452,7 +1452,7 @@ You are tasked with creating a new custom GitHub Action for your organization's 
 </details>
 
 ---
-You need to programmatically retrieve the logs of a specific GitHub Actions workflow run. How can you achieve this?
+Q: You need to programmatically retrieve the logs of a specific GitHub Actions workflow run. How can you achieve this?
 <details><summary>Show the answer</summary><p>
 
 - **Use GitHub's REST API and send a GET request to the appropriate endpoint with the workflow run ID**
@@ -1460,7 +1460,7 @@ You need to programmatically retrieve the logs of a specific GitHub Actions work
 </details>
 
 ---
-You are managing GitHub Actions workflows in your organization's repositories. Which of the following practices should you follow?
+Q: You are managing GitHub Actions workflows in your organization's repositories. Which of the following practices should you follow?
 <details><summary>Show the answer</summary><p>
 
 - **Review and integrate updates to actions cautiously, ensuring they do not break existing workflows**
@@ -1472,7 +1472,7 @@ You are managing GitHub Actions workflows in your organization's repositories. W
 </details>
 
 ---
-What should be considered when configuring self-hosted runners for enterprise use?
+Q: What should be considered when configuring self-hosted runners for enterprise use?
 <details><summary>Show the answer</summary><p>
 
 - **Configure networking, proxies, and labels appropriately to adhere to enterprise policies and infrastructure**
@@ -1480,7 +1480,7 @@ What should be considered when configuring self-hosted runners for enterprise us
 </details>
 
 ---
-How can a custom script be integrated into a GitHub Actions workflow?
+Q: How can a custom script be integrated into a GitHub Actions workflow?
 <details><summary>Show the answer</summary><p>
 
 - **By using the run keyword in a step within a job to execute the script**
@@ -1488,7 +1488,7 @@ How can a custom script be integrated into a GitHub Actions workflow?
 </details>
 
 ---
-Consider you are managing workflows in a GitHub repository.
+Q: Consider you are managing workflows in a GitHub repository.
 Which of the following actions are correct in the context of GitHub Actions?
 <details><summary>Show the answer</summary><p>
 
@@ -1501,7 +1501,7 @@ Which of the following actions are correct in the context of GitHub Actions?
 </details>
 
 ---
-What is the role of approval gates in GitHub Actions workflows?
+Q: What is the role of approval gates in GitHub Actions workflows?
 <details><summary>Show the answer</summary><p>
 
 - **To introduce manual approval steps in the workflow, allowing stakeholders to review and approve changes before they proceed**
@@ -1509,7 +1509,7 @@ What is the role of approval gates in GitHub Actions workflows?
 </details>
 
 ---
-You are responsible for ensuring that GitHub Actions are used securely and appropriately within your enterprise.
+Q: You are responsible for ensuring that GitHub Actions are used securely and appropriately within your enterprise.
 How can you control access to these actions?
 <details><summary>Show the answer</summary><p>
 
@@ -1518,7 +1518,7 @@ How can you control access to these actions?
 </details>
 
 ---
-You notice that a workflow was triggered and completed a series of tasks in your repository. How can you identify the event that triggered this workflow?
+Q: You notice that a workflow was triggered and completed a series of tasks in your repository. How can you identify the event that triggered this workflow?
 <details><summary>Show the answer</summary><p>
 
 - **Examine the GITHUB_EVENT_NAME environment variable in the workflow run logs to see the type of event that triggered the workflow**
@@ -1526,7 +1526,7 @@ You notice that a workflow was triggered and completed a series of tasks in your
 </details>
 
 ---
-When managing runners for an enterprise, which of the following practices should be implemented?
+Q: When managing runners for an enterprise, which of the following practices should be implemented?
 <details><summary>Show the answer</summary><p>
 
 - **Select runners based on the specific workload requirements, including the necessary operating system and hardware needs**
@@ -1538,7 +1538,7 @@ When managing runners for an enterprise, which of the following practices should
 </details>
 
 ---
-As the lead of a DevOps team, you're tasked with managing reusable components for workflows. What approach should you adopt?
+Q: As the lead of a DevOps team, you're tasked with managing reusable components for workflows. What approach should you adopt?
 <details><summary>Show the answer</summary><p>
 
 - **Create a dedicated repository for reusable components, establish clear naming conventions, and document maintenance procedures**
@@ -1546,7 +1546,7 @@ As the lead of a DevOps team, you're tasked with managing reusable components fo
 </details>
 
 ---
-What impact does configuring IP allow lists have on GitHub-hosted and self-hosted runners?
+Q: What impact does configuring IP allow lists have on GitHub-hosted and self-hosted runners?
 <details><summary>Show the answer</summary><p>
 
 - **It restricts runner access to only those IP addresses specified in the allow list, enhancing security**
@@ -1554,7 +1554,7 @@ What impact does configuring IP allow lists have on GitHub-hosted and self-hoste
 </details>
 
 ---
-When managing and publishing GitHub Actions, which of the following practices are recommended?
+Q: When managing and publishing GitHub Actions, which of the following practices are recommended?
 <details><summary>Show the answer</summary><p>
 
 - **Use clear and descriptive naming conventions for your actions and repositories**
@@ -1566,7 +1566,7 @@ When managing and publishing GitHub Actions, which of the following practices ar
 </details>
 
 ---
-You are an administrator for your GitHub organization and need to make a secret available to multiple repositories. How do you manage this secret?
+Q: You are an administrator for your GitHub organization and need to make a secret available to multiple repositories. How do you manage this secret?
 <details><summary>Show the answer</summary><p>
 
 - **Store the secret at the organization level and grant access to the required repositories**
@@ -1574,7 +1574,7 @@ You are an administrator for your GitHub organization and need to make a secret 
 </details>
 
 ---
-Where can custom environment variables be set in a GitHub Actions workflow?
+Q: Where can custom environment variables be set in a GitHub Actions workflow?
 <details><summary>Show the answer</summary><p>
 
 - **In the env key at the workflow, job, or step level**
@@ -1582,7 +1582,7 @@ Where can custom environment variables be set in a GitHub Actions workflow?
 </details>
 
 ---
-You are integrating a new action into your workflow. How can you identify the action's type, required inputs, and expected outputs?
+Q: You are integrating a new action into your workflow. How can you identify the action's type, required inputs, and expected outputs?
 <details><summary>Show the answer</summary><p>
 
 - **By reading the action's README.md file and the action metadata file (action.yml or action.yaml)**
@@ -1590,7 +1590,7 @@ You are integrating a new action into your workflow. How can you identify the ac
 </details>
 
 ---
-You are creating a workflow and want to include the branch name that triggered the workflow run in the job. Which default environment variable should you use?
+Q: You are creating a workflow and want to include the branch name that triggered the workflow run in the job. Which default environment variable should you use?
 <details><summary>Show the answer</summary><p>
 
 - **GITHUB*REF*NAME**
@@ -1598,7 +1598,7 @@ You are creating a workflow and want to include the branch name that triggered t
 </details>
 
 ---
-Which method can be used to access the logs of a GitHub Actions workflow run using GitHub’s REST API?
+Q: Which method can be used to access the logs of a GitHub Actions workflow run using GitHub’s REST API?
 <details><summary>Show the answer</summary><p>
 
 - **Send a GET request to the appropriate endpoint with the workflow run ID to retrieve the logs**
@@ -1606,7 +1606,7 @@ Which method can be used to access the logs of a GitHub Actions workflow run usi
 </details>
 
 ---
-During the execution of a Docker container action in a GitHub Actions workflow, you receive an error related to environment variables not being passed correctly. Which of the following steps is most likely to resolve the issue?
+Q: During the execution of a Docker container action in a GitHub Actions workflow, you receive an error related to environment variables not being passed correctly. Which of the following steps is most likely to resolve the issue?
 <details><summary>Show the answer</summary><p>
 
 - **Add the missing environment variables to the workflow's env section**
@@ -1614,7 +1614,7 @@ During the execution of a Docker container action in a GitHub Actions workflow, 
 </details>
 
 ---
-What is the purpose of adding a workflow status badge to a repository?
+Q: What is the purpose of adding a workflow status badge to a repository?
 <details><summary>Show the answer</summary><p>
 
 - **To provide a visual representation of the workflow's status (e.g., passing, failing) on the repository's README or other web pages**
@@ -1622,7 +1622,7 @@ What is the purpose of adding a workflow status badge to a repository?
 </details>
 
 ---
-How are dependent jobs implemented in a GitHub Actions workflow?
+Q: How are dependent jobs implemented in a GitHub Actions workflow?
 <details><summary>Show the answer</summary><p>
 
 - **By using the needs keyword to specify job dependencies, ensuring that certain jobs run only after their dependencies have completed successfully**
@@ -1630,7 +1630,7 @@ How are dependent jobs implemented in a GitHub Actions workflow?
 </details>
 
 ---
-When implementing workflow commands within an action to communicate with the runner, what is important to consider?
+Q: When implementing workflow commands within an action to communicate with the runner, what is important to consider?
 <details><summary>Show the answer</summary><p>
 
 - **Always use exit codes to communicate the status of the action to the runner**
@@ -1638,7 +1638,7 @@ When implementing workflow commands within an action to communicate with the run
 </details>
 
 ---
-When working with encrypted secrets in GitHub Actions, what determines the scope of an encrypted secret?
+Q: When working with encrypted secrets in GitHub Actions, what determines the scope of an encrypted secret?
 <details><summary>Show the answer</summary><p>
 
 - **Whether the secret is stored at the organization level or the repository level**
@@ -1646,7 +1646,7 @@ When working with encrypted secrets in GitHub Actions, what determines the scope
 </details>
 
 ---
-When diagnosing a failed GitHub Actions workflow run, which of the following steps are appropriate?
+Q: When diagnosing a failed GitHub Actions workflow run, which of the following steps are appropriate?
 <details><summary>Show the answer</summary><p>
 
 - **Use GitHub's REST API to programmatically fetch logs for the failed workflow run**
@@ -1656,7 +1656,7 @@ When diagnosing a failed GitHub Actions workflow run, which of the following ste
 </details>
 
 ---
-You want to ensure stability in your workflows by using a specific version of an action. How can you correctly reference a specific version of an action in your workflow file?
+Q: You want to ensure stability in your workflows by using a specific version of an action. How can you correctly reference a specific version of an action in your workflow file?
 <details><summary>Show the answer</summary><p>
 
 - **By using the action's name followed by the @ symbol and the version tag or commit SHA (e.g., actions/checkout@v2)**
