@@ -168,7 +168,7 @@ Q: How does the Fill-in-the-Middle (FIM) technique enhance GitHub Copilot's code
 </p></details>
 
 ---
-Q: n the outbound flow of GitHub Copilot, which of the following actions might occur after the code suggestion is generated?
+Q: In the outbound flow of GitHub Copilot, which of the following actions might occur after the code suggestion is generated?
 
 - The suggestion is immediately integrated into the user's code
 - The suggestion is presented to the user for review and acceptance
